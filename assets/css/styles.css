@@ -118,11 +118,11 @@ a { color: inherit; }
 .course h3 { font-family: var(--font-serif); font-weight: 400; font-size: 1.65rem; line-height: 1.15;
   margin-bottom: .75rem; }
 .course__desc { color: var(--ink-soft); font-size: .96rem; }
-.course__meta { list-style: none; padding: 0; margin: 1.1rem 0 1.4rem; display: grid; gap: .35rem; }
+.course__meta { list-style: none; padding: 0; margin: 1.1rem 0 1rem; display: grid; gap: .35rem; }
 .course__meta li { font-size: .85rem; color: var(--ink-soft); padding-left: 1.1rem; position: relative; }
 .course__meta li::before { content: ''; position: absolute; left: 0; top: .52em; width: 7px; height: 7px;
   border-radius: 50%; background: var(--vu-gold-flat); }
-.course__cta { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: auto; }
+.course__cta { display: flex; gap: .6rem; flex-wrap: wrap; }
 .course__cta .btn { padding: .7rem 1.15rem; font-size: .88rem; }
 .course__extras { margin-top: 1rem; font-size: .82rem; color: var(--ink-soft); }
 .course__extras a { color: var(--vu-oak); }
@@ -165,3 +165,11 @@ a { color: inherit; }
 .course__obj ol { margin: .6rem 0 0; padding-left: 1.2rem; display: grid; gap: .35rem;
   font-size: .85rem; color: var(--ink-soft); }
 .course__extras b { font-weight: 600; }
+
+/* ---------- 14. Prominent syllabus link ---------- */
+.course__syllabus { display: flex; align-items: center; gap: .45rem; font-weight: 600; font-size: .92rem;
+  color: var(--vu-oak); text-decoration: none; border: 1px solid rgba(148,110,36,.35); border-radius: 4px;
+  padding: .55rem .85rem; margin: auto 0 1.1rem; transition: all .2s var(--ease); }
+.course__syllabus svg { width: 16px; height: 16px; flex-shrink: 0; transition: transform .2s var(--ease); }
+.course__syllabus:hover { background: rgba(207,174,112,.12); border-color: var(--vu-gold-flat); }
+.course__syllabus:hover svg { transform: translateX(3px); }
