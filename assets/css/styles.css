@@ -155,3 +155,13 @@ a { color: inherit; }
 
 /* ---------- 12. Print ---------- */
 @media print { .nav { display: none; } body { background: #fff; } }
+
+/* ---------- 13. Objectives expander + syllabus link ---------- */
+.course__obj { margin: 0 0 1.2rem; border-top: 1px solid var(--line); padding-top: .8rem; }
+.course__obj summary { cursor: pointer; font-family: var(--font-condensed); font-weight: 700;
+  text-transform: uppercase; letter-spacing: .07em; font-size: .76rem; color: var(--vu-oak);
+  list-style-position: inside; }
+.course__obj summary:hover { color: var(--vu-black); }
+.course__obj ol { margin: .6rem 0 0; padding-left: 1.2rem; display: grid; gap: .35rem;
+  font-size: .85rem; color: var(--ink-soft); }
+.course__extras b { font-weight: 600; }
