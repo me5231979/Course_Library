@@ -154,6 +154,42 @@ COURSES = [
         "learner": "https://me5231979.github.io/AI-Advanced/",
         "facilitator": "https://me5231979.github.io/AI-Advanced/facilitator/",
         "frameworks": "Grounded in 3Blue1Brown's attention walkthrough, IBM's RAG and agent research explainers, White et al.'s prompt pattern catalog (Vanderbilt), Wei et al. (chain-of-thought), Brown et al. (few-shot), Adaline Labs' agent failure research, and NIST's AI red-teaming definition and AI Risk Management Framework."
+    },
+    {
+        "slug": "emotional-intelligence",
+        "title": "Emotional Intelligence & Interpersonal Skills",
+        "subtitle": "Lead yourself, then lead others",
+        "audience": "Managers, team leads, and individual contributors who work through relationships: anyone whose week includes feedback, conflict, or collaboration",
+        "length": "90 minutes (full) or 60 minutes (core); also works self-paced",
+        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. Private by design: exercises use roles (never names) and nothing typed is saved or transmitted",
+        "group": "9 to 24 works best (the listening drill runs in triads); scales larger with pairs and room votes",
+        "description": "When researchers studied what separates star performers from average ones, emotional intelligence came out roughly twice as important as IQ and technical skill combined, yet 95 percent of people believe they're self-aware and only 10 to 15 percent are. This session closes that gap with practice, not platitudes. It opens with the published evidence (Goleman, McKinsey, DDI, SHRM), installs the four-domain map with the Mayer-Salovey science named underneath, then works inward: mapping blind spots with the Johari Window and using UCLA's affect-labeling research to turn reactivity into regulation. The second half turns outward: active listening scored against a real rubric in a triad drill, rebuilding accusations with Rosenberg's Nonviolent Communication in a graded lab, and Edmondson's psychological safety, saying the hard thing with candor AND care. Every learner leaves with a commitment card: one relationship, one practice, one date.",
+        "objectives": [
+            "Explain Goleman's four EI domains and map your own blind spots with the Johari Window",
+            "Identify the Mayer-Salovey ability model, the research foundation beneath the applied one",
+            "Name emotions precisely and use affect labeling to turn reactivity into regulation",
+            "Practice active listening, paraphrase, clarify, withhold judgment, against a real rubric",
+            "Reframe an accusation into Nonviolent Communication's Observation, Feeling, Need, Request",
+            "Raise a hard truth with candor and care, and commit one practice to a real relationship this week"
+        ],
+        "topics": [
+            ("The case for EI", "Four research findings played as a guessing game: Goleman's 2x finding, DDI's empathy data, McKinsey's demand projections, SHRM on respect"),
+            ("The map", "Goleman's four domains in sequence (notice, steer, read the room, move together), with the Mayer-Salovey ability model underneath"),
+            ("Self-awareness and the Johari Window", "Eurich's 95-vs-10-15 gap, the four quadrants, and a private blind-spot mapper; only feedback shrinks the blind quadrant"),
+            ("Name it to tame it", "UCLA's affect-labeling neuroscience: precise emotional labels calm the amygdala and point at the next move"),
+            ("Active listening", "Paraphrase, clarify, withhold judgment, drilled in scored triads with an observer holding the rubric"),
+            ("The NVC reframe", "Rosenberg's Observation, Feeling, Need, Request, practiced in a graded lab where the reply changes as each part sharpens"),
+            ("Candor with care", "Edmondson's psychological safety and Google's Project Aristotle: safety plus standards, not niceness")
+        ],
+        "activities": "A guess-the-number research game, a domain-spotting trainer, a private Johari Window mapper, an emotion-label upgrader, a rate-the-reply listening trainer plus a live triad drill, a graded NVC Reframe Lab, a judge-the-opener candor trainer, inline knowledge checks, a scored recap, and the EI Commitment Card capstone.",
+        "outcomes": "Learners leave with a dated commitment card: one real relationship, one practice (listening, NVC, candor with care, or affect labeling), one named failure mode to avoid, and a first rep within seven days, plus the blind-spot question to ask a trusted colleague. Learning is measured in session (trainer scores, a graded lab, and a recap mapped to the objectives), at close (a confidence check and a spoken commitment round), and after (a 7-day pulse on the first rep and a 30-day self-check re-poll).",
+        "takehomes": [
+            ("Printable cheat sheet", "https://me5231979.github.io/Emotional-Intelligence/cheatsheet.html"),
+            ("Commitment card worksheet", "https://me5231979.github.io/Emotional-Intelligence/worksheet.html")
+        ],
+        "learner": "https://me5231979.github.io/Emotional-Intelligence/",
+        "facilitator": "https://me5231979.github.io/Emotional-Intelligence/facilitator/",
+        "frameworks": "Grounded in Goleman's 'What Makes a Leader?' (HBR) and four-domain model, the Mayer-Salovey-Caruso ability model, Tasha Eurich's self-awareness research, Lieberman et al.'s affect-labeling studies (UCLA, Psychological Science 2007), Luft & Ingham's Johari Window, Rosenberg's Nonviolent Communication, and Amy Edmondson's psychological safety research with Google's Project Aristotle."
     }
 ]
 
