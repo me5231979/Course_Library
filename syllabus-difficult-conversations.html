@@ -42,6 +42,11 @@
   footer { margin-top: 16px; border-top: 1px solid #E4E4E4; padding-top: 10px; font-size: 11px; color: #777;
     display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
   a { color: #946E24; }
+  .pills { display: flex; flex-wrap: wrap; gap: 5px; margin: 0 0 4px; }
+  .pill { display: inline-block; font-family: 'Antonio', Impact, sans-serif; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .05em; font-size: 9.5px; line-height: 1.4;
+    padding: 3px 9px; border-radius: 999px; border: 1px solid rgba(148,110,36,.5); color: #946E24; }
+  .pill--core { background: #CFAE70; border-color: #CFAE70; color: #1C1C1C; }
   .printbtn { position: fixed; right: 18px; top: 18px; background: #CFAE70; border: 0; border-radius: 4px;
     padding: 9px 16px; font-family: Inter, Arial, sans-serif; font-weight: 600; font-size: 13px; cursor: pointer; }
   @media print { .printbtn { display: none; } body { font-size: 11.5px; } .sheet { padding: 0; max-width: none; }
@@ -67,6 +72,9 @@
     <div><b>Format</b>Instructor-led, in person or virtual; learners join on their own devices via QR code</div>
     <div><b>Group size</b>8 to 24 works best for the pair practice</div>
   </div>
+
+  <h2>Skills this course builds</h2>
+  <div class="pills"><span class="pill pill--core">Leads and inspires teams</span><span class="pill">Conflict Resolution</span><span class="pill">De-escalation Techniques</span><span class="pill">Influencing Skills</span></div>
 
   <h2>About this course</h2>
   <p>Most managers already know what they need to say; they freeze on how. This session gives leaders a shared, research-backed language for the conversations they've been avoiding: the feedback that gets softened into vagueness, the redirect that never happens, the conflict that quietly erodes trust. Rather than one script, it blends the field's most respected frameworks into a single practical toolkit, practiced live. Each learner carries one real avoided conversation through the whole session and leaves with it planned and dated.</p>

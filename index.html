@@ -21,7 +21,7 @@
 <link rel="apple-touch-icon" href="assets/img/favicon-96.png">
 <link rel="preload" href="assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/styles.css?v=3">
+<link rel="stylesheet" href="assets/css/styles.css?v=4">
 </head>
 <body>
 <a class="skip-link" href="#courses">Skip to courses</a>
@@ -62,10 +62,18 @@
       <h2 class="h2" data-reveal>Pick a course. It's <em>ready</em>.</h2>
       <p class="lead" data-reveal>Each card links to two editions of the same course: the classroom experience your learners see, and the facilitator edition with the full delivery script beside every slide.</p>
 
+      <div class="filterbar" id="filterbar" data-reveal role="group" aria-label="Filter courses by topic">
+        <button class="filterchip" data-topic="all" aria-pressed="true">All courses</button>
+        <button class="filterchip" data-topic="ai" aria-pressed="false">AI &amp; Data</button>
+        <button class="filterchip" data-topic="communication" aria-pressed="false">Communication</button>
+        <button class="filterchip" data-topic="leadership" aria-pressed="false">Leadership &amp; Coaching</button>
+      </div>
+
       <div class="courses">
-        <article class="course" data-reveal>
+        <article class="course" data-reveal data-topics="ai">
           <p class="course__tag">For all Vanderbilt staff</p>
           <h3>AI Basics</h3>
+          <div class="course__skills" aria-label="Skills this course builds"><span class="skillpill skillpill--core">Embodies an entrepreneurial spirit and leverages data and technology</span><span class="skillpill">Artificial Intelligence</span><span class="skillpill">Digital Fluency/Information Literacy</span><span class="skillpill">Data Security</span></div>
           <p class="course__desc">A working picture of AI from the ground up: what it actually is, how machines learn, how language models predict, how to prompt well and verify the output, which Vanderbilt tools fit which data, and a personal one-week plan to put AI on real work.</p>
           <ul class="course__meta">
             <li>9 sections · 6 simulators + prompt lab</li>
@@ -84,9 +92,10 @@
           <p class="course__extras">Take-home: <a href="https://me5231979.github.io/AI_Classroom/cheatsheet.html">printable cheat sheet</a></p>
         </article>
 
-        <article class="course" data-reveal>
+        <article class="course" data-reveal data-topics="communication leadership">
           <p class="course__tag">For people managers &amp; team leads</p>
           <h3>Navigating Difficult Conversations</h3>
+          <div class="course__skills" aria-label="Skills this course builds"><span class="skillpill skillpill--core">Leads and inspires teams</span><span class="skillpill">Conflict Resolution</span><span class="skillpill">De-escalation Techniques</span><span class="skillpill">Influencing Skills</span></div>
           <p class="course__desc">A shared toolkit for the conversations managers avoid: the three conversations inside every hard exchange, SBI feedback, STATE openers, trust built with BRAVING, Radical Candor, recovery moves for tears, anger, and silence, and a planned real conversation within seven days.</p>
           <ul class="course__meta">
             <li>8 sections · 7 interactive tools</li>
@@ -105,9 +114,10 @@
           <p class="course__extras">Take-home: <a href="https://me5231979.github.io/Difficult_Conversations/cheatsheet.html">cheat sheet</a> · <a href="https://me5231979.github.io/Difficult_Conversations/worksheet.html">plan worksheet</a></p>
         </article>
 
-        <article class="course" data-reveal>
+        <article class="course" data-reveal data-topics="leadership">
           <p class="course__tag">For people managers &amp; team leads</p>
           <h3>Coaching for Performance</h3>
+          <div class="course__skills" aria-label="Skills this course builds"><span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill skillpill--core">Leads and inspires teams</span><span class="skillpill">Coaching Techniques</span><span class="skillpill">Leadership Development</span><span class="skillpill">Employee Engagement</span></div>
           <p class="course__desc">Building managers who grow people, not just manage tasks: the research case for coaching (Google's Project Oxygen), the GROW model practiced against a virtual coachee, powerful questions, Goldsmith's Feedforward, and a real coaching conversation planned with a written opening question.</p>
           <ul class="course__meta">
             <li>7 sections &middot; 6 interactive tools + GROW simulator</li>
@@ -126,9 +136,10 @@
           <p class="course__extras">Take-home: <a href="https://me5231979.github.io/Coaching-for-Performance/cheatsheet.html">cheat sheet</a> &middot; <a href="https://me5231979.github.io/Coaching-for-Performance/worksheet.html">plan worksheet</a></p>
         </article>
 
-        <article class="course" data-reveal>
+        <article class="course" data-reveal data-topics="ai">
           <p class="course__tag">For AI Basics graduates &middot; 201 level</p>
           <h3>AI 201: Beyond the Basics</h3>
+          <div class="course__skills" aria-label="Skills this course builds"><span class="skillpill skillpill--core">Embodies an entrepreneurial spirit and leverages data and technology</span><span class="skillpill skillpill--core">Makes effective and ethical decisions for the University</span><span class="skillpill">Artificial Intelligence</span><span class="skillpill">Data Governance</span><span class="skillpill">Risk Management</span></div>
           <p class="course__desc">Under the prompt box: why models forget (context and attention), how RAG grounds answers in real sources, choosing between prompting, RAG, and fine-tuning, four advanced prompt patterns, how AI agents fail, and the governance habits, hallucination-spotting and data tiering, that make it all safe to run.</p>
           <ul class="course__meta">
             <li>7 sections &middot; 7 interactive tools + 2 simulators</li>
@@ -147,9 +158,10 @@
           <p class="course__extras">Take-home: <a href="https://me5231979.github.io/AI-Advanced/cheatsheet.html">cheat sheet</a> &middot; <a href="https://me5231979.github.io/AI-Advanced/worksheet.html">workflow card</a></p>
         </article>
 
-        <article class="course" data-reveal>
+        <article class="course" data-reveal data-topics="communication leadership">
           <p class="course__tag">For all Vanderbilt staff &amp; leaders</p>
           <h3>Emotional Intelligence &amp; Interpersonal Skills</h3>
+          <div class="course__skills" aria-label="Skills this course builds"><span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill skillpill--core">Radically collaborates and cultivates belonging</span><span class="skillpill">Conflict Management</span><span class="skillpill">Communication Strategies</span></div>
           <p class="course__desc">Lead yourself before you lead others: the research case for EI (Goleman, Google's Project Aristotle), the four domains, mapping your blind spots with the Johari Window, the neuroscience of naming emotions, active listening scored against a rubric, Rosenberg's NVC reframe, and saying hard things with candor and care.</p>
           <ul class="course__meta">
             <li>7 sections &middot; 7 interactive tools + private Johari mapper</li>
@@ -166,6 +178,28 @@
             <a class="btn btn--ghost-dark" href="https://me5231979.github.io/Emotional-Intelligence/facilitator/">Facilitator edition</a>
           </div>
           <p class="course__extras">Take-home: <a href="https://me5231979.github.io/Emotional-Intelligence/cheatsheet.html">cheat sheet</a> &middot; <a href="https://me5231979.github.io/Emotional-Intelligence/worksheet.html">plan worksheet</a></p>
+        </article>
+
+        <article class="course" data-reveal data-topics="communication leadership">
+          <p class="course__tag">For managers, senior ICs &amp; leaders</p>
+          <h3>Presentation &amp; Public Speaking</h3>
+          <div class="course__skills" aria-label="Skills this course builds"><span class="skillpill skillpill--core">Continuously strives for excellence</span><span class="skillpill">Public Speaking</span><span class="skillpill">Storytelling</span><span class="skillpill">Strategic Communication</span><span class="skillpill">Stakeholder Communications</span></div>
+          <p class="course__desc">Building and delivering to a room or a leadership audience: the myth-busting research on what actually separates memorable presenters, Duarte's Big Idea and Sparkline, Minto's SCQA for the executive room, delivery technique from Anderson, Gallo, and the AMA, and composure under pointed questions, with a live, timed speaking rep for every participant.</p>
+          <ul class="course__meta">
+            <li>7 sections &middot; 7 interactive tools + exec briefing lab</li>
+            <li>60 or 90 minute paths &middot; everyone speaks once</li>
+            <li>In person, virtual, or self-paced</li>
+          </ul>
+          <a class="course__syllabus" href="syllabus-presentation-public-speaking.html">Full course description (printable)<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          <details class="course__obj">
+            <summary>Learning objectives</summary>
+            <ol><li>Explain why gravitas and communication, not technical mastery alone, decide how a leader's message lands, and name your executive-presence growth edge</li><li>Distill a real presentation into one resonant sentence with Duarte's Big Idea: point of view plus what's at stake</li><li>Structure a talk with Duarte's Sparkline, alternating What Is and What Could Be toward New Bliss</li><li>Structure an executive briefing with Minto's Pyramid Principle and SCQA, leading with the answer</li><li>Apply the delivery techniques of Anderson, Gallo, and the AMA in a live, timed speaking round</li><li>Handle pointed questions with the bridge, and commit to rebuilding one real presentation, opening line written</li></ol>
+          </details>
+          <div class="course__cta">
+            <a class="btn btn--dark" href="https://me5231979.github.io/Presentation-Public-Speaking/">Launch the course</a>
+            <a class="btn btn--ghost-dark" href="https://me5231979.github.io/Presentation-Public-Speaking/facilitator/">Facilitator edition</a>
+          </div>
+          <p class="course__extras">Take-home: <a href="https://me5231979.github.io/Presentation-Public-Speaking/cheatsheet.html">cheat sheet</a> &middot; <a href="https://me5231979.github.io/Presentation-Public-Speaking/worksheet.html">rebuild worksheet</a></p>
         </article>
 
         <article class="course course--soon" data-reveal>
@@ -228,6 +262,7 @@
           <li><a href="https://me5231979.github.io/Coaching-for-Performance/">Coaching for Performance</a></li>
           <li><a href="https://me5231979.github.io/AI-Advanced/">AI 201: Beyond the Basics</a></li>
           <li><a href="https://me5231979.github.io/Emotional-Intelligence/">Emotional Intelligence &amp; Interpersonal Skills</a></li>
+          <li><a href="https://me5231979.github.io/Presentation-Public-Speaking/">Presentation &amp; Public Speaking</a></li>
         </ul>
       </div>
       <div>
@@ -238,6 +273,7 @@
           <li><a href="https://me5231979.github.io/Coaching-for-Performance/facilitator/">Coaching for Performance · Facilitator</a></li>
           <li><a href="https://me5231979.github.io/AI-Advanced/facilitator/">AI 201 · Facilitator</a></li>
           <li><a href="https://me5231979.github.io/Emotional-Intelligence/facilitator/">Emotional Intelligence · Facilitator</a></li>
+          <li><a href="https://me5231979.github.io/Presentation-Public-Speaking/facilitator/">Presentation &amp; Public Speaking · Facilitator</a></li>
         </ul>
       </div>
     </div>
@@ -250,6 +286,24 @@
 
 <script>
 (function () {
+  // topic filter
+  var bar = document.getElementById('filterbar');
+  if (bar) {
+    var chips = Array.prototype.slice.call(bar.querySelectorAll('.filterchip'));
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.courses article.course'));
+    chips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        var topic = chip.getAttribute('data-topic');
+        chips.forEach(function (c) { c.setAttribute('aria-pressed', String(c === chip)); });
+        cards.forEach(function (card) {
+          var topics = card.getAttribute('data-topics') || '';
+          var show = topic === 'all' || card.classList.contains('course--soon') || topics.split(' ').indexOf(topic) > -1;
+          card.hidden = !show;
+        });
+      });
+    });
+  }
+
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var els = Array.prototype.slice.call(document.querySelectorAll('[data-reveal]'));
   if ('IntersectionObserver' in window && !reduce) {

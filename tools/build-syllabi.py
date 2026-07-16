@@ -14,6 +14,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 COURSES = [
     {
         "slug": "ai-basics",
+        "coreSkills": ['Embodies an entrepreneurial spirit and leverages data and technology'],
+        "skills": ['Artificial Intelligence', 'Digital Fluency/Information Literacy', 'Data Security'],
         "title": "AI Basics",
         "subtitle": "A classroom introduction to artificial intelligence",
         "audience": "All Vanderbilt staff; no technical background needed",
@@ -50,6 +52,8 @@ COURSES = [
     },
     {
         "slug": "difficult-conversations",
+        "coreSkills": ['Leads and inspires teams'],
+        "skills": ['Conflict Resolution', 'De-escalation Techniques', 'Influencing Skills'],
         "title": "Navigating Difficult Conversations",
         "subtitle": "A manager's toolkit for candor, trust, and courage",
         "audience": "People managers, team leads, and HR/talent partners",
@@ -86,6 +90,8 @@ COURSES = [
     },
     {
         "slug": "coaching-for-performance",
+        "coreSkills": ['Grows self and others', 'Leads and inspires teams'],
+        "skills": ['Coaching Techniques', 'Leadership Development', 'Employee Engagement'],
         "title": "Coaching for Performance",
         "subtitle": "Building managers who grow people, not just manage tasks",
         "audience": "People managers, team leads, and HR/talent partners",
@@ -121,6 +127,8 @@ COURSES = [
     },
     {
         "slug": "ai-201",
+        "coreSkills": ['Embodies an entrepreneurial spirit and leverages data and technology', 'Makes effective and ethical decisions for the University'],
+        "skills": ['Artificial Intelligence', 'Data Governance', 'Risk Management'],
         "title": "AI 201: Beyond the Basics",
         "subtitle": "How models actually work, and how to run them responsibly",
         "audience": "Anyone who completed AI Basics (101) or equivalent: knowledge workers, managers, L&D and talent teams",
@@ -157,6 +165,8 @@ COURSES = [
     },
     {
         "slug": "emotional-intelligence",
+        "coreSkills": ['Grows self and others', 'Radically collaborates and cultivates belonging'],
+        "skills": ['Conflict Management', 'Communication Strategies'],
         "title": "Emotional Intelligence & Interpersonal Skills",
         "subtitle": "Lead yourself, then lead others",
         "audience": "Managers, team leads, and individual contributors who work through relationships: anyone whose week includes feedback, conflict, or collaboration",
@@ -190,6 +200,44 @@ COURSES = [
         "learner": "https://me5231979.github.io/Emotional-Intelligence/",
         "facilitator": "https://me5231979.github.io/Emotional-Intelligence/facilitator/",
         "frameworks": "Grounded in Goleman's 'What Makes a Leader?' (HBR) and four-domain model, the Mayer-Salovey-Caruso ability model, Tasha Eurich's self-awareness research, Lieberman et al.'s affect-labeling studies (UCLA, Psychological Science 2007), Luft & Ingham's Johari Window, Rosenberg's Nonviolent Communication, and Amy Edmondson's psychological safety research with Google's Project Aristotle."
+    },
+    {
+        "slug": "presentation-public-speaking",
+        "coreSkills": ['Continuously strives for excellence'],
+        "skills": ['Public Speaking', 'Storytelling', 'Strategic Communication', 'Stakeholder Communications'],
+        "title": "Presentation & Public Speaking",
+        "subtitle": "Building and delivering to a room or leadership audience",
+        "audience": "Managers, senior ICs, and leaders who present to teams, stakeholders, or executive and board audiences",
+        "length": "90 minutes (full) or 60 minutes (core); also works self-paced",
+        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. Practice-heavy: everyone speaks out loud at least once. Pre-work: bring one real upcoming presentation",
+        "group": "8 to 20 works best so every participant gets a live speaking rep with feedback",
+        "description": "Public speaking is not most people's top fear anymore — the 2024 Chapman Survey ranks it 59th of 85, behind sharks. What actually separates forgettable presenters from ones a room remembers is structure and presence, and both are learnable. This session opens with that myth-busting evidence and the career stakes (Coqual found 67 percent of senior executives name gravitas as the core signal of leadership readiness; Deloitte's CFOs rank communication skills the #1 quality in a successor). Then it builds: Duarte's Big Idea distills a real presentation into one sentence of point-of-view-plus-stakes; her Sparkline shapes it for hearts and minds; Minto's SCQA and Pyramid Principle restructure it for the executive room, leading with the answer. Delivery technique comes from Chris Anderson, Carmine Gallo, and the AMA's Seven Principles, drilled in a live, strictly-timed speaking round where every participant delivers their Big Idea and opening line for one piece of framework-anchored feedback. It closes with tough-question handling — the AMA bridge — under rapid fire, and a capstone that rebuilds one real upcoming presentation with the opening line written word for word.",
+        "objectives": [
+            "Explain why gravitas and communication, not technical mastery alone, decide how a leader's message lands, and name your own executive-presence growth edge",
+            "Distill a real presentation topic into one resonant sentence using Duarte's Big Idea: point of view plus what's at stake",
+            "Structure a presentation with Duarte's Sparkline, alternating What Is and What Could Be toward New Bliss",
+            "Structure an executive briefing with Minto's Pyramid Principle and SCQA, leading with the answer",
+            "Apply the delivery techniques of Anderson's and Gallo's HBR frameworks and the AMA's Seven Principles in a live, timed speaking round",
+            "Handle pointed questions with the acknowledge-answer-return bridge, and commit to rebuilding one real presentation with the opening line written"
+        ],
+        "topics": [
+            ("The myth and the case", "Chapman's fear data (public speaking: 59th of 85), Coqual's gravitas finding, and Deloitte's CFO communication stat, played as a guessing game"),
+            ("Executive presence", "Hewlett's three pillars — gravitas 67%, communication 28%, appearance 5% — and each learner's growth edge"),
+            ("The Big Idea", "Duarte's one-sentence discipline: a point of view someone could oppose, plus what's at stake, drafted privately for a real talk"),
+            ("The Sparkline", "What Is alternating with What Could Be, ending in New Bliss — the shape under MLK's Dream speech and the great product launches"),
+            ("SCQA and the Pyramid Principle", "Minto's executive structure: Situation, Complication, Question, Answer-first, practiced in a graded briefing lab"),
+            ("Delivery", "Anderson's five keys, Gallo's five tips, and AMA's Seven Principles, applied in a live 60-to-90-second speaking round with peer feedback"),
+            ("The tough question", "The AMA bridge — acknowledge, answer directly, return to the Big Idea — drilled under rapid fire from a mock executive")
+        ],
+        "activities": "A research guessing game, a pillar-spotting trainer, a topic-or-Big-Idea judge plus a private Big Idea drafter, a Sparkline beat tagger, a graded SCQA Exec Briefing Lab where the executive room reacts to each choice, a delivery-fix trainer, a live timed speaking round for every participant, a judge-the-bridge Q&A trainer with live rapid fire, inline knowledge checks, a scored recap, and the Presentation Rebuild capstone.",
+        "outcomes": "Learners leave with one real presentation rebuilt: a one-sentence Big Idea, a structure chosen for the actual audience (Sparkline or SCQA), the literal opening line written and spoken aloud, one deck vice named and cut, and a rehearsal committed. Learning is measured in session (trainer scores, the graded briefing lab, a recap mapped to the six objectives, and the live round itself), at close (readiness check and a spoken structure-plus-opening-line commitment), and after (a 7-day pulse on the delivered talk and a 30/60/90-day structure check on whether decks are shifting from bullet-heavy to story-led and answer-first).",
+        "takehomes": [
+            ("Printable cheat sheet", "https://me5231979.github.io/Presentation-Public-Speaking/cheatsheet.html"),
+            ("Rebuild worksheet", "https://me5231979.github.io/Presentation-Public-Speaking/worksheet.html")
+        ],
+        "learner": "https://me5231979.github.io/Presentation-Public-Speaking/",
+        "facilitator": "https://me5231979.github.io/Presentation-Public-Speaking/facilitator/",
+        "frameworks": "Grounded in Nancy Duarte's Presentation Principles (Big Idea™, Presentation Sparkline™; TEDxEast), Barbara Minto's Pyramid Principle and SCQA (McKinsey), Chris Anderson's 'How to Give a Killer Presentation' (HBR/TED), Carmine Gallo's 'What It Takes to Give a Great Presentation' (HBR), the AMA's Seven Principles of Effective Public Speaking and Effective Executive Speaking curriculum, SHRM's six pre-speaking questions, Coqual/Hewlett's Executive Presence research, Deloitte's CFO Signals survey, and the Chapman Survey of American Fears."
     }
 ]
 
@@ -230,6 +278,11 @@ CSS = """
   footer { margin-top: 16px; border-top: 1px solid #E4E4E4; padding-top: 10px; font-size: 11px; color: #777;
     display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
   a { color: #946E24; }
+  .pills { display: flex; flex-wrap: wrap; gap: 5px; margin: 0 0 4px; }
+  .pill { display: inline-block; font-family: 'Antonio', Impact, sans-serif; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .05em; font-size: 9.5px; line-height: 1.4;
+    padding: 3px 9px; border-radius: 999px; border: 1px solid rgba(148,110,36,.5); color: #946E24; }
+  .pill--core { background: #CFAE70; border-color: #CFAE70; color: #1C1C1C; }
   .printbtn { position: fixed; right: 18px; top: 18px; background: #CFAE70; border: 0; border-radius: 4px;
     padding: 9px 16px; font-family: Inter, Arial, sans-serif; font-weight: 600; font-size: 13px; cursor: pointer; }
   @media print { .printbtn { display: none; } body { font-size: 11.5px; } .sheet { padding: 0; max-width: none; }
@@ -242,6 +295,8 @@ def esc(t):
 
 def build(c):
     objectives = ''.join(f'<li>{esc(o)}</li>' for o in c['objectives'])
+    pills = ''.join(f'<span class="pill pill--core">{esc(x)}</span>' for x in c.get('coreSkills', [])) + \
+            ''.join(f'<span class="pill">{esc(x)}</span>' for x in c.get('skills', []))
     topics = ''.join(f'<li><b>{esc(t)}.</b> {esc(d)}</li>' for t, d in c['topics'])
     takehomes = ' · '.join(f'<a href="{u}">{esc(n)}</a>' for n, u in c['takehomes'])
     title_words = c['title'].rsplit(' ', 1)
@@ -273,6 +328,9 @@ def build(c):
     <div><b>Format</b>{esc(c['format'])}</div>
     <div><b>Group size</b>{esc(c['group'])}</div>
   </div>
+
+  <h2>Skills this course builds</h2>
+  <div class="pills">{pills}</div>
 
   <h2>About this course</h2>
   <p>{esc(c['description'])}</p>
