@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 201: Beyond the Basics — Course Description | Vanderbilt</title>
+<meta name="robots" content="noindex">
+<style>
+  @font-face { font-family: 'Libre Caslon Display'; font-style: normal; font-weight: 400;
+    src: url('assets/fonts/libre-caslon-display-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400;
+    src: url('assets/fonts/inter-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600;
+    src: url('assets/fonts/inter-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Antonio'; font-style: normal; font-weight: 700;
+    src: url('assets/fonts/antonio-latin-700-normal.woff2') format('woff2'); }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Inter', Arial, sans-serif; color: #1C1C1C; background: #fff;
+    font-size: 13px; line-height: 1.5; }
+  .sheet { max-width: 820px; margin: 0 auto; padding: 28px 32px; }
+  header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    border-bottom: 2px solid #CFAE70; padding-bottom: 14px; margin-bottom: 16px; }
+  header img { width: 150px; flex-shrink: 0; }
+  h1 { font-family: 'Libre Caslon Display', 'Times New Roman', serif; font-weight: 400;
+    font-size: 27px; margin: 0; line-height: 1.15; }
+  h1 em { font-style: italic; color: #946E24; }
+  .eyebrow { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; color: #946E24; margin: 0 0 6px; }
+  .subtitle { margin: 4px 0 0; color: #555; font-size: 14px; }
+  .facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 20px; margin: 0 0 16px;
+    border: 1px solid #E4E4E4; border-radius: 4px; padding: 12px 14px; }
+  .facts div b { display: block; font-family: 'Antonio', Impact, sans-serif; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: 10px; color: #946E24; }
+  h2 { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; font-size: 13px; color: #946E24; margin: 18px 0 6px; }
+  p { margin: 0 0 8px; }
+  ol, ul { margin: 0 0 8px; padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  .topics li b { font-weight: 600; }
+  .frameworks { color: #555; font-size: 12px; font-style: italic; }
+  .links { border: 1px solid #CFAE70; background: #fdf9ef; border-radius: 4px; padding: 12px 14px; margin-top: 14px; }
+  footer { margin-top: 16px; border-top: 1px solid #E4E4E4; padding-top: 10px; font-size: 11px; color: #777;
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  a { color: #946E24; }
+  .printbtn { position: fixed; right: 18px; top: 18px; background: #CFAE70; border: 0; border-radius: 4px;
+    padding: 9px 16px; font-family: Inter, Arial, sans-serif; font-weight: 600; font-size: 13px; cursor: pointer; }
+  @media print { .printbtn { display: none; } body { font-size: 11.5px; } .sheet { padding: 0; max-width: none; }
+    .links { break-inside: avoid; } }
+  @media (max-width: 640px) { .facts { grid-template-columns: 1fr; } header { flex-direction: column; } }
+</style>
+</head>
+<body>
+<button class="printbtn" onclick="window.print()">Print / Save as PDF</button>
+<div class="sheet">
+  <header>
+    <div>
+      <p class="eyebrow">Vanderbilt · Learning Series · Course description</p>
+      <h1>AI 201: Beyond the <em>Basics</em></h1>
+      <p class="subtitle">How models actually work, and how to run them responsibly</p>
+    </div>
+    <img src="assets/img/vu-lockup-black.png" alt="Vanderbilt University">
+  </header>
+
+  <div class="facts">
+    <div><b>Audience</b>Anyone who completed AI Basics (101) or equivalent: knowledge workers, managers, L&amp;D and talent teams</div>
+    <div><b>Length</b>90 minutes (full) or 60 minutes (core); also works self-paced</div>
+    <div><b>Format</b>Instructor-led, in person or virtual; learners join on their own devices via QR code. No coding, no math. Prerequisite: AI Basics</div>
+    <div><b>Group size</b>8 to 24 works best for pairs; scales larger with polling instead of breakouts</div>
+  </div>
+
+  <h2>About this course</h2>
+  <p>Most AI training stops at prompting technique. This session goes underneath the prompt box: why long conversations lose the thread (context and attention), how Retrieval-Augmented Generation grounds answers in real, current sources, and how to choose between prompting, RAG, and fine-tuning with a cheapest-first decision framework. It adds four advanced prompt patterns from the academic catalog behind AI Basics, then covers what happens when AI starts acting on its own: the agent loop, its documented failure modes, and where the human checkpoint belongs. It closes with the skills that make everything safe at work: spotting hallucinations, red-teaming as a discipline, the NIST AI Risk Management Framework, and governance tiering, all converging in a governed AI workflow each learner builds for a real recurring task.</p>
+
+  <h2>Learning objectives</h2>
+  <p>By the end of this session, participants will be able to:</p>
+  <ol><li>Explain how context and attention shape a model's answer, and why long conversations lose the thread</li><li>Describe what Retrieval-Augmented Generation fixes (trustworthy sources) and what it doesn't (a smarter model)</li><li>Choose between prompting, RAG, and fine-tuning for a task, weighing cost, data needs, and maintenance</li><li>Apply four advanced prompt patterns: Few-Shot, Chain-of-Thought, Template, and Flipped Interaction</li><li>Recognize the agent plan-act-observe loop, name its documented failure modes, and place the human checkpoint</li><li>Classify information into governance tiers and build one real, governed AI workflow for your team</li></ol>
+
+  <h2>Topics covered</h2>
+  <ul class="topics"><li><b>Context and attention.</b> The finite window every answer is built from, felt in a live simulator where your instruction falls out of the window (3Blue1Brown)</li><li><b>Grounding with RAG.</b> A toggle simulator contrasts the fluent guess with the cited, source-grounded answer (IBM)</li><li><b>Choosing your method.</b> Prompting vs RAG vs fine-tuning, practiced as a five-scenario routing game</li><li><b>Advanced prompt patterns.</b> Few-Shot, Chain-of-Thought, Template, Flipped Interaction, matched to tasks and applied to a real prompt</li><li><b>Multimodal and agentic AI.</b> The plan-act-observe loop, and five agent traces where learners catch the documented failure modes</li><li><b>Spot the hallucination.</b> Six AI answers, real or invented: calibrating the detector and meeting red-teaming (NIST)</li><li><b>Governance that scales.</b> The NIST AI RMF's four functions as plain questions, and green/yellow/red tiering drilled to reflex</li></ul>
+
+  <h2>How you'll learn</h2>
+  <p>A context-window simulator, a RAG grounding toggle with a retrieved-source panel, five scenario trainers (method routing, pattern matching, agent-trace reading, hallucination spotting, governance tiering), inline knowledge checks, a six-question scored recap, and the Team AI Workflow capstone. Every section pairs teaching with something to do; nothing is watch-only. Private exercises stay on the learner's screen and are never collected.</p>
+
+  <h2>Outcomes and how learning is measured</h2>
+  <p>Learners leave with a governed AI workflow card for a real recurring task: trigger, AI step, prompt pattern, human checkpoint, and governance tier, plus the shared vocabulary (RAG, fine-tuning, agents, red-teaming, NIST AI RMF) to evaluate vendors and tools. Learning is measured in session (trainer scores and a recap mapped to the six objectives), at close (readiness check and a trigger-and-tier commitment round), and after (a 7-day pulse and a 30-day census of written, tiered team workflows).</p>
+
+  <p class="frameworks">Grounded in 3Blue1Brown's attention walkthrough, IBM's RAG and agent research explainers, White et al.'s prompt pattern catalog (Vanderbilt), Wei et al. (chain-of-thought), Brown et al. (few-shot), Adaline Labs' agent failure research, and NIST's AI red-teaming definition and AI Risk Management Framework.</p>
+
+  <div class="links">
+    <b>Take the course:</b> <a href="https://me5231979.github.io/AI-Advanced/">me5231979.github.io/AI-Advanced/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/AI-Advanced/facilitator/">me5231979.github.io/AI-Advanced/facilitator/</a><br>
+    <b>Take-homes:</b> <a href="https://me5231979.github.io/AI-Advanced/cheatsheet.html">Printable cheat sheet</a> · <a href="https://me5231979.github.io/AI-Advanced/worksheet.html">Workflow card worksheet</a>
+  </div>
+
+  <footer>
+    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
+  </footer>
+</div>
+</body>
+</html>

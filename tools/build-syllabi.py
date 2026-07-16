@@ -118,6 +118,42 @@ COURSES = [
         "learner": "https://me5231979.github.io/Coaching-for-Performance/",
         "facilitator": "https://me5231979.github.io/Coaching-for-Performance/facilitator/",
         "frameworks": "Blends Google re:Work's Project Oxygen, Whitmore's GROW, the ICF core competencies, Marshall Goldsmith's Feedforward, Goleman's leadership styles, McKinsey's leadership research, Hawkins' CLEAR, the solution-focused OSKAR model, and Ibarra & Scoular's 'The Leader as Coach' (HBR)."
+    },
+    {
+        "slug": "ai-201",
+        "title": "AI 201: Beyond the Basics",
+        "subtitle": "How models actually work, and how to run them responsibly",
+        "audience": "Anyone who completed AI Basics (101) or equivalent: knowledge workers, managers, L&D and talent teams",
+        "length": "90 minutes (full) or 60 minutes (core); also works self-paced",
+        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. No coding, no math. Prerequisite: AI Basics",
+        "group": "8 to 24 works best for pairs; scales larger with polling instead of breakouts",
+        "description": "Most AI training stops at prompting technique. This session goes underneath the prompt box: why long conversations lose the thread (context and attention), how Retrieval-Augmented Generation grounds answers in real, current sources, and how to choose between prompting, RAG, and fine-tuning with a cheapest-first decision framework. It adds four advanced prompt patterns from the academic catalog behind AI Basics, then covers what happens when AI starts acting on its own: the agent loop, its documented failure modes, and where the human checkpoint belongs. It closes with the skills that make everything safe at work: spotting hallucinations, red-teaming as a discipline, the NIST AI Risk Management Framework, and governance tiering, all converging in a governed AI workflow each learner builds for a real recurring task.",
+        "objectives": [
+            "Explain how context and attention shape a model's answer, and why long conversations lose the thread",
+            "Describe what Retrieval-Augmented Generation fixes (trustworthy sources) and what it doesn't (a smarter model)",
+            "Choose between prompting, RAG, and fine-tuning for a task, weighing cost, data needs, and maintenance",
+            "Apply four advanced prompt patterns: Few-Shot, Chain-of-Thought, Template, and Flipped Interaction",
+            "Recognize the agent plan-act-observe loop, name its documented failure modes, and place the human checkpoint",
+            "Classify information into governance tiers and build one real, governed AI workflow for your team"
+        ],
+        "topics": [
+            ("Context and attention", "The finite window every answer is built from, felt in a live simulator where your instruction falls out of the window (3Blue1Brown)"),
+            ("Grounding with RAG", "A toggle simulator contrasts the fluent guess with the cited, source-grounded answer (IBM)"),
+            ("Choosing your method", "Prompting vs RAG vs fine-tuning, practiced as a five-scenario routing game"),
+            ("Advanced prompt patterns", "Few-Shot, Chain-of-Thought, Template, Flipped Interaction, matched to tasks and applied to a real prompt"),
+            ("Multimodal and agentic AI", "The plan-act-observe loop, and five agent traces where learners catch the documented failure modes"),
+            ("Spot the hallucination", "Six AI answers, real or invented: calibrating the detector and meeting red-teaming (NIST)"),
+            ("Governance that scales", "The NIST AI RMF's four functions as plain questions, and green/yellow/red tiering drilled to reflex")
+        ],
+        "activities": "A context-window simulator, a RAG grounding toggle with a retrieved-source panel, five scenario trainers (method routing, pattern matching, agent-trace reading, hallucination spotting, governance tiering), inline knowledge checks, a six-question scored recap, and the Team AI Workflow capstone.",
+        "outcomes": "Learners leave with a governed AI workflow card for a real recurring task: trigger, AI step, prompt pattern, human checkpoint, and governance tier, plus the shared vocabulary (RAG, fine-tuning, agents, red-teaming, NIST AI RMF) to evaluate vendors and tools. Learning is measured in session (trainer scores and a recap mapped to the six objectives), at close (readiness check and a trigger-and-tier commitment round), and after (a 7-day pulse and a 30-day census of written, tiered team workflows).",
+        "takehomes": [
+            ("Printable cheat sheet", "https://me5231979.github.io/AI-Advanced/cheatsheet.html"),
+            ("Workflow card worksheet", "https://me5231979.github.io/AI-Advanced/worksheet.html")
+        ],
+        "learner": "https://me5231979.github.io/AI-Advanced/",
+        "facilitator": "https://me5231979.github.io/AI-Advanced/facilitator/",
+        "frameworks": "Grounded in 3Blue1Brown's attention walkthrough, IBM's RAG and agent research explainers, White et al.'s prompt pattern catalog (Vanderbilt), Wei et al. (chain-of-thought), Brown et al. (few-shot), Adaline Labs' agent failure research, and NIST's AI red-teaming definition and AI Risk Management Framework."
     }
 ]
 
