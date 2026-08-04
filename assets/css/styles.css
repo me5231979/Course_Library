@@ -94,6 +94,9 @@ a { color: inherit; }
 .btn--dark:hover { box-shadow: 0 6px 18px rgba(28,28,28,.3); }
 .btn--ghost-dark { background: transparent; color: var(--vu-black); border-color: rgba(28,28,28,.35); }
 .btn--ghost-dark:hover { border-color: var(--vu-oak); color: var(--vu-oak); box-shadow: none; }
+.btn--soon { background: transparent; color: var(--ink-soft); border: 1px dashed rgba(28,28,28,.3);
+  opacity: .55; cursor: not-allowed; }
+.btn--soon:hover { transform: none; box-shadow: none; }
 
 /* ---------- 8. Sections ---------- */
 .hero { min-height: 92vh; display: grid; align-items: center; background: var(--vu-black); color: #fff;

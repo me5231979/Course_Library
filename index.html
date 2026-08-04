@@ -21,7 +21,7 @@
 <link rel="apple-touch-icon" href="assets/img/favicon-96.png">
 <link rel="preload" href="assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/styles.css?v=4">
+<link rel="stylesheet" href="assets/css/styles.css?v=5">
 </head>
 <body>
 <a class="skip-link" href="#courses">Skip to courses</a>
@@ -60,7 +60,7 @@
     <div class="wrap">
       <p class="eyebrow" data-reveal>The catalog</p>
       <h2 class="h2" data-reveal>Pick a course. It's <em>ready</em>.</h2>
-      <p class="lead" data-reveal>Each card links to two editions of the same course: the classroom experience your learners see, and the facilitator edition with the full delivery script beside every slide.</p>
+      <p class="lead" data-reveal>Each card links to three editions of the same course: the classroom experience your learners see, the facilitator edition with the full delivery script beside every slide, and a self-paced edition for working through it at your own desk. A few self-paced editions are still on the way.</p>
 
       <div class="filterbar" id="filterbar" data-reveal role="group" aria-label="Filter courses by topic">
         <button class="filterchip" data-topic="all" aria-pressed="true">All courses</button>
@@ -88,6 +88,7 @@
           <div class="course__cta">
             <a class="btn btn--dark" href="https://me5231979.github.io/AI_Classroom/">Launch the course</a>
             <a class="btn btn--ghost-dark" href="https://me5231979.github.io/AI_Classroom/facilitator/">Facilitator edition</a>
+            <span class="btn btn--soon" aria-disabled="true">Self-paced edition &middot; coming soon</span>
           </div>
           <p class="course__extras">Take-home: <a href="https://me5231979.github.io/AI_Classroom/cheatsheet.html">printable cheat sheet</a></p>
         </article>
@@ -107,10 +108,11 @@
             <ol><li>Brief an AI like a colleague using CRIT: Context, Role, Interview, Task</li><li>Produce a usable first draft of an email, announcement, or summary without starting from a blank page</li><li>Edit an AI draft into your own: restore your voice, verify every fact, cut what isn&rsquo;t needed</li><li>Route each writing task to the right Vanderbilt tool by data sensitivity</li><li>Apply the method to tomorrow&rsquo;s first piece of writing, and leave with a printed plan</li></ol>
           </details>
           <div class="course__cta">
-            <a class="btn btn--dark" href="https://me5231979.github.io/estesstite/learn/drafts-class/">Classroom edition</a>
+            <a class="btn btn--dark" href="https://me5231979.github.io/estesstite/learn/drafts-class/">Launch the course</a>
+            <span class="btn btn--soon" aria-disabled="true">Facilitator edition &middot; coming soon</span>
             <a class="btn btn--ghost-dark" href="https://me5231979.github.io/estesstite/learn/drafts/">Self-paced edition</a>
           </div>
-          <p class="course__extras">Take-home: printable one-page plan, inside the course &middot; Part of <a href="https://me5231979.github.io/estesstite/learn/">the CHART program</a></p>
+          <p class="course__extras">Take-home: printable one-page plan, inside the course &middot; Part of <a href="https://me5231979.github.io/estesstite/learn/">the Working Smarter program</a></p>
         </article>
 
         <article class="course" data-reveal data-topics="communication leadership">
@@ -131,6 +133,7 @@
           <div class="course__cta">
             <a class="btn btn--dark" href="https://me5231979.github.io/Difficult_Conversations/">Launch the course</a>
             <a class="btn btn--ghost-dark" href="https://me5231979.github.io/Difficult_Conversations/facilitator/">Facilitator edition</a>
+            <span class="btn btn--soon" aria-disabled="true">Self-paced edition &middot; coming soon</span>
           </div>
           <p class="course__extras">Take-home: <a href="https://me5231979.github.io/Difficult_Conversations/cheatsheet.html">cheat sheet</a> · <a href="https://me5231979.github.io/Difficult_Conversations/worksheet.html">plan worksheet</a></p>
         </article>
@@ -153,30 +156,32 @@
           <div class="course__cta">
             <a class="btn btn--dark" href="https://me5231979.github.io/Coaching-for-Performance/">Launch the course</a>
             <a class="btn btn--ghost-dark" href="https://me5231979.github.io/Coaching-for-Performance/facilitator/">Facilitator edition</a>
+            <span class="btn btn--soon" aria-disabled="true">Self-paced edition &middot; coming soon</span>
           </div>
           <p class="course__extras">Take-home: <a href="https://me5231979.github.io/Coaching-for-Performance/cheatsheet.html">cheat sheet</a> &middot; <a href="https://me5231979.github.io/Coaching-for-Performance/worksheet.html">plan worksheet</a></p>
         </article>
 
         <article class="course" data-reveal data-topics="ai">
-          <p class="course__tag">For AI Basics graduates &middot; 201 level</p>
-          <h3>AI 201: Beyond the Basics</h3>
-          <div class="course__skills" aria-label="Skills this course builds"><span class="skillpill skillpill--core">Embodies an entrepreneurial spirit and leverages data and technology</span><span class="skillpill skillpill--core">Makes effective and ethical decisions for the University</span><span class="skillpill">Artificial Intelligence</span><span class="skillpill">Data Governance</span><span class="skillpill">Risk Management</span></div>
-          <p class="course__desc">Under the prompt box: why models forget (context and attention), how RAG grounds answers in real sources, choosing between prompting, RAG, and fine-tuning, four advanced prompt patterns, how AI agents fail, and the governance habits, hallucination-spotting and data tiering, that make it all safe to run.</p>
+          <p class="course__tag">For all Vanderbilt staff</p>
+          <h3>Working Smarter</h3>
+          <div class="course__skills" aria-label="Skills this course builds"><span class="skillpill skillpill--core">Embodies an entrepreneurial spirit and leverages data and technology</span><span class="skillpill">Artificial Intelligence</span><span class="skillpill">Prompt Writing</span><span class="skillpill">Digital Fluency/Information Literacy</span></div>
+          <p class="course__desc">Learn the new tools by using them. The flagship of the Working Smarter program moves from what AI is (you watch a model predict the next word) to the CRIT prompt framework, drilled in working practice apps, to choosing the right Vanderbilt tool, ChatGPT EDU, Amplify, or Copilot, by data sensitivity. You finish with a knowledge check and a readiness plan built from your own task list.</p>
           <ul class="course__meta">
-            <li>7 sections &middot; 7 interactive tools + 2 simulators</li>
-            <li>60 or 90 minute paths &middot; requires AI Basics</li>
-            <li>In person, virtual, or self-paced</li>
+            <li>9 sections &middot; 4 practice apps + opportunity simulator</li>
+            <li>60&ndash;90 minutes &middot; every module skippable</li>
+            <li>Classroom, facilitator, and self-paced editions</li>
           </ul>
-          <a class="course__syllabus" href="syllabus-ai-201.html">Full course description (printable)<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          <a class="course__syllabus" href="syllabus-working-smarter.html">Full course description (printable)<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
           <details class="course__obj">
             <summary>Learning objectives</summary>
-            <ol><li>Explain how context and attention shape an answer, and why long conversations lose the thread</li><li>Describe what Retrieval-Augmented Generation fixes, and what it doesn't</li><li>Choose between prompting, RAG, and fine-tuning, weighing cost, data, and maintenance</li><li>Apply four advanced prompt patterns: Few-Shot, Chain-of-Thought, Template, Flipped Interaction</li><li>Recognize the agent loop, name its failure modes, and place the human checkpoint</li><li>Classify information into governance tiers and build one governed AI workflow</li></ol>
+            <ol><li>Explain what AI tools like ChatGPT are, and why they sometimes state made-up things as fact</li><li>Map your own role task by task, and build a 30/60/90 development plan from the tasks AI can help with</li><li>Write clear, complete prompts with the CRIT framework: Context, Role, Interview, Task</li><li>Choose the right approved tool for any task by data sensitivity: ChatGPT EDU, Amplify, or Copilot</li><li>Use AI responsibly: verify outputs, disclose substantive AI help, and keep sensitive data out of public tools</li></ol>
           </details>
           <div class="course__cta">
-            <a class="btn btn--dark" href="https://me5231979.github.io/AI-Advanced/">Launch the course</a>
-            <a class="btn btn--ghost-dark" href="https://me5231979.github.io/AI-Advanced/facilitator/">Facilitator edition</a>
+            <a class="btn btn--dark" href="https://me5231979.github.io/estesstite/learn/classroom/">Launch the course</a>
+            <a class="btn btn--ghost-dark" href="https://me5231979.github.io/estesstite/learn/classroom/facilitator/">Facilitator edition</a>
+            <a class="btn btn--ghost-dark" href="https://me5231979.github.io/estesstite/learn/">Self-paced edition</a>
           </div>
-          <p class="course__extras">Take-home: <a href="https://me5231979.github.io/AI-Advanced/cheatsheet.html">cheat sheet</a> &middot; <a href="https://me5231979.github.io/AI-Advanced/worksheet.html">workflow card</a></p>
+          <p class="course__extras">Flagship course of the Working Smarter program</p>
         </article>
 
         <article class="course" data-reveal data-topics="communication leadership">
@@ -197,6 +202,7 @@
           <div class="course__cta">
             <a class="btn btn--dark" href="https://me5231979.github.io/Emotional-Intelligence/">Launch the course</a>
             <a class="btn btn--ghost-dark" href="https://me5231979.github.io/Emotional-Intelligence/facilitator/">Facilitator edition</a>
+            <span class="btn btn--soon" aria-disabled="true">Self-paced edition &middot; coming soon</span>
           </div>
           <p class="course__extras">Take-home: <a href="https://me5231979.github.io/Emotional-Intelligence/cheatsheet.html">cheat sheet</a> &middot; <a href="https://me5231979.github.io/Emotional-Intelligence/worksheet.html">plan worksheet</a></p>
         </article>
@@ -219,6 +225,7 @@
           <div class="course__cta">
             <a class="btn btn--dark" href="https://me5231979.github.io/Presentation-Public-Speaking/">Launch the course</a>
             <a class="btn btn--ghost-dark" href="https://me5231979.github.io/Presentation-Public-Speaking/facilitator/">Facilitator edition</a>
+            <span class="btn btn--soon" aria-disabled="true">Self-paced edition &middot; coming soon</span>
           </div>
           <p class="course__extras">Take-home: <a href="https://me5231979.github.io/Presentation-Public-Speaking/cheatsheet.html">cheat sheet</a> &middot; <a href="https://me5231979.github.io/Presentation-Public-Speaking/worksheet.html">rebuild worksheet</a></p>
         </article>
@@ -281,7 +288,7 @@
           <li><a href="https://me5231979.github.io/AI_Classroom/">AI Basics</a></li>
           <li><a href="https://me5231979.github.io/Difficult_Conversations/">Navigating Difficult Conversations</a></li>
           <li><a href="https://me5231979.github.io/Coaching-for-Performance/">Coaching for Performance</a></li>
-          <li><a href="https://me5231979.github.io/AI-Advanced/">AI 201: Beyond the Basics</a></li>
+          <li><a href="https://me5231979.github.io/estesstite/learn/classroom/">Working Smarter</a></li>
           <li><a href="https://me5231979.github.io/Emotional-Intelligence/">Emotional Intelligence &amp; Interpersonal Skills</a></li>
           <li><a href="https://me5231979.github.io/Presentation-Public-Speaking/">Presentation &amp; Public Speaking</a></li>
         </ul>
@@ -292,7 +299,7 @@
           <li><a href="https://me5231979.github.io/AI_Classroom/facilitator/">AI Basics · Facilitator</a></li>
           <li><a href="https://me5231979.github.io/Difficult_Conversations/facilitator/">Difficult Conversations · Facilitator</a></li>
           <li><a href="https://me5231979.github.io/Coaching-for-Performance/facilitator/">Coaching for Performance · Facilitator</a></li>
-          <li><a href="https://me5231979.github.io/AI-Advanced/facilitator/">AI 201 · Facilitator</a></li>
+          <li><a href="https://me5231979.github.io/estesstite/learn/classroom/facilitator/">Working Smarter · Facilitator</a></li>
           <li><a href="https://me5231979.github.io/Emotional-Intelligence/facilitator/">Emotional Intelligence · Facilitator</a></li>
           <li><a href="https://me5231979.github.io/Presentation-Public-Speaking/facilitator/">Presentation &amp; Public Speaking · Facilitator</a></li>
         </ul>

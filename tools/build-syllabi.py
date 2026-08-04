@@ -126,42 +126,41 @@ COURSES = [
         "frameworks": "Blends Google re:Work's Project Oxygen, Whitmore's GROW, the ICF core competencies, Marshall Goldsmith's Feedforward, Goleman's leadership styles, McKinsey's leadership research, Hawkins' CLEAR, the solution-focused OSKAR model, and Ibarra & Scoular's 'The Leader as Coach' (HBR)."
     },
     {
-        "slug": "ai-201",
-        "coreSkills": ['Embodies an entrepreneurial spirit and leverages data and technology', 'Makes effective and ethical decisions for the University'],
-        "skills": ['Artificial Intelligence', 'Data Governance', 'Risk Management'],
-        "title": "AI 201: Beyond the Basics",
-        "subtitle": "How models actually work, and how to run them responsibly",
-        "audience": "Anyone who completed AI Basics (101) or equivalent: knowledge workers, managers, L&D and talent teams",
-        "length": "90 minutes (full) or 60 minutes (core); also works self-paced",
-        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. No coding, no math. Prerequisite: AI Basics",
-        "group": "8 to 24 works best for pairs; scales larger with polling instead of breakouts",
-        "description": "Most AI training stops at prompting technique. This session goes underneath the prompt box: why long conversations lose the thread (context and attention), how Retrieval-Augmented Generation grounds answers in real, current sources, and how to choose between prompting, RAG, and fine-tuning with a cheapest-first decision framework. It adds four advanced prompt patterns from the academic catalog behind AI Basics, then covers what happens when AI starts acting on its own: the agent loop, its documented failure modes, and where the human checkpoint belongs. It closes with the skills that make everything safe at work: spotting hallucinations, red-teaming as a discipline, the NIST AI Risk Management Framework, and governance tiering, all converging in a governed AI workflow each learner builds for a real recurring task.",
+        "slug": "working-smarter",
+        "coreSkills": ['Embodies an entrepreneurial spirit and leverages data and technology'],
+        "skills": ['Artificial Intelligence', 'Prompt Writing', 'Digital Fluency/Information Literacy'],
+        "title": "Working Smarter",
+        "subtitle": "Learn the new tools by using them",
+        "audience": "All Vanderbilt staff; no technical background needed",
+        "length": "60 to 90 minutes for the core path; every module is skippable, and embedded videos are optional extras",
+        "format": "Classroom (instructor-led, in person or virtual; learners join on their own devices) or fully self-paced online",
+        "group": "Any size in the classroom; the self-paced edition works alone at a desk",
+        "description": "The flagship course of the Working Smarter program (formerly CHART). Instead of talking about AI, it has you use it: you watch a language model predict the next word, map your own role the way AI actually meets it (task by task), learn the CRIT prompt framework, and drill it in working practice apps before taking one real task into your own tools. Along the way you learn the two questions that route any task to the right Vanderbilt tool, ChatGPT EDU, Amplify, or Copilot: how sensitive is the data, and where are you already working. It closes with a knowledge check and a personal plan for the week ahead.",
         "objectives": [
-            "Explain how context and attention shape a model's answer, and why long conversations lose the thread",
-            "Describe what Retrieval-Augmented Generation fixes (trustworthy sources) and what it doesn't (a smarter model)",
-            "Choose between prompting, RAG, and fine-tuning for a task, weighing cost, data needs, and maintenance",
-            "Apply four advanced prompt patterns: Few-Shot, Chain-of-Thought, Template, and Flipped Interaction",
-            "Recognize the agent plan-act-observe loop, name its documented failure modes, and place the human checkpoint",
-            "Classify information into governance tiers and build one real, governed AI workflow for your team"
+            "Explain what AI tools like ChatGPT are, and why they sometimes state made-up things as fact",
+            "Map your own role task by task, identify where AI can help, and build a 30/60/90 development plan from that list",
+            "Write clear, complete prompts with the CRIT framework: Context, Role, Interview, Task",
+            "Choose the right approved tool for any task by data sensitivity: ChatGPT EDU, Amplify, or Copilot",
+            "Use AI responsibly: verify outputs before they leave your hands, disclose substantive AI help, and keep sensitive data out of public tools"
         ],
         "topics": [
-            ("Context and attention", "The finite window every answer is built from, felt in a live simulator where your instruction falls out of the window (3Blue1Brown)"),
-            ("Grounding with RAG", "A toggle simulator contrasts the fluent guess with the cited, source-grounded answer (IBM)"),
-            ("Choosing your method", "Prompting vs RAG vs fine-tuning, practiced as a five-scenario routing game"),
-            ("Advanced prompt patterns", "Few-Shot, Chain-of-Thought, Template, Flipped Interaction, matched to tasks and applied to a real prompt"),
-            ("Multimodal and agentic AI", "The plan-act-observe loop, and five agent traces where learners catch the documented failure modes"),
-            ("Spot the hallucination", "Six AI answers, real or invented: calibrating the detector and meeting red-teaming (NIST)"),
-            ("Governance that scales", "The NIST AI RMF's four functions as plain questions, and green/yellow/red tiering drilled to reflex")
+            ("What AI is, and how it works", "Five terms that build on each other (AI, machine learning, generative AI, large language models, agents), plus an in-page demo where you watch a model predict the next word"),
+            ("Your role, task by task", "A readiness assessment that looks at your job the way AI meets it, task by task, and starts your 30/60/90 development plan"),
+            ("The CRIT prompt framework", "Context, Role, Interview, Task: the four-part way to write a prompt, assembled step by step in the CRIT builder"),
+            ("The Playground", "Practice apps with no live AI: build prompts for your own work in the Prompt Lab, tighten them in the Prompt Grader, then take one real task from your week"),
+            ("Your three tools", "ChatGPT EDU, Amplify, and Copilot compared card by card, then drilled in Tool Match; the right tool depends on the data"),
+            ("The AI Opportunity Simulator", "Describe one real task and get back an opportunity map, starter prompts, data flags, and the first 30 days of a plan"),
+            ("Using AI responsibly", "Six guardrail habits, the never-paste list, and four workplace scenarios that test your judgment"),
+            ("The knowledge check", "Eight self-scored questions covering the whole course; nobody sees your score, and you can retake it anytime"),
+            ("Put it to work this week", "A five-step weekly loop that turns the course into a habit, closing with completion marked in Oracle Learning")
         ],
-        "activities": "A context-window simulator, a RAG grounding toggle with a retrieved-source panel, five scenario trainers (method routing, pattern matching, agent-trace reading, hallucination spotting, governance tiering), inline knowledge checks, a six-question scored recap, and the Team AI Workflow capstone.",
-        "outcomes": "Learners leave with a governed AI workflow card for a real recurring task: trigger, AI step, prompt pattern, human checkpoint, and governance tier, plus the shared vocabulary (RAG, fine-tuning, agents, red-teaming, NIST AI RMF) to evaluate vendors and tools. Learning is measured in session (trainer scores and a recap mapped to the six objectives), at close (readiness check and a trigger-and-tier commitment round), and after (a 7-day pulse and a 30-day census of written, tiered team workflows).",
-        "takehomes": [
-            ("Printable cheat sheet", "https://me5231979.github.io/AI-Advanced/cheatsheet.html"),
-            ("Workflow card worksheet", "https://me5231979.github.io/AI-Advanced/worksheet.html")
-        ],
-        "learner": "https://me5231979.github.io/AI-Advanced/",
-        "facilitator": "https://me5231979.github.io/AI-Advanced/facilitator/",
-        "frameworks": "Grounded in 3Blue1Brown's attention walkthrough, IBM's RAG and agent research explainers, White et al.'s prompt pattern catalog (Vanderbilt), Wei et al. (chain-of-thought), Brown et al. (few-shot), Adaline Labs' agent failure research, and NIST's AI red-teaming definition and AI Risk Management Framework."
+        "activities": "An in-page next-word prediction demo, a role readiness assessment with a 30/60/90 plan, four working practice apps (the CRIT builder, the Prompt Lab, the Prompt Grader, and Tool Match), the AI Opportunity Simulator, section-by-section self-checks with progress tracking, an eight-question knowledge check, and a closing shelf of Oracle Learning picks, podcasts, and videos for continued learning.",
+        "outcomes": "Learners leave with a tested CRIT prompt for a real task from their own week, the two-question rule for routing any task to the right tool, the never-paste list, a 30/60/90 development plan built from their own task list, and a five-step weekly loop for putting AI on one task at a time. Learning is self-measured in the course (section self-checks and the eight-question knowledge check), and learners record completion themselves in Oracle Learning.",
+        "takehomes": [],
+        "learner": "https://me5231979.github.io/estesstite/learn/classroom/",
+        "facilitator": "https://me5231979.github.io/estesstite/learn/classroom/facilitator/",
+        "selfpaced": "https://me5231979.github.io/estesstite/learn/",
+        "frameworks": "CRIT (Context, Role, Interview, Task) is credited to Geoff Woods, The AI-Driven Leader. Prompt patterns draw on Vanderbilt's Dr. Jules White (the Persona pattern). Task-exposure research from Eloundou et al., 'GPTs are GPTs,' and the Anthropic Economic Index. Tool routing follows Vanderbilt's data classification."
     },
     {
         "slug": "emotional-intelligence",
@@ -299,6 +298,15 @@ def build(c):
             ''.join(f'<span class="pill">{esc(x)}</span>' for x in c.get('skills', []))
     topics = ''.join(f'<li><b>{esc(t)}.</b> {esc(d)}</li>' for t, d in c['topics'])
     takehomes = ' · '.join(f'<a href="{u}">{esc(n)}</a>' for n, u in c['takehomes'])
+    link_lines = [
+        f'<b>Take the course:</b> <a href="{c["learner"]}">{c["learner"].replace("https://","")}</a>',
+        f'<b>Deliver it (facilitator edition):</b> <a href="{c["facilitator"]}">{c["facilitator"].replace("https://","")}</a>'
+    ]
+    if c.get('selfpaced'):
+        link_lines.append(f'<b>Self-paced edition:</b> <a href="{c["selfpaced"]}">{c["selfpaced"].replace("https://","")}</a>')
+    if takehomes:
+        link_lines.append(f'<b>Take-homes:</b> {takehomes}')
+    links = '<br>\n    '.join(link_lines)
     title_words = c['title'].rsplit(' ', 1)
     h1 = f'{esc(title_words[0])} <em>{esc(title_words[1])}</em>' if len(title_words) == 2 else esc(c['title'])
     return f"""<!DOCTYPE html>
@@ -351,9 +359,7 @@ def build(c):
   <p class="frameworks">{esc(c['frameworks'])}</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="{c['learner']}">{c['learner'].replace('https://','')}</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="{c['facilitator']}">{c['facilitator'].replace('https://','')}</a><br>
-    <b>Take-homes:</b> {takehomes}
+    {links}
   </div>
 
   <footer>
