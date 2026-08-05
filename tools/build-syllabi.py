@@ -20,9 +20,9 @@ COURSES = [
         "subtitle": "A first introduction for people who have never used AI",
         "audience": "Absolute beginners: staff who have never opened an AI tool, or tried once and gave up. No prerequisites of any kind",
         "length": "Classroom: 60 minutes (30-minute core path). Self-paced web edition: about 25 minutes",
-        "format": "Instructor-led, in person or virtual, with learners joining on their own devices via QR code — or fully self-paced at the /web/ edition. No jargon, no code, no assumptions",
+        "format": "Instructor-led, in person or virtual, with learners joining on their own devices via QR code, or fully self-paced at the /web/ edition. No jargon, no code, no assumptions",
         "group": "Any size works; 8 to 30 is the sweet spot",
-        "description": "Most AI training assumes you've already started. This course assumes nothing. In five plain-language ideas, it takes someone who has never touched an AI tool to their first successful use: what AI actually is (a program that learned from examples — with proof you've been using it for years in spam filters and map apps), why and how to use it (type in ordinary English, read the draft, improve it with one follow-up), when to use it and when not to (the green/yellow/red traffic light: public content is fine anywhere, internal content belongs only in Vanderbilt-approved tools, and private information about people never goes in), what it can do for you (the five superpowers: draft, summarize, brainstorm, explain, rewrite), and your first try — a real prompt for a real chore, assembled in the session with a copy button, plus a dated commitment card. The classroom edition adds group rounds and a live demo; the web edition delivers the identical course self-paced.",
+        "description": "Most AI training assumes you've already started. This course assumes nothing. In five plain-language ideas, it takes someone who has never touched an AI tool to their first successful use: what AI actually is (a program that learned from examples, with proof you've been using it for years in spam filters and map apps), why and how to use it (type in ordinary English, read the draft, improve it with one follow-up), when to use it and when not to (the green/yellow/red traffic light: public content is fine anywhere, internal content belongs only in Vanderbilt-approved tools, and private information about people never goes in), what it can do for you (the five superpowers: draft, summarize, brainstorm, explain, rewrite), and your first try, a real prompt for a real chore, assembled in the session with a copy button, plus a dated commitment card. The classroom edition adds group rounds and a live demo; the web edition delivers the identical course self-paced.",
         "objectives": [
             "Say what AI is in one plain sentence, and spot it in tools you already use every day",
             "Ask AI for help in ordinary English, and make the answer better with one follow-up",
@@ -31,10 +31,10 @@ COURSES = [
             "Make your first try this week, with a starter prompt built in the session"
         ],
         "topics": [
-            ("What is AI?", "One jargon-free sentence — a program that learned from millions of examples — and the Is That AI? game proving everyone already uses it daily"),
-            ("Why and how do we use it?", "The three-step loop: ask in plain English, look at the draft, improve with one follow-up — practiced in the Pick the Next Move trainer"),
-            ("When to use it, and when not to", "The traffic light drilled to reflex: green (public), yellow (internal, approved VU tools only), red (private information about people — never), plus the check-what-matters habit"),
-            ("What can it do for you?", "Five superpowers matched to real chores: draft, summarize, brainstorm, explain, rewrite — and the honest list of what it can't do"),
+            ("What is AI?", "One jargon-free sentence, a program that learned from millions of examples, and the Is That AI? game proving everyone already uses it daily"),
+            ("Why and how do we use it?", "The three-step loop: ask in plain English, look at the draft, improve with one follow-up, practiced in the Pick the Next Move trainer"),
+            ("When to use it, and when not to", "The traffic light drilled to reflex: green (public), yellow (internal, approved VU tools only), red (private information about people, never), plus the check-what-matters habit"),
+            ("What can it do for you?", "Five superpowers matched to real chores: draft, summarize, brainstorm, explain, rewrite, and the honest list of what it can't do"),
             ("Your first try", "The prompt recipe (job + details + shape) built into a real, copyable prompt for a chore from the learner's own week")
         ],
         "activities": "Four scenario trainers (Is That AI?, Pick the Next Move, Green-Yellow-Red, Match the Superpower), a live vague-to-good demo, an inline knowledge check, a prompt builder that assembles a real copyable request, a five-question scored recap, and the My First Try commitment card.",
@@ -418,6 +418,45 @@ COURSES = [
         "frameworks": "Grounded in Goleman's 'What Makes a Leader?' (HBR) and four-domain model, the Mayer-Salovey-Caruso ability model, Tasha Eurich's self-awareness research, Lieberman et al.'s affect-labeling studies (UCLA, Psychological Science 2007), Luft & Ingham's Johari Window, Rosenberg's Nonviolent Communication, and Amy Edmondson's psychological safety research with Google's Project Aristotle."
     },
     {
+        "slug": "building-brave-teams",
+        "coreSkills": ['Radically collaborates and cultivates belonging'],
+        "skills": ['Psychological Safety', 'Team Building', 'Trust Building'],
+        "title": "Building Brave Teams",
+        "subtitle": "The team-building workshop on psychological safety",
+        "audience": "All Vanderbilt staff; intact teams get the most from it, and it works equally well as an open-enrollment session",
+        "length": "Classroom: 120 minutes (90-minute core path). Self-paced web edition: about 60 minutes",
+        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. Built around live team exercises: a safety diagnostic, Johari pairs, team-built grids with a gallery walk, and a triad rehearsal",
+        "group": "8 to 30 works best; intact teams sit together, and the rehearsal runs in triads",
+        "description": "Google spent five years studying what separates its best teams and the answer was not who is on the team; it was psychological safety, whether people can speak up without paying for it. This workshop makes that finding practical. It opens with the evidence: Edmondson's hospital studies, where better units reported more errors because reporting was safe, the Challenger cockpit, where silence had a body count, and Project Aristotle. Teams then diagnose themselves with Edmondson's actual 7-item survey and place their team on Clark's four-stage ladder. The middle is practice: the Johari Window in pairs to expand the Open quadrant, team-built Expand/Contract grids naming the behaviors that grow or quietly shrink safety, and a three-round Candor Rehearsal delivering real feedback with SBI + Ask. It closes with a commitment ritual: one start, one stop, and one question each person's team will hear within 14 days.",
+        "objectives": [
+            "Define psychological safety, and tell it apart from being nice, lowering the bar, or needing consensus",
+            "Diagnose your team's current stage using Clark's ladder and Edmondson's 7-item survey",
+            "Explain why safety predicts performance, using the evidence from hospitals, cockpits, and Google",
+            "Practice disclosure and feedback with the Johari Window, and expand your Open quadrant",
+            "Differentiate behaviors that expand safety from the ones that quietly contract it, then deliver candid feedback with SBI + Ask",
+            "Commit to one start, one stop, and one question your team will hear within 14 days"
+        ],
+        "topics": [
+            ("The case", "Edmondson's medication-error finding, the Challenger and cockpit evidence, and Google's Project Aristotle: safety predicts performance"),
+            ("What safety is and is not", "A working definition, and the four look-alikes it gets confused with: niceness, low standards, consensus, comfort"),
+            ("Clark's four stages", "Included, learner, contributor, challenger: a ladder teams climb in order, diagnosed live"),
+            ("The team diagnostic", "Edmondson's 7-item survey, the same instrument used in the research, scored and discussed by the team"),
+            ("The Johari Window", "Disclosure and feedback in pairs; the Open quadrant grows only when both move"),
+            ("Expand and contract", "Team-built grids of the behaviors that grow safety and the ones that quietly shrink it, shared in a gallery walk"),
+            ("The Candor Rehearsal", "Three rounds of real feedback in triads with SBI + Ask, because candor is a skill, not a trait"),
+            ("The commitment ritual", "One start, one stop, one question, written, spoken, and dated within 14 days")
+        ],
+        "activities": "A stat-guessing evidence game, an is-it-safety sorter, a live team diagnostic on Edmondson's 7-item survey, a Johari Window pair exercise with peer stickies, team-built Expand/Contract grids with a gallery walk, a three-round triad Candor Rehearsal, inline knowledge checks, a scored recap, and the start-stop-question commitment capstone.",
+        "outcomes": "Learners leave with a dated commitment card: one behavior to start, one to stop, and one question their team will hear within 14 days, plus their team's diagnostic score and stage. Learning is measured in session (trainer scores, the diagnostic, and a recap mapped to the objectives), at close (a fist-to-five confidence check and the spoken commitment round), and after (a 14-day pulse on whether the team heard the question).",
+        "takehomes": [
+            ("Printable cheat sheet", "https://me5231979.github.io/TeamUp/cheatsheet.html"),
+            ("Commitment worksheet", "https://me5231979.github.io/TeamUp/worksheet.html")
+        ],
+        "learner": "https://me5231979.github.io/TeamUp/",
+        "facilitator": "https://me5231979.github.io/TeamUp/facilitator/",
+        "frameworks": "Grounded in Amy Edmondson's psychological safety research (Administrative Science Quarterly 1999, The Fearless Organization) and her 7-item team survey, Google's Project Aristotle, Timothy R. Clark's The 4 Stages of Psychological Safety, Luft & Ingham's Johari Window, Tuckman's group development model, and SBI + Ask feedback from the Center for Creative Leadership lineage."
+    },
+    {
         "slug": "presentation-public-speaking",
         "coreSkills": ['Continuously strives for excellence'],
         "skills": ['Public Speaking', 'Storytelling', 'Strategic Communication', 'Stakeholder Communications'],
@@ -427,7 +466,7 @@ COURSES = [
         "length": "Classroom: 90 minutes (60-minute core path). Self-paced web edition: about 45 minutes",
         "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. Practice-heavy: everyone speaks out loud at least once. Pre-work: bring one real upcoming presentation",
         "group": "8 to 20 works best so every participant gets a live speaking rep with feedback",
-        "description": "Public speaking is not most people's top fear anymore — the 2024 Chapman Survey ranks it 59th of 85, behind sharks. What actually separates forgettable presenters from ones a room remembers is structure and presence, and both are learnable. This session opens with that myth-busting evidence and the career stakes (Coqual found 67 percent of senior executives name gravitas as the core signal of leadership readiness; Deloitte's CFOs rank communication skills the #1 quality in a successor). Then it builds: Duarte's Big Idea distills a real presentation into one sentence of point-of-view-plus-stakes; her Sparkline shapes it for hearts and minds; Minto's SCQA and Pyramid Principle restructure it for the executive room, leading with the answer. Delivery technique comes from Chris Anderson, Carmine Gallo, and the AMA's Seven Principles, drilled in a live, strictly-timed speaking round where every participant delivers their Big Idea and opening line for one piece of framework-anchored feedback. It closes with tough-question handling — the AMA bridge — under rapid fire, and a capstone that rebuilds one real upcoming presentation with the opening line written word for word.",
+        "description": "Public speaking is not most people's top fear anymore, the 2024 Chapman Survey ranks it 59th of 85, behind sharks. What actually separates forgettable presenters from ones a room remembers is structure and presence, and both are learnable. This session opens with that myth-busting evidence and the career stakes (Coqual found 67 percent of senior executives name gravitas as the core signal of leadership readiness; Deloitte's CFOs rank communication skills the #1 quality in a successor). Then it builds: Duarte's Big Idea distills a real presentation into one sentence of point-of-view-plus-stakes; her Sparkline shapes it for hearts and minds; Minto's SCQA and Pyramid Principle restructure it for the executive room, leading with the answer. Delivery technique comes from Chris Anderson, Carmine Gallo, and the AMA's Seven Principles, drilled in a live, strictly-timed speaking round where every participant delivers their Big Idea and opening line for one piece of framework-anchored feedback. It closes with tough-question handling, the AMA bridge, under rapid fire, and a capstone that rebuilds one real upcoming presentation with the opening line written word for word.",
         "objectives": [
             "Explain why gravitas and communication, not technical mastery alone, decide how a leader's message lands, and name your own executive-presence growth edge",
             "Distill a real presentation topic into one resonant sentence using Duarte's Big Idea: point of view plus what's at stake",
@@ -438,12 +477,12 @@ COURSES = [
         ],
         "topics": [
             ("The myth and the case", "Chapman's fear data (public speaking: 59th of 85), Coqual's gravitas finding, and Deloitte's CFO communication stat, played as a guessing game"),
-            ("Executive presence", "Hewlett's three pillars — gravitas 67%, communication 28%, appearance 5% — and each learner's growth edge"),
+            ("Executive presence", "Hewlett's three pillars, gravitas 67%, communication 28%, appearance 5%, and each learner's growth edge"),
             ("The Big Idea", "Duarte's one-sentence discipline: a point of view someone could oppose, plus what's at stake, drafted privately for a real talk"),
-            ("The Sparkline", "What Is alternating with What Could Be, ending in New Bliss — the shape under MLK's Dream speech and the great product launches"),
+            ("The Sparkline", "What Is alternating with What Could Be, ending in New Bliss, the shape under MLK's Dream speech and the great product launches"),
             ("SCQA and the Pyramid Principle", "Minto's executive structure: Situation, Complication, Question, Answer-first, practiced in a graded briefing lab"),
             ("Delivery", "Anderson's five keys, Gallo's five tips, and AMA's Seven Principles, applied in a live 60-to-90-second speaking round with peer feedback"),
-            ("The tough question", "The AMA bridge — acknowledge, answer directly, return to the Big Idea — drilled under rapid fire from a mock executive")
+            ("The tough question", "The AMA bridge, acknowledge, answer directly, return to the Big Idea, drilled under rapid fire from a mock executive")
         ],
         "activities": "A research guessing game, a pillar-spotting trainer, a topic-or-Big-Idea judge plus a private Big Idea drafter, a Sparkline beat tagger, a graded SCQA Exec Briefing Lab where the executive room reacts to each choice, a delivery-fix trainer, a live timed speaking round for every participant, a judge-the-bridge Q&A trainer with live rapid fire, inline knowledge checks, a scored recap, and the Presentation Rebuild capstone.",
         "outcomes": "Learners leave with one real presentation rebuilt: a one-sentence Big Idea, a structure chosen for the actual audience (Sparkline or SCQA), the literal opening line written and spoken aloud, one deck vice named and cut, and a rehearsal committed. Learning is measured in session (trainer scores, the graded briefing lab, a recap mapped to the six objectives, and the live round itself), at close (readiness check and a spoken structure-plus-opening-line commitment), and after (a 7-day pulse on the delivered talk and a 30/60/90-day structure check on whether decks are shifting from bullet-heavy to story-led and answer-first).",
@@ -663,7 +702,7 @@ def build(c):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(c['title'])} — Course Description | Vanderbilt</title>
+<title>{esc(c['title'])} · Course Description | Vanderbilt</title>
 <meta name="robots" content="noindex">
 <style>{CSS}</style>
 </head>
