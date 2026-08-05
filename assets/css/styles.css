@@ -197,12 +197,13 @@ a { color: inherit; }
 .courses--list article.course[hidden] { display: none !important; }
 .courses--list .course__tag { grid-area: tag; margin: 0; }
 .courses--list article.course h3 { grid-area: title; margin: 0; font-size: 1.2rem; }
-.courses--list .course__syllabus { grid-area: syl; margin: .15rem 0 0; font-size: .8rem; justify-self: start; }
+.courses--list .course__length { grid-area: syl; display: inline-flex; align-items: center; gap: .35rem;
+  margin: .15rem 0 0; font-size: .8rem; justify-self: start; }
 .courses--list .course__cta { grid-area: actions; margin: 0; display: flex; flex-wrap: wrap;
   gap: .5rem; justify-content: flex-end; align-items: center; }
 .courses--list .course__cta .btn { padding: .5rem .9rem; font-size: .78rem; }
 .courses--list .course__skills, .courses--list .course__desc, .courses--list .course__meta,
-.courses--list .course__obj, .courses--list .course__extras, .courses--list .course__length,
+.courses--list .course__obj, .courses--list .course__extras, .courses--list .course__syllabus,
 .courses--list .course__voyage { display: none; }
 @media (max-width: 760px) {
   .courses--list article.course { grid-template-columns: 1fr; grid-template-areas: "tag" "title" "syl" "actions"; }
