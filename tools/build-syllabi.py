@@ -530,13 +530,13 @@ COURSES = [
         ],
         "learner": "https://me5231979.github.io/Workflow/",
         "facilitator": "https://me5231979.github.io/Workflow/facilitator/",
-        "frameworks": "Grounded in McKinsey's State of AI global survey (workflow redesign as the strongest measured link to EBIT impact from gen AI), Metaintro's framing of process mapping as the manager's new core job, automation-bias research on human oversight of automated systems, and classic process-mapping practice. The data rules align with the traffic light taught in AI Basics and AI 201."
+        "frameworks": "Grounded in McKinsey's State of AI global survey (workflow redesign as the strongest measured link to EBIT impact from gen AI), Metaintro's framing of process mapping as the manager's new core job, automation-bias research on human oversight of automated systems, and classic process-mapping practice. The data rules align with the traffic light taught in Start Smarter and AI 201."
     },
     {
         "slug": "ai-coaching-feedback",
         "coreSkills": ['Grows self and others', 'Embodies an entrepreneurial spirit and leverages data and technology'],
         "skills": ['Coaching Techniques', 'Performance Feedback', 'AI Literacy'],
-        "title": "AI for Coaching & Feedback",
+        "title": "Feedback, Ready",
         "subtitle": "Prep like a coach, show up human",
         "audience": "Part of the Manager Voyage program and the CHART Program. People managers and team leads who run 1:1s, give feedback, and want AI's help preparing without losing the human conversation",
         "length": "Classroom: 40 minutes (30-minute core path). Self-paced web edition: about 15 minutes",
@@ -562,13 +562,13 @@ COURSES = [
         ],
         "learner": "https://me5231979.github.io/Course_Library/ai-coaching-feedback/",
         "facilitator": "https://me5231979.github.io/Course_Library/ai-coaching-feedback/facilitator/",
-        "frameworks": "Grounded in SHRM's Navigating AI in the Workplace research, the Center for Creative Leadership's Situation-Behavior-Impact feedback model, and the embedded-coaching-AI market context (Culture Amp AI Coach, Lattice, 15Five). Data rules align with the traffic light taught in AI Basics and AI 201."
+        "frameworks": "Grounded in SHRM's Navigating AI in the Workplace research, the Center for Creative Leadership's Situation-Behavior-Impact feedback model, and the embedded-coaching-AI market context (Culture Amp AI Coach, Lattice, 15Five). Data rules align with the traffic light taught in Start Smarter and AI 201."
     },
     {
         "slug": "ai-talent-decisions",
         "coreSkills": ['Makes effective and ethical decisions for the University', 'Grows self and others'],
         "skills": ['Structured Interviewing', 'Succession Planning', 'Skills Mapping'],
-        "title": "AI for Talent Decisions",
+        "title": "Talent Calls, Sharper",
         "subtitle": "Sharper talent inputs, human talent calls",
         "audience": "Part of the Manager Voyage program and the CHART Program. Leaders and managers who hire, run talent reviews, plan succession, or own team capability. Anything candidate-facing runs with HR; the course says so repeatedly",
         "length": "Classroom: 40 minutes (30-minute core path). Self-paced web edition: about 15 minutes",
@@ -594,13 +594,13 @@ COURSES = [
         ],
         "learner": "https://me5231979.github.io/Course_Library/ai-talent-decisions/",
         "facilitator": "https://me5231979.github.io/Course_Library/ai-talent-decisions/facilitator/",
-        "frameworks": "Grounded in industry coverage of AI across the talent pipeline (People Managing People; Rework), the validity research behind structured interviews and behaviorally anchored rating scales, and the emerging bias-audit regulation for automated employment decision tools. Data rules align with the traffic light taught in AI Basics and AI 201."
+        "frameworks": "Grounded in industry coverage of AI across the talent pipeline (People Managing People; Rework), the validity research behind structured interviews and behaviorally anchored rating scales, and the emerging bias-audit regulation for automated employment decision tools. Data rules align with the traffic light taught in Start Smarter and AI 201."
     },
     {
         "slug": "leading-ai-adoption",
         "coreSkills": ['Leads and inspires teams', 'Embodies an entrepreneurial spirit and leverages data and technology'],
         "skills": ['Change Management', 'AI Literacy', 'Team Development'],
-        "title": "Leading AI Adoption",
+        "title": "Leading the Shift",
         "subtitle": "Your team adopts what you model",
         "audience": "Part of the Manager Voyage program and the CHART Program. Managers and team leads who want their teams actually using AI well, safely and openly. Pairs naturally with Workflow & Process Redesign",
         "length": "Classroom: 40 minutes (30-minute core path). Self-paced web edition: about 15 minutes",
@@ -626,7 +626,7 @@ COURSES = [
         ],
         "learner": "https://me5231979.github.io/Course_Library/leading-ai-adoption/",
         "facilitator": "https://me5231979.github.io/Course_Library/leading-ai-adoption/facilitator/",
-        "frameworks": "Grounded in Gallup's 2026 workplace AI research (manager championing and workflow integration as top drivers of frequent use) and Accenture's AI leadership research (~18 percent leading well; curiosity, courage, connection). The data guardrail is the traffic light taught in AI Basics and AI 201, verbatim."
+        "frameworks": "Grounded in Gallup's 2026 workplace AI research (manager championing and workflow integration as top drivers of frequent use) and Accenture's AI leadership research (~18 percent leading well; curiosity, courage, connection). The data guardrail is the traffic light taught in Start Smarter and AI 201, verbatim."
     },
 ]
 
