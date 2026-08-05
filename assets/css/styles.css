@@ -191,9 +191,9 @@ a { color: inherit; }
 /* list layout: same cards, condensed to uniform left-aligned rows */
 .courses--list { display: block !important; }
 .courses--list article.course { display: grid; text-align: left;
-  grid-template-columns: minmax(0, 1fr) auto;
-  grid-template-areas: "tag actions" "title actions" "syl actions";
-  gap: .1rem 1.5rem; align-items: center; padding: .85rem 1.4rem; margin-bottom: .7rem; }
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  grid-template-areas: "tag actions toggle" "title actions toggle" "syl actions toggle";
+  gap: .1rem 1.1rem; align-items: center; padding: .85rem 1.4rem; margin-bottom: .7rem; }
 .courses--list article.course[hidden] { display: none !important; }
 .courses--list .course__tag { grid-area: tag; margin: 0; }
 .courses--list article.course h3 { grid-area: title; margin: 0; font-size: 1.2rem; }
@@ -205,8 +205,29 @@ a { color: inherit; }
 .courses--list .course__skills, .courses--list .course__desc, .courses--list .course__meta,
 .courses--list .course__obj, .courses--list .course__extras, .courses--list .course__syllabus,
 .courses--list .course__voyage { display: none; }
+
+/* expandable rows: the chevron reveals the card-view details inline */
+.course__toggle { display: none; }
+.courses--list .course__toggle { grid-area: toggle; display: inline-flex; align-items: center;
+  justify-content: center; width: 38px; height: 38px; padding: 0; border: 1px solid var(--line);
+  border-radius: 50%; background: transparent; color: var(--vu-black); cursor: pointer; }
+.courses--list .course__toggle:hover { border-color: var(--vu-gold-flat); background: rgba(207,174,112,.12); }
+.courses--list .course__toggle svg { width: 15px; height: 15px; transition: transform .2s var(--ease); }
+.courses--list .course--open .course__toggle svg { transform: rotate(180deg); }
+.courses--list .course--open .course__skills, .courses--list .course--open .course__desc,
+.courses--list .course--open .course__meta, .courses--list .course--open .course__syllabus,
+.courses--list .course--open .course__obj, .courses--list .course--open .course__extras,
+.courses--list .course--open .course__voyage { grid-column: 1 / -1; }
+.courses--list .course--open .course__skills { display: flex; margin: .6rem 0 0; }
+.courses--list .course--open .course__desc { display: block; margin: .5rem 0 0; }
+.courses--list .course--open .course__meta { display: grid; margin: .8rem 0 0; }
+.courses--list .course--open .course__syllabus { display: flex; justify-self: start; margin: .8rem 0 0; }
+.courses--list .course--open .course__obj { display: block; margin: .8rem 0 0; padding-top: .8rem; }
+.courses--list .course--open .course__extras { display: block; margin: .6rem 0 0; }
+.courses--list .course--open .course__voyage { display: block; margin: .5rem 0 0; }
 @media (max-width: 760px) {
-  .courses--list article.course { grid-template-columns: 1fr; grid-template-areas: "tag" "title" "syl" "actions"; }
+  .courses--list article.course { grid-template-columns: 1fr auto;
+    grid-template-areas: "tag toggle" "title toggle" "syl toggle" "actions actions"; }
   .courses--list .course__cta { justify-content: flex-start; margin-top: .5rem; }
 }
 .filterchip[aria-pressed="true"] { background: var(--vu-black); color: #fff; border-color: var(--vu-black); }
