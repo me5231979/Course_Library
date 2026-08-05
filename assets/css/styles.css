@@ -200,3 +200,8 @@ a { color: inherit; }
   background: rgba(207,174,112,.28); border: 1px solid rgba(148,110,36,.35);
   border-radius: 4px; padding: .3rem .6rem; margin: .5rem 0 .25rem; }
 .course__length svg { color: var(--vu-oak); flex-shrink: 0; }
+
+/* Manager Voyage program marker */
+.course__voyage { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .66rem; color: var(--vu-oak); margin: 0 0 .25rem; }
+.course__voyage::before { content: "\2726  "; color: var(--vu-gold-flat); }
