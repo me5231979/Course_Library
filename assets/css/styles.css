@@ -188,20 +188,25 @@ a { color: inherit; }
 .viewchip { display: inline-flex; align-items: center; gap: .4rem; }
 .viewchip svg { width: 13px; height: 13px; }
 
-/* list layout: same cards, condensed to uniform scannable rows */
+/* list layout: same cards, condensed to uniform left-aligned rows */
 .courses--list { display: block !important; }
-.courses--list article.course { display: flex; flex-wrap: wrap; align-items: center;
-  gap: .35rem 1.25rem; padding: 1rem 1.4rem; margin-bottom: .75rem; }
+.courses--list article.course { display: grid; text-align: left;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas: "tag actions" "title actions" "syl actions";
+  gap: .1rem 1.5rem; align-items: center; padding: .85rem 1.4rem; margin-bottom: .7rem; }
 .courses--list article.course[hidden] { display: none !important; }
-.courses--list .course__tag { flex-basis: 100%; margin: 0; }
-.courses--list article.course h3 { margin: 0; font-size: 1.2rem; }
-.courses--list .course__syllabus { margin: 0; font-size: .8rem; }
-.courses--list .course__cta { margin: 0 0 0 auto; display: flex; flex-wrap: wrap; gap: .5rem; }
+.courses--list .course__tag { grid-area: tag; margin: 0; }
+.courses--list article.course h3 { grid-area: title; margin: 0; font-size: 1.2rem; }
+.courses--list .course__syllabus { grid-area: syl; margin: .15rem 0 0; font-size: .8rem; justify-self: start; }
+.courses--list .course__cta { grid-area: actions; margin: 0; display: flex; flex-wrap: wrap;
+  gap: .5rem; justify-content: flex-end; align-items: center; }
 .courses--list .course__cta .btn { padding: .5rem .9rem; font-size: .78rem; }
 .courses--list .course__skills, .courses--list .course__desc, .courses--list .course__meta,
-.courses--list .course__obj, .courses--list .course__extras, .courses--list .course__length { display: none; }
+.courses--list .course__obj, .courses--list .course__extras, .courses--list .course__length,
+.courses--list .course__voyage { display: none; }
 @media (max-width: 760px) {
-  .courses--list .course__cta { margin-left: 0; }
+  .courses--list article.course { grid-template-columns: 1fr; grid-template-areas: "tag" "title" "syl" "actions"; }
+  .courses--list .course__cta { justify-content: flex-start; margin-top: .5rem; }
 }
 .filterchip[aria-pressed="true"] { background: var(--vu-black); color: #fff; border-color: var(--vu-black); }
 .course[hidden] { display: none; }

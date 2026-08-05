@@ -21,7 +21,7 @@
 <link rel="apple-touch-icon" href="assets/img/favicon-96.png">
 <link rel="preload" href="assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/styles.css?v=7">
+<link rel="stylesheet" href="assets/css/styles.css?v=8">
 </head>
 <body>
 <a class="skip-link" href="#courses">Skip to courses</a>
@@ -113,6 +113,7 @@
             <li>Classroom: one live session &middot; self-paced ~15 min</li>
             <li>Classroom, facilitator, and self-paced editions</li>
           </ul>
+          <a class="course__syllabus" href="syllabus-first-drafts-faster.html">Full course description (printable)<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
           <details class="course__obj">
             <summary>Learning objectives</summary>
             <ol><li>Brief an AI like a colleague using CRIT: Context, Role, Interview, Task</li><li>Produce a usable first draft of an email, announcement, or summary without starting from a blank page</li><li>Edit an AI draft into your own: restore your voice, verify every fact, cut what isn&rsquo;t needed</li><li>Route each writing task to the right Vanderbilt tool by data sensitivity</li><li>Apply the method to tomorrow&rsquo;s first piece of writing, and leave with a printed plan</li></ol>
@@ -459,7 +460,7 @@
   // topic filter
   var bar = document.getElementById('filterbar');
   if (bar) {
-    var chips = Array.prototype.slice.call(bar.querySelectorAll('.filterchip'));
+    var chips = Array.prototype.slice.call(bar.querySelectorAll('.filterchip:not(.viewchip)'));
     var cards = Array.prototype.slice.call(document.querySelectorAll('.courses article.course'));
     chips.forEach(function (chip) {
       chip.addEventListener('click', function () {
