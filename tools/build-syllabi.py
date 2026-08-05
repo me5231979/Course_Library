@@ -17,38 +17,36 @@ COURSES = [
         "coreSkills": ['Embodies an entrepreneurial spirit and leverages data and technology'],
         "skills": ['Artificial Intelligence', 'Digital Fluency/Information Literacy', 'Data Security'],
         "title": "AI Basics",
-        "subtitle": "A classroom introduction to artificial intelligence",
-        "audience": "All Vanderbilt staff; no technical background needed",
-        "length": "90 minutes (full) or 60 minutes (core); also works self-paced",
-        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code",
-        "group": "Any size; group activities work best with tables of 3 to 6",
-        "description": "A working picture of how AI actually works, built for people who use it at work, not people who build it. The session moves from what AI is (and isn't), through how machines learn and how language models generate answers, to the practical skills: writing prompts that work, verifying output before trusting it, and choosing the right Vanderbilt-approved tool for the sensitivity of the data involved. It closes with each learner building a one-week plan to put AI on one of their own tasks.",
+        "subtitle": "A first introduction for people who have never used AI",
+        "audience": "Absolute beginners: staff who have never opened an AI tool, or tried once and gave up. No prerequisites of any kind",
+        "length": "60 minutes (full) or 30 minutes (lightning); also available as a self-paced web edition",
+        "format": "Instructor-led, in person or virtual, with learners joining on their own devices via QR code — or fully self-paced at the /web/ edition. No jargon, no code, no assumptions",
+        "group": "Any size works; 8 to 30 is the sweet spot",
+        "description": "Most AI training assumes you've already started. This course assumes nothing. In five plain-language ideas, it takes someone who has never touched an AI tool to their first successful use: what AI actually is (a program that learned from examples — with proof you've been using it for years in spam filters and map apps), why and how to use it (type in ordinary English, read the draft, improve it with one follow-up), when to use it and when not to (the green/yellow/red traffic light: public content is fine anywhere, internal content belongs only in Vanderbilt-approved tools, and private information about people never goes in), what it can do for you (the five superpowers: draft, summarize, brainstorm, explain, rewrite), and your first try — a real prompt for a real chore, assembled in the session with a copy button, plus a dated commitment card. The classroom edition adds group rounds and a live demo; the web edition delivers the identical course self-paced.",
         "objectives": [
-            "Distinguish AI, machine learning, and generative AI, and spot each in the tools you already use",
-            "Explain how a language model produces an answer, and why the same question gives different answers",
-            "Construct four-part prompts (role, context, task, format) that get useful, reliable results on real work",
-            "Evaluate AI output before trusting it, and route tasks to the right Vanderbilt tool by data sensitivity",
-            "Create a one-week plan that puts AI on one of your own tasks, and keeps the time it saves"
+            "Say what AI is in one plain sentence, and spot it in tools you already use every day",
+            "Ask AI for help in ordinary English, and make the answer better with one follow-up",
+            "Know the traffic-light rule: what's fine to ask, what needs an approved tool, and what never goes in",
+            "Name five everyday chores AI can take off your plate",
+            "Make your first try this week, with a starter prompt built in the session"
         ],
         "topics": [
-            ("What AI actually is", "AI, machine learning, deep learning, and generative AI, untangled with an interactive ring diagram"),
-            ("How machines learn", "Supervised, unsupervised, and reinforcement learning, practiced in a you-be-the-engineer scenario game"),
-            ("Inside a neural network", "Layers, weights, and why even builders can't fully explain one decision"),
-            ("Language models", "Next-token prediction, felt firsthand in a build-a-sentence simulator"),
-            ("Steering the output", "Temperature and randomness, explored with a live slider"),
-            ("Prompting well", "The four-part prompt and the Persona Pattern, then practiced in a graded Prompt Lab"),
-            ("Strengths and limits", "What AI is genuinely good at, where it fails, and what a hallucination is"),
-            ("Using AI responsibly", "Bias, privacy, accountability, and Vanderbilt's green/yellow/red data rules"),
-            ("Keeping the time AI saves", "Workload creep, wellbeing, and deciding where the saved hour goes")
+            ("What is AI?", "One jargon-free sentence — a program that learned from millions of examples — and the Is That AI? game proving everyone already uses it daily"),
+            ("Why and how do we use it?", "The three-step loop: ask in plain English, look at the draft, improve with one follow-up — practiced in the Pick the Next Move trainer"),
+            ("When to use it, and when not to", "The traffic light drilled to reflex: green (public), yellow (internal, approved VU tools only), red (private information about people — never), plus the check-what-matters habit"),
+            ("What can it do for you?", "Five superpowers matched to real chores: draft, summarize, brainstorm, explain, rewrite — and the honest list of what it can't do"),
+            ("Your first try", "The prompt recipe (job + details + shape) built into a real, copyable prompt for a chore from the learner's own week")
         ],
-        "activities": "Six interactive simulators (concept rings, ML trainer, neural network, token predictor, temperature slider, prompt anatomy), a graded Prompt Lab, inline knowledge checks in every section, a six-question scored recap, and the My AI Plan capstone.",
-        "outcomes": "Learners leave with a tested four-part prompt structure, a personal verification habit, clarity on which tool (Amplify, Copilot, ChatGPT) fits which data level, and a written one-week plan for applying AI to their own work. Learning is measured in session (knowledge checks and a recap quiz mapped to the objectives) and after (the capstone plan and a follow-up pulse).",
+        "activities": "Four scenario trainers (Is That AI?, Pick the Next Move, Green-Yellow-Red, Match the Superpower), a live vague-to-good demo, an inline knowledge check, a prompt builder that assembles a real copyable request, a five-question scored recap, and the My First Try commitment card.",
+        "outcomes": "Learners leave having converted from non-user to first-time user: a one-sentence understanding of AI, the follow-up habit that makes answers good, the traffic-light safety reflex, and a real prompt in their clipboard with a dated commitment to run it. Learning is measured in session (trainer scores and the recap), at close (confidence check and a spoken chore-and-day commitment), and after (a 7-day pulse whose count of completed first tries is the program's headline metric).",
         "takehomes": [
-            ("Printable cheat sheet", "https://me5231979.github.io/AI_Classroom/cheatsheet.html")
+            ("Printable cheat sheet", "https://me5231979.github.io/AI_Classroom/cheatsheet.html"),
+            ("First-try card", "https://me5231979.github.io/AI_Classroom/worksheet.html"),
+            ("Self-paced web edition", "https://me5231979.github.io/AI_Classroom/web/")
         ],
         "learner": "https://me5231979.github.io/AI_Classroom/",
         "facilitator": "https://me5231979.github.io/AI_Classroom/facilitator/",
-        "frameworks": "Grounded in Vanderbilt's Dr. Jules White's prompt-pattern research, current AI-at-work research on workload intensification (HBR), and Vanderbilt's AI platform guidance."
+        "frameworks": "Designed on adult-learning principles for novice audiences (plain language, immediate application, low-stakes first success), with Kirkpatrick-instrumented follow-up. Data-safety rules align with Vanderbilt's approved-tool guidance and carry into the rest of the collection."
     },
     {
         "slug": "difficult-conversations",
