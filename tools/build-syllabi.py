@@ -429,7 +429,7 @@ COURSES = [
         "length": "Classroom: 120 minutes (90-minute core path). Self-paced web edition: about 60 minutes",
         "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. Built around live team exercises: a safety diagnostic, Johari pairs, team-built grids with a gallery walk, and a triad rehearsal",
         "group": "8 to 30 works best; intact teams sit together, and the rehearsal runs in triads",
-        "description": "Google spent five years studying what separates its best teams and the answer was not who is on the team; it was psychological safety, whether people can speak up without paying for it. This workshop makes that finding practical. It opens with the evidence: Edmondson's hospital studies, where better units reported more errors because reporting was safe, the Challenger cockpit, where silence had a body count, and Project Aristotle. Teams then diagnose themselves with Edmondson's actual 7-item survey and place their team on Clark's four-stage ladder. The middle is practice: the Johari Window in pairs to expand the Open quadrant, team-built Expand/Contract grids naming the behaviors that grow or quietly shrink safety, and a three-round Candor Rehearsal delivering real feedback with SBI + Ask. It closes with a commitment ritual: one start, one stop, and one question each person's team will hear within 14 days.",
+        "description": "The workshop opens where commitment starts: with why. Learners hear the Chancellor's charge, then build their own why live using Simon Sinek's Golden Circle (why, how, what), because borrowed whys don't survive hard weeks. From there it makes the case for the how: Google spent five years studying what separates its best teams and the answer was not who is on the team; it was psychological safety, whether people can speak up without paying for it. The evidence runs from Edmondson's hospital studies, where better units reported more errors because reporting was safe, to the Challenger cockpit, where silence had a body count. Teams then diagnose themselves with Edmondson's actual 7-item survey and place their team on Clark's four-stage ladder. The middle is practice: the Johari Window in pairs to expand the Open quadrant, team-built Expand/Contract grids naming the behaviors that grow or quietly shrink safety, and a three-round Candor Rehearsal delivering real feedback with SBI + Ask. It closes with a commitment ritual: one start, one stop, and one question each person's team will hear within 14 days",
         "objectives": [
             "Define psychological safety, and tell it apart from being nice, lowering the bar, or needing consensus",
             "Diagnose your team's current stage using Clark's ladder and Edmondson's 7-item survey",
@@ -439,6 +439,8 @@ COURSES = [
             "Commit to one start, one stop, and one question your team will hear within 14 days"
         ],
         "topics": [
+            ("The Chancellor's charge", "The institutional mission, stated plainly, as the frame for everything the team builds next"),
+            ("Our why (Golden Circle)", "Simon Sinek's why, how, what from the inside out, with his TED talk and a live builder where each learner drafts their own why"),
             ("The case", "Edmondson's medication-error finding, the Challenger and cockpit evidence, and Google's Project Aristotle: safety predicts performance"),
             ("What safety is and is not", "A working definition, and the four look-alikes it gets confused with: niceness, low standards, consensus, comfort"),
             ("Clark's four stages", "Included, learner, contributor, challenger: a ladder teams climb in order, diagnosed live"),
@@ -448,7 +450,7 @@ COURSES = [
             ("The Candor Rehearsal", "Three rounds of real feedback in triads with SBI + Ask, because candor is a skill, not a trait"),
             ("The commitment ritual", "One start, one stop, one question, written, spoken, and dated within 14 days")
         ],
-        "activities": "A stat-guessing evidence game, an is-it-safety sorter, a live team diagnostic on Edmondson's 7-item survey, a Johari Window pair exercise with peer stickies, team-built Expand/Contract grids with a gallery walk, a three-round triad Candor Rehearsal, inline knowledge checks, a scored recap, and the start-stop-question commitment capstone.",
+        "activities": "A Golden Circle builder (why, how, what), a stat-guessing evidence game, an is-it-safety sorter, a live team diagnostic on Edmondson's 7-item survey, a Johari Window pair exercise with peer stickies, team-built Expand/Contract grids with a gallery walk, a three-round triad Candor Rehearsal, inline knowledge checks, a scored recap, and the start-stop-question commitment capstone.",
         "outcomes": "Learners leave with a dated commitment card: one behavior to start, one to stop, and one question their team will hear within 14 days, plus their team's diagnostic score and stage. Learning is measured in session (trainer scores, the diagnostic, and a recap mapped to the objectives), at close (a fist-to-five confidence check and the spoken commitment round), and after (a 14-day pulse on whether the team heard the question).",
         "takehomes": [
             ("Printable cheat sheet", "https://me5231979.github.io/TeamUp/cheatsheet.html"),
@@ -456,7 +458,7 @@ COURSES = [
         ],
         "learner": "https://me5231979.github.io/TeamUp/",
         "facilitator": "https://me5231979.github.io/TeamUp/facilitator/",
-        "frameworks": "Grounded in Amy Edmondson's psychological safety research (Administrative Science Quarterly 1999, The Fearless Organization) and her 7-item team survey, Google's Project Aristotle, Timothy R. Clark's The 4 Stages of Psychological Safety, Luft & Ingham's Johari Window, Tuckman's group development model, and SBI + Ask feedback from the Center for Creative Leadership lineage."
+        "frameworks": "Grounded in Amy Edmondson's psychological safety research (Administrative Science Quarterly 1999, The Fearless Organization) and her 7-item team survey, Google's Project Aristotle, Timothy R. Clark's The 4 Stages of Psychological Safety, Luft & Ingham's Johari Window, Tuckman's group development model, SBI + Ask feedback from the Center for Creative Leadership lineage, and Simon Sinek's Golden Circle (Start With Why)."
     },
     {
         "slug": "presentation-public-speaking",
