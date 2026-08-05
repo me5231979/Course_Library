@@ -1,7 +1,7 @@
 {
   "meta": {
     "program": "Making AI Normal · Vanderbilt Learning Series",
-    "totalMinutes": 90,
+    "totalMinutes": 93,
     "audience": "Managers and team leads: anyone with a team whose AI adoption they are expected to lead. Part of the Manager Voyage program. 8 to 24 works best (the narration and permission drills run in pairs); scales larger with room votes. AI Basics is assumed (learners can say 'prompt' without flinching), and the traffic-light data rule from the AI courses is assumed and restated here. Its natural companion course is the workflow-redesign session; this one carries the leadership behavior side.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. Virtual: breakouts of 2 for the narration and permission-line swaps. Set the norm in the first minute: roles and rituals, never people's names, and nothing typed is saved or sent. Expect real tension in the room: some attendees use AI daily in secret, some believe it is quietly forbidden, and both groups report to somebody in the building.",
     "postSession": "Seven days out, send the pulse: 'Did the first move happen? What did the team say or do in the moment? Which ritual is on the calendar now?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'who on your team tried something new, what did the team catch before it shipped, and where did the recovered hours go?' The count of first moves actually made within 7 days is the program's headline Level 3 metric.",
@@ -171,6 +171,23 @@
       "coreMinutes": 1,
       "coreNote": "Core: objectives 1 and 5 out loud; the rest on screen.",
       "say": "Five things by the end. You'll know why your visible behavior predicts your team's adoption better than any mandate. You'll be able to model your own AI use out loud, including the misses and the checks. You'll have a permission talk drafted: what you encourage, what's never OK, who to ask. You'll know how to install AI norms into the 1:1s and team meetings you already run. And you'll know how to keep it alive in month three, when the novelty is gone. It all lands in one artifact: an adoption plan for your real team, with a date on it.",
+      "transition": "Before the plan, one minute on why the university wants exactly this from you."
+    },
+    {
+      "id": "s-mission",
+      "title": "The Chancellor's charge",
+      "minutes": 3,
+      "purpose": "Anchor the session in the institution's own plan: the one-sentence vision, the three focus areas in adoption terms, and where a manager who makes AI normal feeds the reputation flywheel.",
+      "facilitate": [
+        "Read the vision sentence exactly as written, then pause; it lands better without commentary.",
+        "Walk the three focus cards in one breath each, landing each team translation line.",
+        "Close on the flywheel card: execution with ambition needs adoption, and adoption starts with the manager. That manager is the person you will teach them to be today."
+      ],
+      "validate": "Learners can say why their team's adoption is part of the institutional plan, in their own words.",
+      "watchFor": "Strategy fatigue: part of the room has heard the vision language elsewhere. Keep it in adoption terms; the translation lines exist so nobody has to squint to find themselves in it.",
+      "coreMinutes": 1,
+      "coreNote": "Core: under a minute: read the vision sentence, gesture at the three focuses, move on.",
+      "say": "Chancellor Diermeier's vision for this university is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The motto has always been the dare, Crescere aude, dare to grow, and a team only grows into new tools when its manager makes them normal first. Uncommon speed and agility are not slogans on this page; they describe teams where AI lives inside the weekly routine, because someone modeled it out loud. The bottom card is the reputation flywheel: reputation attracts talent, funding, partnerships, and access. The university can buy the licenses; whether the tools become normal on your team is the part it cannot do without you.",
       "transition": "Six ideas, in a deliberate order."
     },
     {

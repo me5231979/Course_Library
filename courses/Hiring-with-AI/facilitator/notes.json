@@ -1,7 +1,7 @@
 {
   "meta": {
     "program": "Hiring & Talent Decisions with AI · Vanderbilt Learning Series",
-    "totalMinutes": 90,
+    "totalMinutes": 93,
     "audience": "Managers and team leads who hire or make talent decisions: opening requisitions, screening, interviewing, promoting, or mapping team skills. Part of the Manager Voyage program. 8 to 24 works best (the audit and anchor drills run in pairs); scales larger with room votes. Assumes AI Basics: learners can say 'prompt' and 'model,' and the traffic light is restated rather than taught from zero.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. A whiteboard helps for the never-list and the anchor rewrites. Virtual: breakouts of 2 for the audit and anchor swaps. Set the norm in the first minute: roles and processes, never a candidate's or colleague's name, and nothing typed is saved or sent. Expect at least one person in the room to have already pasted a resume into a chatbot; plan warmth, not blame.",
     "postSession": "Seven days out, send the pulse: 'Did the first move from your card happen? What did the requirement audit or rubric session change? Is the red line holding on your team?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'what does your next search have that the last one lacked?' The count of first moves actually made (audits run, rubrics built, skills maps done, piles pulled out of AI) is the program's headline Level 3 metric.",
@@ -172,6 +172,23 @@
       "coreMinutes": 1,
       "coreNote": "Core: objectives 1 and 3 out loud; the rest on screen.",
       "say": "Five things by the end. You'll be able to classify anything in a hiring process with the traffic light and defend the red line, including the cases that feel harmless. You'll use AI to draft postings and interviews that widen your pool. You'll build a scoring rubric before you read a single application, with anchors a stranger could apply. You'll map your team's skills so the next posting names the real gap. And you'll know where bias sneaks into even the legitimate uses, and the guardrails that catch it. It all lands in one artifact: a structure card for a talent decision you actually own, with a date on it.",
+      "transition": "Before the plan, one minute on why the university wants exactly this from you."
+    },
+    {
+      "id": "s-mission",
+      "title": "The Chancellor's charge",
+      "minutes": 3,
+      "purpose": "Anchor the session in the institution's own plan: the one-sentence vision, the three focus areas in hiring terms, and where a well-run search feeds the reputation flywheel.",
+      "facilitate": [
+        "Read the vision sentence exactly as written, then pause; it lands better without commentary.",
+        "Walk the three focus cards in one breath each, landing each team translation line.",
+        "Close on the flywheel card: reputation attracts talent, and hiring is where talent enters. Point forward: the line and the structure built today are how a search feeds the loop."
+      ],
+      "validate": "Learners can connect one focus area to the hiring decision they brought, in one sentence.",
+      "watchFor": "Strategy fatigue: part of the room has heard the vision language elsewhere. Keep it in hiring terms; the translation lines exist so nobody has to squint to find themselves in it.",
+      "coreMinutes": 1,
+      "coreNote": "Core: under a minute: read the vision sentence, gesture at the three focuses, move on.",
+      "say": "Chancellor Diermeier's vision for this university is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The motto has always been the dare, Crescere aude, dare to grow, and growing means hiring; every focus area on this page runs on talent, and talent arrives through searches like the one you brought into this room. Three focuses: exceptional core operations, bold strategic initiatives, industry leadership, and each card says what it means from the hiring manager's chair. The bottom card is the reputation flywheel: reputation attracts talent, funding, partnerships, and access, which build the reputation. Your next search sits at the front of that loop, which is why the university cares how you run it.",
       "transition": "Six moves, in a deliberate order."
     },
     {

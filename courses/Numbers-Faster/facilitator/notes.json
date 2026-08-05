@@ -1,7 +1,7 @@
 {
   "meta": {
     "program": "Numbers, Faster · Vanderbilt Learning Series",
-    "totalMinutes": 90,
+    "totalMinutes": 93,
     "audience": "All Vanderbilt staff who touch a spreadsheet, a report, or a dashboard: program coordinators, analysts, finance and HR staff, managers who assemble the month-end numbers. 8 to 24 works best (the light-sorting and finding drills run in pairs); scales larger with room votes. Prerequisite: AI Basics or equivalent comfort opening an AI tool; the traffic light from the AI courses is assumed and retaught here for files.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. Learners should be able to picture their real datasets, so the pre-work matters more than usual. Virtual: breakouts of 2 for the light-sort and finding drills. Set the norm in the first minute: datasets and columns, never names or personal records, and nothing typed is saved or sent.",
     "postSession": "Seven days out, send the pulse: 'Did the first Data Loop run happen? What did the answer cost in minutes versus by hand? What did the checks catch?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'is the loop part of your routine now, and what have the checks caught?' The count of first runs actually completed is the program's headline Level 3 metric.",
@@ -170,6 +170,23 @@
       "coreMinutes": 1,
       "coreNote": "Core: objectives 3 and 5 out loud; the rest on screen.",
       "say": "Five things by the end. You'll know where AI genuinely helps with data work and where it fails, with numbers behind both. You'll be able to prepare a file safely, which includes knowing when a file must never go in at all. You'll run the Data Loop, the method this session is named for: Describe, Ask, Check, Tell. You'll build a comparison and a chart brief from your own numbers. And you'll verify every AI-produced figure before it travels, which is the habit that protects your name. It all lands in one artifact: a Data Loop card for a dataset you actually own, with a date on it.",
+      "transition": "Before the plan, one minute on why the university wants exactly this from you."
+    },
+    {
+      "id": "s-mission",
+      "title": "The Chancellor's charge",
+      "minutes": 3,
+      "purpose": "Anchor the session in the institution's own plan: the one-sentence vision, the three focus areas in data terms, and where trusted numbers feed the reputation flywheel.",
+      "facilitate": [
+        "Read the vision sentence exactly as written, then pause; it lands better without commentary.",
+        "Walk the three focus cards in one breath each, landing each at-your-desk line.",
+        "Close on the flywheel card: execution runs on trusted numbers, and the Check pass of the Data Loop is where the trust comes from."
+      ],
+      "validate": "Learners can name one report or spreadsheet of their own that feeds a decision beyond their desk.",
+      "watchFor": "Strategy fatigue: part of the room has heard the vision language elsewhere. Keep it in data terms; the at-your-desk lines exist so nobody has to squint to find themselves in it.",
+      "coreMinutes": 1,
+      "coreNote": "Core: under a minute: read the vision sentence, gesture at the three focuses, move on.",
+      "say": "Chancellor Diermeier's vision for this university is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The motto has always been the dare, Crescere aude, dare to grow, and growth shows up first in the numbers. The spreadsheets and month-end reports on your desks are the instruments the university reads itself with, and the loop you learn today makes them arrive sooner and truer. The bottom card is the reputation flywheel: reputation attracts talent, funding, partnerships, and access, and execution runs on numbers somebody trusted enough to act on. That somebody is in this room.",
       "transition": "Six ideas, in a deliberate order."
     },
     {
