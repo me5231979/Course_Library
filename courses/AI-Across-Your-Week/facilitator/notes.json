@@ -1,6 +1,6 @@
 {
   "meta": {
-    "program": "AI Across Your Week · Vanderbilt Learning Series",
+    "program": "Across Your Week · Vanderbilt Learning Series",
     "totalMinutes": 93,
     "audience": "Vanderbilt staff who have taken at least one or two CHART courses and want the pieces to add up: coordinators, analysts, managers, anyone whose week runs on recurring blocks. 8 to 24 works best (the inventory and matching drills run in pairs); scales larger with room votes. The traffic-light data rule from the AI courses is assumed and restated here.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. Ask learners to have last week's calendar reachable on their device; the inventory drill works best against the real thing. Virtual: breakouts of 2 for the inventory and matching swaps. Set the norm in the first minute: blocks and workflows, never people's names, and nothing typed is saved or sent.",
@@ -67,7 +67,7 @@
         "then": "Protect the norm warmly: 'Hold that. Blocks and workflows, never names. The map works on the week's shape, not on people.' If it keeps happening, it usually means a real workload frustration is in the room; acknowledge it, point at the bank section as the honest answer, and move the person to a private follow-up."
       },
       {
-        "if": "The room has uneven CHART coverage: some have taken four courses, some only AI Basics",
+        "if": "The room has uneven CHART coverage: some have taken four courses, some only Start Smarter",
         "then": "Name it as the design, not a problem: the toolbox slide is deliberately self-contained, each card carrying the method's one-line move and its check. Pair broad users with narrow ones in the swaps; teaching a method's one-liner to a partner is the fastest review there is. Point everyone at the Course Library for the courses they're missing, and say plainly that a Week Map built from two methods is a real Week Map."
       },
       {
@@ -116,7 +116,7 @@
     "templates": [
       {
         "title": "Pre-work invite (paste into the calendar invite)",
-        "body": "Subject: Before our AI Across Your Week session. One thing to do: spend two minutes with last week's calendar and sent folder, and arrive knowing your three biggest recurring blocks of work, the things that happen every week and eat real hours. You will never be asked to name people; every exercise runs on blocks and workflows, and everything you type stays on your screen. If you remember which CHART courses you've taken, bring that too. That's it, no reading, no tools to install."
+        "body": "Subject: Before our Across Your Week session. One thing to do: spend two minutes with last week's calendar and sent folder, and arrive knowing your three biggest recurring blocks of work, the things that happen every week and eat real hours. You will never be asked to name people; every exercise runs on blocks and workflows, and everything you type stays on your screen. If you remember which CHART courses you've taken, bring that too. That's it, no reading, no tools to install."
       },
       {
         "title": "7-day pulse (send one week after)",

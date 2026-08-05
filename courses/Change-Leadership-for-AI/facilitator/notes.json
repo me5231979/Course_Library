@@ -1,8 +1,8 @@
 {
   "meta": {
-    "program": "Change Leadership for AI · Vanderbilt Learning Series",
+    "program": "Change That Sticks · Vanderbilt Learning Series",
     "totalMinutes": 93,
-    "audience": "Managers and team leads facing a real AI change: a tool arriving, a workflow shifting, or a team already quietly worried. A Manager Voyage course. 8 to 24 works best (the naming-line and lab drills run in pairs); scales larger with room votes. No prerequisites, though AI Basics helps with tool fluency; the traffic-light data rule from the AI courses is assumed and restated here, and Workflow & Process Redesign is the natural mechanics companion.",
+    "audience": "Managers and team leads facing a real AI change: a tool arriving, a workflow shifting, or a team already quietly worried. A Manager Voyage course. 8 to 24 works best (the naming-line and lab drills run in pairs); scales larger with room votes. No prerequisites, though Start Smarter helps with tool fluency; the traffic-light data rule from the AI courses is assumed and restated here, and Workflow & Process Redesign is the natural mechanics companion.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. Virtual: breakouts of 2 for the naming-line drill and the lab debrief. Set the norm in the first minute: situations and roles, never people's names, and nothing typed is saved or sent. Expect real anxiety in this room; some attendees are living the exact change the course describes, so keep the tone warm and never make anyone's situation an example.",
     "postSession": "Seven days out, send the pulse: 'Did the naming conversation happen? What did your team say that surprised you? When is the ethics session?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'what are the quiet signals showing, and has the job question come back yet?' The count of naming conversations actually held is the program's headline Level 3 metric.",
     "paths": {
@@ -119,7 +119,7 @@
     "templates": [
       {
         "title": "Pre-work invite (paste into the calendar invite)",
-        "body": "Subject: Before our Change Leadership for AI session. One thing to bring, in your head: the AI change nearest your team, whether it's a tool arriving, a workflow shifting, or just a rumor with momentum. Come with your honest guess at the worry your team feels most and says least. You will never be asked to name people; every exercise runs on situations and roles, and everything you type stays on your screen. That's it, no reading, no tools to install."
+        "body": "Subject: Before our Change That Sticks session. One thing to bring, in your head: the AI change nearest your team, whether it's a tool arriving, a workflow shifting, or just a rumor with momentum. Come with your honest guess at the worry your team feels most and says least. You will never be asked to name people; every exercise runs on situations and roles, and everything you type stays on your screen. That's it, no reading, no tools to install."
       },
       {
         "title": "7-day pulse (send one week after)",

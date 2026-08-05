@@ -23,8 +23,8 @@ s = s.replace('href="cheatsheet.html"', 'href="../cheatsheet.html"')
 s = s.replace('href="worksheet.html"', 'href="../worksheet.html"')
 
 # ---- 2. head: title, noindex, no canonical/og confusion ----
-s = s.replace('<title>Hiring &amp; Talent Decisions with AI | Vanderbilt</title>',
-              '<title>Hiring &amp; Talent Decisions with AI, Facilitator Edition | Vanderbilt</title>')
+s = s.replace('<title>Hiring, Human | Vanderbilt</title>',
+              '<title>Hiring, Human, Facilitator Edition | Vanderbilt</title>')
 s = re.sub(r'<link rel="canonical"[^>]*>\n', '', s)
 s = s.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"')
 
@@ -237,8 +237,8 @@ FAC_JS = """
 s = s.replace('</body>', FAC_JS + '</body>')
 
 # ---- 7. footer marker ----
-s = s.replace('Hiring &amp; Talent Decisions with AI · A Vanderbilt learning experience',
-              'Hiring &amp; Talent Decisions with AI · Facilitator Edition · <a href="' + LEARNER_URL + '" style="color:rgba(255,255,255,.7);text-decoration:underline">learner link</a>')
+s = s.replace('Hiring, Human · A Vanderbilt learning experience',
+              'Hiring, Human · Facilitator Edition · <a href="' + LEARNER_URL + '" style="color:rgba(255,255,255,.7);text-decoration:underline">learner link</a>')
 
 out = os.path.join(ROOT, 'facilitator', 'index.html')
 open(out, 'w').write(s)

@@ -1,4 +1,4 @@
-# AI for Coaching & Feedback · Prep Like a Coach, Show Up Human
+# Feedback, Ready · Prep Like a Coach, Show Up Human
 
 A short interactive course (Classroom 40 min / Core 30 / self-paced ~15) for
 managers on using AI to prepare for 1:1s, draft behavior-based feedback, and
@@ -39,7 +39,7 @@ glossary, printable cheat sheet, and prep card worksheet.
 SHRM Navigating AI in the Workplace (managers ~50% AI-assisted vs ICs ~34%);
 Culture Amp AI Coach / Lattice / 15Five as embedded-coaching-AI market
 context; SBI (Center for Creative Leadership's feedback structure). The
-traffic light matches AI Basics and AI 201 exactly.
+traffic light matches Start Smarter and AI 201 exactly.
 
 ## Editing map
 

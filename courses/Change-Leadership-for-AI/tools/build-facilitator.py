@@ -23,8 +23,8 @@ s = s.replace('href="cheatsheet.html"', 'href="../cheatsheet.html"')
 s = s.replace('href="worksheet.html"', 'href="../worksheet.html"')
 
 # ---- 2. head: title, noindex, no canonical/og confusion ----
-s = s.replace('<title>Change Leadership for AI | Vanderbilt</title>',
-              '<title>Change Leadership for AI, Facilitator Edition | Vanderbilt</title>')
+s = s.replace('<title>Change That Sticks | Vanderbilt</title>',
+              '<title>Change That Sticks, Facilitator Edition | Vanderbilt</title>')
 s = re.sub(r'<link rel="canonical"[^>]*>\n', '', s)
 s = s.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"')
 
@@ -237,8 +237,8 @@ FAC_JS = """
 s = s.replace('</body>', FAC_JS + '</body>')
 
 # ---- 7. footer marker ----
-s = s.replace('Change Leadership for AI · A Vanderbilt learning experience',
-              'Change Leadership for AI · Facilitator Edition · learner link: <a href="' + LEARNER_URL + '" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Course_Library/courses/Change-Leadership-for-AI</a>')
+s = s.replace('Change That Sticks · A Vanderbilt learning experience',
+              'Change That Sticks · Facilitator Edition · learner link: <a href="' + LEARNER_URL + '" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Course_Library/courses/Change-Leadership-for-AI</a>')
 
 out = os.path.join(ROOT, 'facilitator', 'index.html')
 open(out, 'w').write(s)

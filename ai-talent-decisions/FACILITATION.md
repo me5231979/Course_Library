@@ -1,4 +1,4 @@
-# Facilitation Guide · AI for Talent Decisions
+# Facilitation Guide · Talent Calls, Sharper
 
 Full runbook in [`facilitator/notes.json`](facilitator/notes.json) on the
 ATD framework. Regenerate after any change:

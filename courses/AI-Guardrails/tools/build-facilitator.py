@@ -23,8 +23,8 @@ s = s.replace('href="cheatsheet.html"', 'href="../cheatsheet.html"')
 s = s.replace('href="worksheet.html"', 'href="../worksheet.html"')
 
 # ---- 2. head: title, noindex, no canonical/og confusion ----
-s = s.replace('<title>AI Guardrails &amp; Responsible Use | Vanderbilt</title>',
-              '<title>AI Guardrails &amp; Responsible Use, Facilitator Edition | Vanderbilt</title>')
+s = s.replace('<title>Guardrails &amp; Responsible Use | Vanderbilt</title>',
+              '<title>Guardrails &amp; Responsible Use, Facilitator Edition | Vanderbilt</title>')
 s = re.sub(r'<link rel="canonical"[^>]*>\n', '', s)
 s = s.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"')
 
@@ -237,8 +237,8 @@ FAC_JS = """
 s = s.replace('</body>', FAC_JS + '</body>')
 
 # ---- 7. footer marker ----
-s = s.replace('AI Guardrails &amp; Responsible Use · A Vanderbilt learning experience',
-              'AI Guardrails &amp; Responsible Use · Facilitator Edition · learner link: <a href="' + LEARNER_URL + '" style="color:rgba(255,255,255,.7);text-decoration:underline">the learner edition</a>')
+s = s.replace('Guardrails &amp; Responsible Use · A Vanderbilt learning experience',
+              'Guardrails &amp; Responsible Use · Facilitator Edition · learner link: <a href="' + LEARNER_URL + '" style="color:rgba(255,255,255,.7);text-decoration:underline">the learner edition</a>')
 
 out = os.path.join(ROOT, 'facilitator', 'index.html')
 open(out, 'w').write(s)

@@ -1,10 +1,10 @@
-# People Data with AI · Vanderbilt Learning Series
+# People Data, Safely · Vanderbilt Learning Series
 
 Single-page interactive classroom experience (Learning on Demand). Lives
 inside the Course_Library repo at
 https://me5231979.github.io/Course_Library/courses/People-Data-with-AI/
 
-Sister programs: AI_Classroom (AI Basics), AI-Advanced (AI 201),
+Sister programs: AI_Classroom (Start Smarter), AI-Advanced (AI 201),
 Coaching-for-Performance (the human method this course feeds),
 Difficult_Conversations, Emotional-Intelligence, Workflow; catalog at
 me5231979/Course_Library. Same engine, same standing principles.

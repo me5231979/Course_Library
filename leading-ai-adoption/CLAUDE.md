@@ -1,4 +1,4 @@
-# Leading AI Adoption — Vanderbilt Learning Series
+# Leading the Shift — Vanderbilt Learning Series
 
 Short-format course (Classroom 40 / Core 30 / self-paced ~15). Live at
 https://me5231979.github.io/Course_Library/leading-ai-adoption/ (GitHub Pages, `gh-pages`
@@ -12,7 +12,7 @@ Learning Series courses.
    honest, specific use (the narrated use: use, check, miss). No content
    may endorse usage quotas or prompt-counting.
 2. **The three guardrails** (data, sign-off, ownership) are the course's
-   structure; the data rail IS the traffic light from AI Basics, verbatim,
+   structure; the data rail IS the traffic light from Start Smarter, verbatim,
    and outranks everything.
 3. **The work audit is the signature interactive** (user-requested):
    five dimensions, scored /12, moves ranked by weakest dimension,

@@ -2,7 +2,7 @@
   "meta": {
     "program": "Trust, Then Verify · Vanderbilt Learning Series",
     "totalMinutes": 93,
-    "audience": "All Vanderbilt staff who use AI output in real work: coordinators, analysts, communicators, managers, anyone who ships AI-assisted text, summaries, or numbers. 8 to 24 works best (the plant-a-failure and ritual swaps run in pairs); scales larger with room votes. Prerequisite: AI Basics or equivalent comfort with everyday AI tools; the traffic-light data rule from the AI courses is assumed and restated here. Learners who took Answers, Faster will recognize ask-anchor-check as the research special case of this skill.",
+    "audience": "All Vanderbilt staff who use AI output in real work: coordinators, analysts, communicators, managers, anyone who ships AI-assisted text, summaries, or numbers. 8 to 24 works best (the plant-a-failure and ritual swaps run in pairs); scales larger with room votes. Prerequisite: Start Smarter or equivalent comfort with everyday AI tools; the traffic-light data rule from the AI courses is assumed and restated here. Learners who took Answers, Faster will recognize ask-anchor-check as the research special case of this skill.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. A whiteboard or flip chart helps: the worked example wants live underlining, and the failure-mode boxes fill fast. Virtual: breakouts of 2 for the plant-a-failure and ritual swaps. Set the norm in the first minute: outputs and tasks, never private information about people, and nothing typed is saved or sent.",
     "postSession": "Seven days out, send the pulse: 'Did the first verified output ship? What did the reads catch? How long did they take?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'is the ritual still running, and has any task hit a stop rule?' The count of first verified outputs actually shipped is the program's headline Level 3 metric.",
     "paths": {
@@ -181,7 +181,7 @@
       ],
       "validate": "Learners can say what verification has to do with the university's reputation, in one sentence.",
       "watchFor": "Strategy fatigue: part of the room has heard the vision language elsewhere. Keep it in verification terms; the at-your-desk lines exist so nobody has to squint to find themselves in it.",
-      "coreMinutes": 1,
+      "coreMinutes": 0,
       "coreNote": "Core: under a minute: read the vision sentence, gesture at the three focuses, move on.",
       "say": "Chancellor Diermeier's vision for this university is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The motto has always been the dare, Crescere aude, dare to grow, and daring work travels on facts somebody bothered to check. Reputation is the first word on the flywheel card: it attracts talent, funding, partnerships, and access, and an unverified number in a public report is exactly what burns it. Every output you catch before it ships keeps the university's name worth what it is, which is why the checking discipline you learn today is an all-staff skill.",
       "transition": "Six ideas, in a deliberate order."

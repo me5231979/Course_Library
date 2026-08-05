@@ -1,4 +1,4 @@
-# AI Guardrails & Responsible Use · The Four Lines
+# Guardrails & Responsible Use · The Four Lines
 
 An interactive, single-page teaching site on the governance session every
 team needs before AI use scales: the Four Lines, a one-page working
@@ -12,7 +12,7 @@ people's names) and nothing typed is saved or sent anywhere.
 
 Part of the Vanderbilt Learning Series (CHART Program). Catalog:
 [Course Library](https://me5231979.github.io/Course_Library/) ·
-Builds on: [AI Basics](https://me5231979.github.io/AI_Classroom/),
+Builds on: [Start Smarter](https://me5231979.github.io/AI_Classroom/),
 which taught the traffic light this course assumes.
 
 - **Learner edition:** https://me5231979.github.io/Course_Library/courses/AI-Guardrails/
@@ -95,7 +95,7 @@ Core 60 timing. Its QR encodes the learner URL.
   year over year, tracking adoption), Metaintro (AI policy as
   line-manager work, shadow AI framing). Round framings only; no precise
   numbers the sources do not carry. The traffic light must match
-  AI Basics and AI 201 exactly: green public or generic, yellow internal
+  Start Smarter and AI 201 exactly: green public or generic, yellow internal
   in approved VU tools only (ChatGPT EDU, Amplify, Copilot), red private
   information about people, never.
 - Publishing is handled by the Course_Library repo; this course ships as

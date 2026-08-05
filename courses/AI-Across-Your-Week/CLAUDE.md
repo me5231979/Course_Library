@@ -1,10 +1,10 @@
-# AI Across Your Week · Vanderbilt Learning Series
+# Across Your Week · Vanderbilt Learning Series
 
 Single-page interactive classroom experience (Learning on Demand). Published
 inside the Course_Library repo at
 https://me5231979.github.io/Course_Library/courses/AI-Across-Your-Week/
 
-Sister programs: AI_Classroom (AI Basics), AI-Advanced (AI 201), the CHART
+Sister programs: AI_Classroom (Start Smarter), AI-Advanced (AI 201), the CHART
 method courses (First Drafts, Answers, Minutes, Slides, Ideas, Decisions,
 Numbers), Difficult_Conversations, Coaching-for-Performance,
 Emotional-Intelligence; catalog at me5231979/Course_Library. Same engine,
@@ -72,4 +72,4 @@ inside the closing slide).
   users parked at one or two uses; frequent users report gains far more
   often; gains concentrate among broad habitual users), Leadership Circle
   (recovered time refills with meetings unless deliberately banked;
-  framing only). The traffic light must match AI Basics and AI 201.
+  framing only). The traffic light must match Start Smarter and AI 201.

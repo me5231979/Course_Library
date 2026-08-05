@@ -1,4 +1,4 @@
-# Change Leadership for AI · Naming Fear, Building Safety, Leading the Conversation
+# Change That Sticks · Naming Fear, Building Safety, Leading the Conversation
 
 An interactive, single-page teaching site on the human side of AI change:
 naming the fear in the room, answering the job-security question honestly,
@@ -13,7 +13,7 @@ names) and nothing typed is saved or sent anywhere.
 Part of the Vanderbilt Learning Series and the Manager Voyage program.
 Catalog: [Course Library](https://me5231979.github.io/Course_Library/) ·
 Sibling programs: Workflow & Process Redesign (the mechanics of where AI
-fits the work) and Leading AI Adoption (modeling the behavior yourself);
+fits the work) and Leading the Shift (modeling the behavior yourself);
 this course is the human-change layer between them.
 
 - **Learner edition:** https://me5231979.github.io/Course_Library/courses/Change-Leadership-for-AI/

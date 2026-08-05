@@ -1,8 +1,8 @@
 {
   "meta": {
-    "program": "Hiring & Talent Decisions with AI · Vanderbilt Learning Series",
+    "program": "Hiring, Human · Vanderbilt Learning Series",
     "totalMinutes": 93,
-    "audience": "Managers and team leads who hire or make talent decisions: opening requisitions, screening, interviewing, promoting, or mapping team skills. Part of the Manager Voyage program. 8 to 24 works best (the audit and anchor drills run in pairs); scales larger with room votes. Assumes AI Basics: learners can say 'prompt' and 'model,' and the traffic light is restated rather than taught from zero.",
+    "audience": "Managers and team leads who hire or make talent decisions: opening requisitions, screening, interviewing, promoting, or mapping team skills. Part of the Manager Voyage program. 8 to 24 works best (the audit and anchor drills run in pairs); scales larger with room votes. Assumes Start Smarter: learners can say 'prompt' and 'model,' and the traffic light is restated rather than taught from zero.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. A whiteboard helps for the never-list and the anchor rewrites. Virtual: breakouts of 2 for the audit and anchor swaps. Set the norm in the first minute: roles and processes, never a candidate's or colleague's name, and nothing typed is saved or sent. Expect at least one person in the room to have already pasted a resume into a chatbot; plan warmth, not blame.",
     "postSession": "Seven days out, send the pulse: 'Did the first move from your card happen? What did the requirement audit or rubric session change? Is the red line holding on your team?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'what does your next search have that the last one lacked?' The count of first moves actually made (audits run, rubrics built, skills maps done, piles pulled out of AI) is the program's headline Level 3 metric.",
     "paths": {
@@ -116,7 +116,7 @@
     "templates": [
       {
         "title": "Pre-work invite (paste into the calendar invite)",
-        "body": "Subject: Before our Hiring & Talent Decisions with AI session. One thing to bring: one hiring or talent decision that is live or coming for your team, a backfill, a new role, a promotion, a skills gap, held privately. You will never be asked to name a candidate or colleague; every exercise runs on roles and processes, and everything you type stays on your screen. If you have ever been tempted to run applications through an AI tool, come especially; the session is built for exactly that moment. No reading, no tools to install."
+        "body": "Subject: Before our Hiring, Human session. One thing to bring: one hiring or talent decision that is live or coming for your team, a backfill, a new role, a promotion, a skills gap, held privately. You will never be asked to name a candidate or colleague; every exercise runs on roles and processes, and everything you type stays on your screen. If you have ever been tempted to run applications through an AI tool, come especially; the session is built for exactly that moment. No reading, no tools to install."
       },
       {
         "title": "7-day pulse (send one week after)",
@@ -186,7 +186,7 @@
       ],
       "validate": "Learners can connect one focus area to the hiring decision they brought, in one sentence.",
       "watchFor": "Strategy fatigue: part of the room has heard the vision language elsewhere. Keep it in hiring terms; the translation lines exist so nobody has to squint to find themselves in it.",
-      "coreMinutes": 1,
+      "coreMinutes": 0,
       "coreNote": "Core: under a minute: read the vision sentence, gesture at the three focuses, move on.",
       "say": "Chancellor Diermeier's vision for this university is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The motto has always been the dare, Crescere aude, dare to grow, and growing means hiring; every focus area on this page runs on talent, and talent arrives through searches like the one you brought into this room. Three focuses: exceptional core operations, bold strategic initiatives, industry leadership, and each card says what it means from the hiring manager's chair. The bottom card is the reputation flywheel: reputation attracts talent, funding, partnerships, and access, which build the reputation. Your next search sits at the front of that loop, which is why the university cares how you run it.",
       "transition": "Six moves, in a deliberate order."

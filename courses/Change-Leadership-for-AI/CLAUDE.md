@@ -1,10 +1,10 @@
-# Change Leadership for AI · Vanderbilt Learning Series
+# Change That Sticks · Vanderbilt Learning Series
 
 Single-page interactive classroom experience (Learning on Demand).
 Published inside the Course_Library repo at
 https://me5231979.github.io/Course_Library/courses/Change-Leadership-for-AI/
 
-Sister programs: AI_Classroom (AI Basics), AI-Advanced (AI 201), Workflow
+Sister programs: AI_Classroom (Start Smarter), AI-Advanced (AI 201), Workflow
 (Workflow & Process Redesign), Difficult_Conversations,
 Coaching-for-Performance, Emotional-Intelligence; catalog at
 me5231979/Course_Library. Same engine, same standing principles.

@@ -1,4 +1,4 @@
-# Hiring & Talent Decisions with AI · Fair, Useful, and Inside the Lines
+# Hiring, Human · Fair, Useful, and Inside the Lines
 
 An interactive, single-page teaching site for managers who hire: it draws
 the hard line first (candidate materials are private information about
@@ -97,4 +97,4 @@ Core 60 timing. Its QR encodes the learner URL.
   scrapped screener (Reuters reporting; the "women's" penalty), NYC
   Local Law 144 (bias audit + candidate notice), Stanford AI Index
   (AI regulations rising sharply). The traffic light must match
-  AI Basics and AI 201 exactly, and the red line must never soften.
+  Start Smarter and AI 201 exactly, and the red line must never soften.

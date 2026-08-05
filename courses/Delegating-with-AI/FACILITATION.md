@@ -1,4 +1,4 @@
-# Facilitation Guide · Delegating to AI and to People
+# Facilitation Guide · Delegating, Rethought
 
 Every activity carries a learner-visible **"Why this matters"** line, and
 every teaching section has (1) an **interactive tool or practice moment**,

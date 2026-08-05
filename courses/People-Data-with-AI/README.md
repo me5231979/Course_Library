@@ -1,4 +1,4 @@
-# People Data with AI · Read the Patterns, Coach the Person
+# People Data, Safely · Read the Patterns, Coach the Person
 
 An interactive, single-page teaching site on the data side of coaching:
 using AI to interpret engagement results, spot themes across your own
@@ -95,6 +95,6 @@ Core 60 timing. Its QR encodes the learner URL.
   ~70% of engagement variance, ~1 in 5 engaged globally, ~1 in 3 US
   employees using AI at work, ~a fifth report a clear org AI plan),
   Culture Amp / Lattice / 15Five (the AI-coach tooling wave, framing
-  only). The traffic light must match AI Basics and AI 201 exactly:
+  only). The traffic light must match Start Smarter and AI 201 exactly:
   green public/generic, yellow internal in approved VU tools only, red
   private information about people, never.

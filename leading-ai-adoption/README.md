@@ -1,4 +1,4 @@
-# Leading AI Adoption · Your Team Adopts What You Model
+# Leading the Shift · Your Team Adopts What You Model
 
 A short interactive course (Classroom 40 min / Core 30 / self-paced ~15) for
 managers on the highest-leverage adoption behavior: using AI visibly,
@@ -42,7 +42,7 @@ Gallup 2026 workplace research (manager championing + workflow/system
 integration as top drivers of frequent AI use; engagement gaps with and
 without manager support); Accenture leadership research (~18 percent
 leading well; curiosity, courage, connection). The traffic light matches
-AI Basics and AI 201 exactly.
+Start Smarter and AI 201 exactly.
 
 ## Editing map
 

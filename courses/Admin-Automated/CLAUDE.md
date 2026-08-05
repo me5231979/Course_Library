@@ -5,7 +5,7 @@ inside the Course_Library repo, served at
 https://me5231979.github.io/Course_Library/courses/Admin-Automated/
 
 
-Sister programs: AI_Classroom (AI Basics), AI-Advanced (AI 201),
+Sister programs: AI_Classroom (Start Smarter), AI-Advanced (AI 201),
 Difficult_Conversations, Coaching-for-Performance, Emotional-Intelligence;
 catalog at me5231979/Course_Library. Same engine, same standing principles.
 

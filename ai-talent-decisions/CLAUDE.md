@@ -1,4 +1,4 @@
-# AI for Talent Decisions — Vanderbilt Learning Series
+# Talent Calls, Sharper — Vanderbilt Learning Series
 
 Short-format course (Classroom 40 / Core 30 / self-paced ~15). Live at
 https://me5231979.github.io/Course_Library/ai-talent-decisions/ (GitHub Pages, `gh-pages`
@@ -13,7 +13,7 @@ Learning Series courses.
    show AI scoring, ranking, or shortlisting people approvingly.
 2. **Strictest data posture in the series.** Resumes, reviews, ratings,
    and names are red-light in unapproved tools; candidate-facing work
-   runs with HR in HR's systems. The traffic light matches AI Basics
+   runs with HR in HR's systems. The traffic light matches Start Smarter
    exactly and outranks everything.
 3. **The camera test** governs criteria: observable behaviors only; the
    course names "culture fit", "polish", and "executive presence" as bias

@@ -1,4 +1,4 @@
-# Facilitation Guide · People Data with AI
+# Facilitation Guide · People Data, Safely
 
 Every activity carries a learner-visible **"Why this matters"** line, and
 every teaching section has (1) an **interactive tool or practice moment**,

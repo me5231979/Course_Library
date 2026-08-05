@@ -98,6 +98,6 @@ Core 60 timing. Its QR encodes the learner URL.
 - Citations to keep honest: SHRM workplace AI research (around 4 hours a
   week fixing AI output), Stanford AI Index (reported AI incidents at
   record highs), automation-bias research (framing only, no invented
-  numbers). The traffic light must match AI Basics and AI 201 exactly:
+  numbers). The traffic light must match Start Smarter and AI 201 exactly:
   green public, yellow internal in approved VU tools only, red private
   information about people, never. The light outranks every read.

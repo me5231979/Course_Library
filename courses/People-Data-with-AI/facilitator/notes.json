@@ -1,6 +1,6 @@
 {
   "meta": {
-    "program": "People Data with AI · Vanderbilt Learning Series",
+    "program": "People Data, Safely · Vanderbilt Learning Series",
     "totalMinutes": 93,
     "audience": "Managers and team leads in the Manager Voyage program: anyone who receives engagement results, runs 1:1s, or writes reviews and is deciding what AI may and may not do with any of it. 8 to 24 works best (the trap-invention and mystery-swap drills run in pairs); scales larger with room votes. Coaching for Performance is the natural companion (it teaches the conversation method; this course teaches the data side), and the traffic light from the AI courses is assumed and restated here as the Aggregate Rule.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. A whiteboard helps: you will draw the traffic light and keep the phrase PATTERNS AND ROLES, NEVER NAMES visible all session. Virtual: breakouts of 2 for the trap-invention and mystery swaps. Set the norm in the first minute: patterns and roles, never people's names, and nothing typed is saved or sent.",
@@ -115,7 +115,7 @@
     "templates": [
       {
         "title": "Pre-work invite (paste into the calendar invite)",
-        "body": "Subject: Before our People Data with AI session. One thing to bring: one people-data source that has been sitting unworked, your last engagement results, a retro board, a pulse, or your own 1:1 notes. You will never be asked to share it or to name anyone; every exercise runs on patterns and roles, and everything you type stays on your screen. Come knowing roughly what that data has been waiting for. That's it, no reading, no tools to install."
+        "body": "Subject: Before our People Data, Safely session. One thing to bring: one people-data source that has been sitting unworked, your last engagement results, a retro board, a pulse, or your own 1:1 notes. You will never be asked to share it or to name anyone; every exercise runs on patterns and roles, and everything you type stays on your screen. Come knowing roughly what that data has been waiting for. That's it, no reading, no tools to install."
       },
       {
         "title": "7-day pulse (send one week after)",
@@ -184,7 +184,7 @@
       ],
       "validate": "Learners can connect one focus area to their own team's engagement data, in one sentence.",
       "watchFor": "Strategy fatigue: part of the room has heard the vision language elsewhere. Keep it in people terms; the translation lines exist so nobody has to squint to find themselves in it.",
-      "coreMinutes": 1,
+      "coreMinutes": 0,
       "coreNote": "Core: under a minute: read the vision sentence, gesture at the three focuses, move on.",
       "say": "Chancellor Diermeier's vision for this university is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The motto has always been the dare, Crescere aude, dare to grow, and people grow under managers who act on what their teams tell them. The talent this vision needs is mostly already here, sitting on your teams, and whether it stays tracks the manager more than anything else. The bottom card is the reputation flywheel: reputation attracts talent, funding, partnerships, and access, and values-driven leadership shows in how you handle what your people tell you. Inside the privacy lines, that is exactly what today teaches.",
       "transition": "Six ideas, in a deliberate order."

@@ -1,4 +1,4 @@
-# Facilitation Guide · AI Guardrails & Responsible Use
+# Facilitation Guide · Guardrails & Responsible Use
 
 Every activity carries a learner-visible **"Why this matters"** line, and
 every teaching section has (1) an **interactive tool or practice moment**,

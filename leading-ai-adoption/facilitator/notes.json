@@ -1,8 +1,8 @@
 {
   "meta": {
-    "program": "Leading AI Adoption · Vanderbilt Learning Series",
+    "program": "Leading the Shift · Vanderbilt Learning Series",
     "totalMinutes": 43,
-    "audience": "Part of the CHART Program and the Manager Voyage. Managers and team leads who want their teams actually using AI well, safely and openly. 8 to 24 works best; drills run in pairs. Works as the connective course after AI Basics and alongside Workflow & Process Redesign.",
+    "audience": "Part of the CHART Program and the Manager Voyage. Managers and team leads who want their teams actually using AI well, safely and openly. 8 to 24 works best; drills run in pairs. Works as the connective course after Start Smarter and alongside Workflow & Process Redesign.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; seating that pairs easily. Virtual: breakouts of 2. The norm, stated in minute one: teams and roles, never names, and nothing typed leaves the screen. Bring your own real AI-use story; this session's credibility runs on the facilitator modeling the modeling.",
     "postSession": "Seven days out, send the pulse: 'Did the first visible move happen? What did the team's reaction tell you? What's your audit's lowest dimension now?' At 30 days: 'Rerun the audit; which dimension moved?' The count of first visible moves actually made is the program's headline Level 3 metric.",
     "paths": {
@@ -87,7 +87,7 @@
     "templates": [
       {
         "title": "Pre-work invite (paste into the calendar invite)",
-        "body": "Subject: Before our Leading AI Adoption session. One thing to know walking in: your team's three most repeated outputs, the reports, updates, summaries, or reviews that happen every week or month. You'll use them in an audit you keep entirely to yourself. That's it, no reading, no tools to install."
+        "body": "Subject: Before our Leading the Shift session. One thing to know walking in: your team's three most repeated outputs, the reports, updates, summaries, or reviews that happen every week or month. You'll use them in an audit you keep entirely to yourself. That's it, no reading, no tools to install."
       },
       {
         "title": "7-day pulse (send one week after)",

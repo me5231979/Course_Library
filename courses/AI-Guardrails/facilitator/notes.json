@@ -1,8 +1,8 @@
 {
   "meta": {
-    "program": "AI Guardrails & Responsible Use · Vanderbilt Learning Series",
+    "program": "Guardrails & Responsible Use · Vanderbilt Learning Series",
     "totalMinutes": 93,
-    "audience": "All Vanderbilt staff who use AI for university work, from front-office teams to unit leads; anyone whose team touches student records, internal documents, or the university's public voice. 8 to 24 works best (the classification and disclosure drills run in pairs); scales larger with room votes. Prerequisite: AI Basics, which taught the traffic light this course assumes and extends.",
+    "audience": "All Vanderbilt staff who use AI for university work, from front-office teams to unit leads; anyone whose team touches student records, internal documents, or the university's public voice. 8 to 24 works best (the classification and disclosure drills run in pairs); scales larger with room votes. Prerequisite: Start Smarter, which taught the traffic light this course assumes and extends.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. Virtual: breakouts of 2 for the classification swap and the disclosure read-alouds. Set the norm in the first minute: tools and situations, never people's names, and nothing typed is saved or sent. Have the traffic light drawn or printed where the room can see it all session; every section points back at it.",
     "postSession": "Seven days out, send the pulse: 'Did the Four Lines conversation happen? Where does the page live? Which hard case surprised the team?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'is the page findable today, and has anyone pointed at it during a real decision?' The count of team agreements actually drafted and given a home is the program's headline Level 3 metric.",
     "paths": {
@@ -116,7 +116,7 @@
     "templates": [
       {
         "title": "Pre-work invite (paste into the calendar invite)",
-        "body": "Subject: Before our AI Guardrails session. One thing to bring: a rough list of the two or three things your team ships most often (a newsletter, an FAQ, reports, email replies) and the kinds of data they touch, held privately. You will never be asked to name people; every exercise runs on tools and situations, and everything you type stays on your screen. If you took AI Basics, dust off the traffic light; we build directly on it. That's it, no reading, no tools to install."
+        "body": "Subject: Before our Guardrails & Responsible Use session. One thing to bring: a rough list of the two or three things your team ships most often (a newsletter, an FAQ, reports, email replies) and the kinds of data they touch, held privately. You will never be asked to name people; every exercise runs on tools and situations, and everything you type stays on your screen. If you took Start Smarter, dust off the traffic light; we build directly on it. That's it, no reading, no tools to install."
       },
       {
         "title": "7-day pulse (send one week after)",
@@ -256,7 +256,7 @@
       "id": "s-datain",
       "title": "02 · Line one: what goes in",
       "minutes": 12,
-      "purpose": "Restate the traffic light exactly as AI Basics taught it, then install the hard cases: about a person means red, internal means yellow in approved tools, and de-identification is what moves data between lights.",
+      "purpose": "Restate the traffic light exactly as Start Smarter taught it, then install the hard cases: about a person means red, internal means yellow in approved tools, and de-identification is what moves data between lights.",
       "facilitate": [
         "Walk the traffic light card verbatim and point at the room's poster: green public or generic, yellow internal in approved VU tools, red private information about people, never.",
         "Walk the three hard-case cards: red hides in plain sight, yellow has a home, green is narrower than it looks.",
@@ -269,7 +269,7 @@
       "watchFor": "Two drifts: 'it's fine because the tool promises privacy' (a prompt is a request; the agreement and the light decide, not the promise), and red-light violations wearing efficiency clothes ('AI could draft all my advisee emails!'). Correct both immediately and kindly; the light correction matters more than the flow of the room.",
       "coreMinutes": 9,
       "coreNote": "Core: light and hard-case cards at full strength, trainer on devices; the pair classification becomes a solo pass with the hardest call written down for the team meeting.",
-      "say": "Line one answers the question every other question depends on: which data may enter which tools. You know the traffic light from AI Basics: green is public or generic, go. Yellow is internal work, approved VU tools only, and today that list reads ChatGPT EDU, Amplify, and Copilot. Red is private information about people, never, and no deadline changes it. What today adds is the hard cases, because red hides in plain sight. A student's essay is about a student. Meeting notes naming colleagues are about colleagues, until the names come out. A recommendation letter is about its subject. The sorting question is 'who is this about,' asked before 'how sensitive does it feel.' And when a case genuinely will not classify, treat it as red for today and ask; improvising under deadline is how the incident count grows.",
+      "say": "Line one answers the question every other question depends on: which data may enter which tools. You know the traffic light from Start Smarter: green is public or generic, go. Yellow is internal work, approved VU tools only, and today that list reads ChatGPT EDU, Amplify, and Copilot. Red is private information about people, never, and no deadline changes it. What today adds is the hard cases, because red hides in plain sight. A student's essay is about a student. Meeting notes naming colleagues are about colleagues, until the names come out. A recommendation letter is about its subject. The sorting question is 'who is this about,' asked before 'how sensitive does it feel.' And when a case genuinely will not classify, treat it as red for today and ask; improvising under deadline is how the incident count grows.",
       "ask": {
         "q": "From the pair drill: what was your hardest call, and what made it hard?",
         "expect": [

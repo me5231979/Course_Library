@@ -1,4 +1,4 @@
-# AI Across Your Week · The CHART Integrator Course
+# Across Your Week · The CHART Integrator Course
 
 An interactive, single-page teaching site built on Gallup's sharpest workplace
 AI finding: people who use AI for seven or more distinct tasks are roughly
@@ -96,6 +96,6 @@ Core 60 timing. Its QR encodes the learner URL.
   doubling, the plateau at one or two uses, frequent versus occasional
   users, gains concentrating among broad habitual users), Leadership Circle
   (recovered time refills unless banked; framing only, no invented
-  statistics). The traffic light must match AI Basics and AI 201 exactly.
+  statistics). The traffic light must match Start Smarter and AI 201 exactly.
 - The sibling CHART method courses are named in section 03 and the closing;
   the Course Library link is the canonical catalog pointer.

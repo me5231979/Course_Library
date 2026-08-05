@@ -4,7 +4,7 @@ Single-page interactive classroom experience (Learning on Demand) on data
 and analysis with AI. Published inside the Course_Library repo at
 https://me5231979.github.io/Course_Library/courses/Numbers-Faster/.
 
-Sister programs: AI_Classroom (AI Basics), AI-Advanced (AI 201), and the
+Sister programs: AI_Classroom (Start Smarter), AI-Advanced (AI 201), and the
 research sibling "Answers, Faster" (ask-anchor-check); catalog at
 me5231979/Course_Library. Same engine, same standing principles.
 

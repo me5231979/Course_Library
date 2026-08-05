@@ -1,4 +1,4 @@
-# Delegating to AI and to People · Routing Work Without Hollowing Out Your Team
+# Delegating, Rethought · Routing Work Without Hollowing Out Your Team
 
 An interactive, single-page teaching site on the distinctly managerial
 dilemma nobody trained managers for: the same task can now go to AI, to a
@@ -101,6 +101,6 @@ Core 60 timing. Its QR encodes the learner URL.
   AI at least a few times a year, roughly doubled in two years; about 8%
   daily; about 22% say their org has a clear AI plan), Stanford GSB
   insights (leaders redesign roles and processes rather than simply
-  oversee execution). The traffic light must match AI Basics and AI 201.
+  oversee execution). The traffic light must match Start Smarter and AI 201.
 - Sister course for the AI lane's mechanics: Workflow & Process Redesign
   (draft, verify, decide), linked once from section 06.

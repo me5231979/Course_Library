@@ -1,4 +1,4 @@
-# AI for Talent Decisions · Sharper Inputs, Human Calls
+# Talent Calls, Sharper · Sharper Inputs, Human Calls
 
 A short interactive course (Classroom 40 min / Core 30 / self-paced ~15) for
 leaders on AI in hiring, succession, and skills mapping: AI drafts the
@@ -40,7 +40,7 @@ flip-card glossary, printable cheat sheet, and toolkit card worksheet.
 People Managing People and Rework (2026) as landscape context; structured
 interviews as among the best-validated selection methods; bias-audit
 regulation for automated employment decisions (framing only, no invented
-specifics). The traffic light matches AI Basics and AI 201 exactly.
+specifics). The traffic light matches Start Smarter and AI 201 exactly.
 
 ## Editing map
 

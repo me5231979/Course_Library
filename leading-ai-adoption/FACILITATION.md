@@ -1,4 +1,4 @@
-# Facilitation Guide · Leading AI Adoption
+# Facilitation Guide · Leading the Shift
 
 Full runbook in [`facilitator/notes.json`](facilitator/notes.json) on the
 ATD framework. Regenerate after any change:

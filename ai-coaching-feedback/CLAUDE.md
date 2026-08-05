@@ -1,4 +1,4 @@
-# AI for Coaching & Feedback — Vanderbilt Learning Series
+# Feedback, Ready — Vanderbilt Learning Series
 
 Short-format course (Classroom 40 / Core 30 / self-paced ~15). Live at
 https://me5231979.github.io/Course_Library/ai-coaching-feedback/ (GitHub Pages, `gh-pages`
@@ -12,7 +12,7 @@ Learning Series courses (see the Workflow repo's CLAUDE.md for the family).
    never delegates. Every interaction reinforces this line.
 2. **People-data discipline.** This course lives next to red-light data:
    de-identify (roles never names), approved VU tools only, behavior not
-   character, aggregate not individual. The traffic light matches AI Basics
+   character, aggregate not individual. The traffic light matches Start Smarter
    exactly and outranks everything.
 3. **The out-loud test** is the course's ethics instrument: any practice
    that needs secrecy is over the line.

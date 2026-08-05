@@ -23,8 +23,8 @@ s = s.replace('href="cheatsheet.html"', 'href="../cheatsheet.html"')
 s = s.replace('href="worksheet.html"', 'href="../worksheet.html"')
 
 # ---- 2. head: title, noindex, no canonical/og confusion ----
-s = s.replace('<title>AI for Coaching &amp; Feedback | Vanderbilt</title>',
-              '<title>AI for Coaching &amp; Feedback, Facilitator Edition | Vanderbilt</title>')
+s = s.replace('<title>Feedback, Ready | Vanderbilt</title>',
+              '<title>Feedback, Ready, Facilitator Edition | Vanderbilt</title>')
 s = re.sub(r'<link rel="canonical"[^>]*>\n', '', s)
 s = s.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"')
 
@@ -237,8 +237,8 @@ FAC_JS = """
 s = s.replace('</body>', FAC_JS + '</body>')
 
 # ---- 7. footer marker ----
-s = s.replace('AI for Coaching &amp; Feedback · A Vanderbilt learning experience',
-              'AI for Coaching &amp; Feedback · Facilitator Edition · learner link: <a href="' + LEARNER_URL + '" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Course_Library/ai-coaching-feedback</a>')
+s = s.replace('Feedback, Ready · A Vanderbilt learning experience',
+              'Feedback, Ready · Facilitator Edition · learner link: <a href="' + LEARNER_URL + '" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Course_Library/ai-coaching-feedback</a>')
 
 out = os.path.join(ROOT, 'facilitator', 'index.html')
 open(out, 'w').write(s)

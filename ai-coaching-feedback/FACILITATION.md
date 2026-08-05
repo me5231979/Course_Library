@@ -1,4 +1,4 @@
-# Facilitation Guide · AI for Coaching & Feedback
+# Facilitation Guide · Feedback, Ready
 
 The full runbook lives in [`facilitator/notes.json`](facilitator/notes.json)
 on the ATD framework (Say / Do / Ask / Debrief / Transition per section,

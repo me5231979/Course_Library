@@ -1,4 +1,4 @@
-# Making AI Normal · Vanderbilt Learning Series
+# Making It Normal · Vanderbilt Learning Series
 
 Single-page interactive course site (no frameworks). Lives inside the
 Course_Library repo at `courses/Leading-AI-Adoption/`; published at
@@ -9,7 +9,7 @@ https://me5231979.github.io/Course_Library/courses/Leading-AI-Adoption/
 1. **Zero em or en dashes anywhere**: HTML, JS strings, JSON, markdown.
    Rewrite around them; grep before shipping.
 2. **One italic word per headline** (`.h2` uses exactly one `<em>`).
-3. **The traffic light is canon** and matches AI Basics and AI 201:
+3. **The traffic light is canon** and matches Start Smarter and AI 201:
    green = public or generic, go; yellow = internal, approved VU tools
    only; red = private information about people, never. It outranks every
    technique taught here.

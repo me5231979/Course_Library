@@ -1,8 +1,8 @@
 {
   "meta": {
-    "program": "Delegating to AI and to People · Vanderbilt Learning Series",
+    "program": "Delegating, Rethought · Vanderbilt Learning Series",
     "totalMinutes": 93,
-    "audience": "Managers and team leads who route real work: anyone deciding daily whether a task goes to AI, to a team member, or stays on their own plate. A Manager Voyage course. 8 to 24 works best (the routing and briefing drills run in pairs); scales larger with room votes. Assumes AI Basics or equivalent tool fluency; the traffic-light data rule from the AI courses is assumed and restated here.",
+    "audience": "Managers and team leads who route real work: anyone deciding daily whether a task goes to AI, to a team member, or stays on their own plate. A Manager Voyage course. 8 to 24 works best (the routing and briefing drills run in pairs); scales larger with room votes. Assumes Start Smarter or equivalent tool fluency; the traffic-light data rule from the AI courses is assumed and restated here.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. A whiteboard helps: you will draw the three destinations and the three questions early and point at them all session. Virtual: breakouts of 2 for the routing, role-math, and briefing drills. Set the norm in the first minute: tasks and roles, never people's names, and nothing typed is saved or sent.",
     "postSession": "Seven days out, send the pulse: 'Did the handoff conversation happen? Where did the task land, and what did the person or the verifier do with it?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'what did the routing free up, and what has the new rep produced?' The count of handoff conversations actually held is the program's headline Level 3 metric.",
     "paths": {
@@ -115,7 +115,7 @@
     "templates": [
       {
         "title": "Pre-work invite (paste into the calendar invite)",
-        "body": "Subject: Before our Delegating to AI and to People session. One thing to bring: one task you have been holding that someone, or something, else could plausibly do. A report you still build yourself, a review you never hand off, a recurring chore you do from muscle memory. You will never be asked to name people; every exercise runs on tasks and roles, and everything you type stays on your screen. Come knowing roughly what that task costs you in a normal week. That's it, no reading, no tools to install."
+        "body": "Subject: Before our Delegating, Rethought session. One thing to bring: one task you have been holding that someone, or something, else could plausibly do. A report you still build yourself, a review you never hand off, a recurring chore you do from muscle memory. You will never be asked to name people; every exercise runs on tasks and roles, and everything you type stays on your screen. Come knowing roughly what that task costs you in a normal week. That's it, no reading, no tools to install."
       },
       {
         "title": "7-day pulse (send one week after)",

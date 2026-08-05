@@ -1,8 +1,8 @@
 {
   "meta": {
-    "program": "Making AI Normal · Vanderbilt Learning Series",
+    "program": "Making It Normal · Vanderbilt Learning Series",
     "totalMinutes": 93,
-    "audience": "Managers and team leads: anyone with a team whose AI adoption they are expected to lead. Part of the Manager Voyage program. 8 to 24 works best (the narration and permission drills run in pairs); scales larger with room votes. AI Basics is assumed (learners can say 'prompt' without flinching), and the traffic-light data rule from the AI courses is assumed and restated here. Its natural companion course is the workflow-redesign session; this one carries the leadership behavior side.",
+    "audience": "Managers and team leads: anyone with a team whose AI adoption they are expected to lead. Part of the Manager Voyage program. 8 to 24 works best (the narration and permission drills run in pairs); scales larger with room votes. Start Smarter is assumed (learners can say 'prompt' without flinching), and the traffic-light data rule from the AI courses is assumed and restated here. Its natural companion course is the workflow-redesign session; this one carries the leadership behavior side.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. Virtual: breakouts of 2 for the narration and permission-line swaps. Set the norm in the first minute: roles and rituals, never people's names, and nothing typed is saved or sent. Expect real tension in the room: some attendees use AI daily in secret, some believe it is quietly forbidden, and both groups report to somebody in the building.",
     "postSession": "Seven days out, send the pulse: 'Did the first move happen? What did the team say or do in the moment? Which ritual is on the calendar now?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'who on your team tried something new, what did the team catch before it shipped, and where did the recovered hours go?' The count of first moves actually made within 7 days is the program's headline Level 3 metric.",
     "paths": {
@@ -116,7 +116,7 @@
     "templates": [
       {
         "title": "Pre-work invite (paste into the calendar invite)",
-        "body": "Subject: Before our Making AI Normal session. Two things to bring, both held privately: 1) A rough read of your team's AI temperature: who's keen, who's waiting to see, who's skeptical. 2) One way you yourself have used AI for work in the last two weeks, including anything it got wrong. You will never be asked to name people; every exercise runs on roles and rituals, and everything you type stays on your screen. That's it, no reading, no tools to install."
+        "body": "Subject: Before our Making It Normal session. Two things to bring, both held privately: 1) A rough read of your team's AI temperature: who's keen, who's waiting to see, who's skeptical. 2) One way you yourself have used AI for work in the last two weeks, including anything it got wrong. You will never be asked to name people; every exercise runs on roles and rituals, and everything you type stays on your screen. That's it, no reading, no tools to install."
       },
       {
         "title": "7-day pulse (send one week after)",
@@ -185,7 +185,7 @@
       ],
       "validate": "Learners can say why their team's adoption is part of the institutional plan, in their own words.",
       "watchFor": "Strategy fatigue: part of the room has heard the vision language elsewhere. Keep it in adoption terms; the translation lines exist so nobody has to squint to find themselves in it.",
-      "coreMinutes": 1,
+      "coreMinutes": 0,
       "coreNote": "Core: under a minute: read the vision sentence, gesture at the three focuses, move on.",
       "say": "Chancellor Diermeier's vision for this university is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The motto has always been the dare, Crescere aude, dare to grow, and a team only grows into new tools when its manager makes them normal first. Uncommon speed and agility are not slogans on this page; they describe teams where AI lives inside the weekly routine, because someone modeled it out loud. The bottom card is the reputation flywheel: reputation attracts talent, funding, partnerships, and access. The university can buy the licenses; whether the tools become normal on your team is the part it cannot do without you.",
       "transition": "Six ideas, in a deliberate order."

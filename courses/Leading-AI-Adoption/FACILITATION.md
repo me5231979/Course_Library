@@ -1,4 +1,4 @@
-# Facilitation Guide · Making AI Normal
+# Facilitation Guide · Making It Normal
 
 Every activity carries a learner-visible **"Why this matters"** line, and
 every teaching section has (1) an **interactive tool or practice moment**,

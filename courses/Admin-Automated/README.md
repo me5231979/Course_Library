@@ -92,7 +92,7 @@ Core 60 timing. Its QR encodes the learner URL.
 - Citations to keep honest: Gallup workplace AI research (automating
   repetitive tasks as the highest-payoff use case, ~77% reporting clear
   productivity gains), Leadership Circle (the evaporation warning, framing
-  only, no invented numbers). The traffic light must match AI Basics and
+  only, no invented numbers). The traffic light must match Start Smarter and
   AI 201 exactly: green public, yellow internal in approved VU tools only,
   red private information about people, never.
 - Publishing is handled inside the Course_Library repo by the orchestrator.

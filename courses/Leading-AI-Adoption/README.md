@@ -1,4 +1,4 @@
-# Making AI Normal · Teams Adopt Behavior, Not Tools
+# Making It Normal · Teams Adopt Behavior, Not Tools
 
 An interactive, single-page teaching site on the leadership side of team AI
 adoption: Gallup's research says a team's AI use follows the manager's
@@ -96,6 +96,6 @@ Core 60 timing. Its QR encodes the learner URL.
 - Runbook: `facilitator/notes.json` (timing must sum: Full 90 / Core 60)
 - Citations to keep honest: Gallup workplace AI research (~40% use, 19%
   frequent, 22% clear plan, 4.7x comfort). The traffic light must match
-  AI Basics and AI 201 exactly: green public, yellow internal in approved
+  Start Smarter and AI 201 exactly: green public, yellow internal in approved
   VU tools only, red private information about people, never.
 - This build ships inside Course_Library; the orchestrator publishes it.

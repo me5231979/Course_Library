@@ -1,10 +1,10 @@
-# Delegating to AI and to People · Vanderbilt Learning Series
+# Delegating, Rethought · Vanderbilt Learning Series
 
 Single-page interactive classroom experience (Learning on Demand). Lives
 inside the Course_Library repo at
 https://me5231979.github.io/Course_Library/courses/Delegating-with-AI/
 
-Sister programs: AI_Classroom (AI Basics), AI-Advanced (AI 201),
+Sister programs: AI_Classroom (Start Smarter), AI-Advanced (AI 201),
 Difficult_Conversations, Coaching-for-Performance, Emotional-Intelligence,
 Workflow (Workflow & Process Redesign); catalog at me5231979/Course_Library.
 Same engine, same standing principles.
@@ -69,5 +69,5 @@ then Glossary then Closing (footer lives inside the closing slide).
   a year or more, nearly doubled in two years; about 8% daily; about 22%
   say their org communicated a clear AI plan), Stanford GSB (leaders
   redesign roles and processes rather than simply oversee execution).
-  No invented statistics. The traffic light must match AI Basics and
+  No invented statistics. The traffic light must match Start Smarter and
   AI 201 exactly.

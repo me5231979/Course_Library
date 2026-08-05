@@ -10,7 +10,7 @@ editions, ready to deliver in person or virtually.
 
 | Course | Audience | Learner | Facilitator |
 |---|---|---|---|
-| AI Basics | All staff | [launch](https://me5231979.github.io/AI_Classroom/) | [guide](https://me5231979.github.io/AI_Classroom/facilitator/) |
+| Start Smarter | All staff | [launch](https://me5231979.github.io/AI_Classroom/) | [guide](https://me5231979.github.io/AI_Classroom/facilitator/) |
 | Navigating Difficult Conversations | People managers | [launch](https://me5231979.github.io/Difficult_Conversations/) | [guide](https://me5231979.github.io/Difficult_Conversations/facilitator/) |
 
 ## Adding a course

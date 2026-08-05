@@ -98,6 +98,6 @@ Core 60 timing. Its QR encodes the learner URL.
 - Citations to keep honest: Gallup workplace AI research (~3 in 4 data
   users report gains, frequent-user gap, data work near the top by
   payoff, most work still manual), SHRM (about 4 hours a week fixing AI
-  output). The traffic light must match AI Basics and AI 201 exactly:
+  output). The traffic light must match Start Smarter and AI 201 exactly:
   green public/generic, yellow internal in approved VU tools only, red
   private information about people, never.
