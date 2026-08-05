@@ -1,13 +1,13 @@
 {
   "meta": {
     "program": "Delegating to AI and to People · Vanderbilt Learning Series",
-    "totalMinutes": 90,
+    "totalMinutes": 93,
     "audience": "Managers and team leads who route real work: anyone deciding daily whether a task goes to AI, to a team member, or stays on their own plate. A Manager Voyage course. 8 to 24 works best (the routing and briefing drills run in pairs); scales larger with room votes. Assumes AI Basics or equivalent tool fluency; the traffic-light data rule from the AI courses is assumed and restated here.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. A whiteboard helps: you will draw the three destinations and the three questions early and point at them all session. Virtual: breakouts of 2 for the routing, role-math, and briefing drills. Set the norm in the first minute: tasks and roles, never people's names, and nothing typed is saved or sent.",
     "postSession": "Seven days out, send the pulse: 'Did the handoff conversation happen? Where did the task land, and what did the person or the verifier do with it?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'what did the routing free up, and what has the new rep produced?' The count of handoff conversations actually held is the program's headline Level 3 metric.",
     "paths": {
       "full": {
-        "minutes": 90,
+        "minutes": 93,
         "description": "Everything as designed: all four trainers, both quick checks, the private role-math sketch, the pair drills, the full Routing Lab with a rerun, the brief-aloud, and the capstone. Book a 90-minute slot; the sum includes realistic transitions inside each block."
       },
       "core": {
@@ -170,6 +170,24 @@
       "coreMinutes": 1,
       "coreNote": "Core: objectives 1 and 5 out loud; the rest on screen.",
       "say": "Five things by the end. You'll be able to run the Routing Test, three questions in an order that matters, on any task that crosses your desk. You'll tell stretch work from grunt work before you route either one. You'll know how to keep the apprenticeship alive on your team while AI absorbs the tasks juniors used to learn by. You'll be able to redesign a role instead of just shrinking its task list. And you'll brief a delegation, to a person or to AI, so it actually lands. It all comes together in one artifact: a routing card for a task you have genuinely been holding, with a date on it.",
+      "transition": "One page before the plan: why the university's talent pipeline runs through your routing decisions."
+    },
+    {
+      "id": "s-mission",
+      "title": "The Chancellor's charge",
+      "minutes": 3,
+      "purpose": "Connect the course to the institutional vision: the university scales on people, and the routing decisions managers make are what keep the talent pipeline growing while AI absorbs the routine.",
+      "facilitate": [
+        "Read the vision sentence off the slide, slowly; it carries the page.",
+        "Walk the three focus cards, landing on the 'The team translation' line in each.",
+        "Point at the flywheel card: talent is the first thing reputation attracts, and routing is how a manager keeps it compounding.",
+        "Keep it under three minutes; this page frames the session, and the sections do the teaching."
+      ],
+      "validate": "The room can connect the vision to the course in one line: the university scales on people, and routing decides whether people keep growing.",
+      "watchFor": "Eye-rolls at strategy language. Ground it fast: the flywheel's talent input is decided one delegated task at a time, on desks like theirs.",
+      "coreMinutes": 0,
+      "coreNote": "Core: under a minute. Read the vision sentence, gesture at the three focus cards, move on.",
+      "say": "Before the plan, the institutional why. Chancellor Diermeier's vision is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The how is uncommon speed, agility, and scale, and speed is the easy half; AI will happily absorb your routine work today. The hard half is scale, because an institution scales on people, and people grow on the very tasks AI now finishes in minutes. The Routing Test you learn today is how you take the speed without spending the pipeline. Our motto is the dare, Crescere aude, dare to grow, and your routing decisions are where your people get to take it.",
       "transition": "Six ideas, in a deliberate order."
     },
     {

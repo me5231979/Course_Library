@@ -1,13 +1,13 @@
 {
   "meta": {
     "program": "Change Leadership for AI · Vanderbilt Learning Series",
-    "totalMinutes": 90,
+    "totalMinutes": 93,
     "audience": "Managers and team leads facing a real AI change: a tool arriving, a workflow shifting, or a team already quietly worried. A Manager Voyage course. 8 to 24 works best (the naming-line and lab drills run in pairs); scales larger with room votes. No prerequisites, though AI Basics helps with tool fluency; the traffic-light data rule from the AI courses is assumed and restated here, and Workflow & Process Redesign is the natural mechanics companion.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. Virtual: breakouts of 2 for the naming-line drill and the lab debrief. Set the norm in the first minute: situations and roles, never people's names, and nothing typed is saved or sent. Expect real anxiety in this room; some attendees are living the exact change the course describes, so keep the tone warm and never make anyone's situation an example.",
     "postSession": "Seven days out, send the pulse: 'Did the naming conversation happen? What did your team say that surprised you? When is the ethics session?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'what are the quiet signals showing, and has the job question come back yet?' The count of naming conversations actually held is the program's headline Level 3 metric.",
     "paths": {
       "full": {
-        "minutes": 90,
+        "minutes": 93,
         "description": "Everything as designed: all four trainers, the conversation-plan builder, the naming-line pair drill with room judging, the full Change Lab with a rerun, and the capstone. Book a 90-minute slot; the sum includes realistic transitions inside each block."
       },
       "core": {
@@ -174,6 +174,24 @@
       "coreMinutes": 1,
       "coreNote": "Core: objectives 2 and 5 out loud; the rest on screen.",
       "say": "Five things by the end. You'll know why AI change fails on human ground, and what the effective eighteen percent of leaders do differently. You'll be able to name the fear in the room, including the job question, without promising anything you can't keep. You'll know how to build safety around experimenting, so trying and missing is survivable on your team. You'll be ready to host your team's own ethics conversation instead of forwarding a policy. And it all lands in one artifact: a change card for the change your team is actually facing, with a date on it.",
+      "transition": "One page before the plan: why the university's whole bet depends on how you lead this change."
+    },
+    {
+      "id": "s-mission",
+      "title": "The Chancellor's charge",
+      "minutes": 3,
+      "purpose": "Connect the course to the institutional vision: a university cannot move at uncommon speed unless its managers lead AI change on human ground, with curiosity, courage, and connection.",
+      "facilitate": [
+        "Read the vision sentence off the slide, slowly; it carries the page.",
+        "Walk the three focus cards, landing on the 'The team translation' line in each.",
+        "Point at the flywheel card: values-driven leadership is a named flywheel input, and it is the one this course trains.",
+        "Keep it under three minutes; this page frames the session, and the sections do the teaching."
+      ],
+      "validate": "The room can connect the vision to the course in one line: the university's speed depends on teams that feel safe enough to change.",
+      "watchFor": "Eye-rolls at strategy language. Ground it fast: the flywheel's values-driven input is decided in team meetings like the ones they run every week.",
+      "coreMinutes": 0,
+      "coreNote": "Core: under a minute. Read the vision sentence, gesture at the three focus cards, move on.",
+      "say": "Before the plan, the institutional stakes. Chancellor Diermeier's vision is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The how is uncommon speed, agility, and scale, and notice that all three are change words. A university cannot move at uncommon speed if its teams meet every new tool with quiet dread, which is why the research keeps finding that the effective AI leaders differ on human ground: curiosity, courage, connection. Our motto is the dare, Crescere aude, dare to grow, and your team will only take that dare if you make it safe to take. That is this session.",
       "transition": "Six ideas, in a deliberate order."
     },
     {

@@ -1,13 +1,13 @@
 {
   "meta": {
     "program": "AI Guardrails & Responsible Use · Vanderbilt Learning Series",
-    "totalMinutes": 90,
+    "totalMinutes": 93,
     "audience": "All Vanderbilt staff who use AI for university work, from front-office teams to unit leads; anyone whose team touches student records, internal documents, or the university's public voice. 8 to 24 works best (the classification and disclosure drills run in pairs); scales larger with room votes. Prerequisite: AI Basics, which taught the traffic light this course assumes and extends.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. Virtual: breakouts of 2 for the classification swap and the disclosure read-alouds. Set the norm in the first minute: tools and situations, never people's names, and nothing typed is saved or sent. Have the traffic light drawn or printed where the room can see it all session; every section points back at it.",
     "postSession": "Seven days out, send the pulse: 'Did the Four Lines conversation happen? Where does the page live? Which hard case surprised the team?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'is the page findable today, and has anyone pointed at it during a real decision?' The count of team agreements actually drafted and given a home is the program's headline Level 3 metric.",
     "paths": {
       "full": {
-        "minutes": 90,
+        "minutes": 93,
         "description": "Everything as designed: all four trainers, every quick check, the Guardrails Lab with a rerun, the Four Lines builder with the pair stress-test, and the capstone. Book a 90-minute slot; the sum includes realistic transitions inside each block."
       },
       "core": {
@@ -171,6 +171,24 @@
       "coreMinutes": 1,
       "coreNote": "Core: objectives 1 and 5 out loud; the rest on screen.",
       "say": "Five things by the end. You'll know why written guardrails protect a team in ways good intentions can't. You'll classify data with the traffic light, including the hard cases that trip smart people. You'll size the human check to the blast radius, and you'll have one test that settles disclosure. You'll put a name on every output. And it lands in one artifact: a starter Four Lines agreement for your actual team, with a date on the conversation that makes it real.",
+      "transition": "One page before the plan: why the university itself needs your team to write these lines."
+    },
+    {
+      "id": "s-mission",
+      "title": "The Chancellor's charge",
+      "minutes": 3,
+      "purpose": "Connect the course to the institutional vision: the university's dare to grow is what makes written AI guardrails an operations capability rather than compliance paperwork.",
+      "facilitate": [
+        "Read the vision sentence off the slide, slowly; it carries the page.",
+        "Walk the three focus cards, landing on the 'At your desk' line in each.",
+        "Point at the flywheel card: incidents spend reputation, and written lines protect it.",
+        "Keep it under three minutes; this page frames the session, and the sections do the teaching."
+      ],
+      "validate": "The room can connect the vision to the course in one line: the faster the university moves, the more the written lines matter.",
+      "watchFor": "Eye-rolls at strategy language. Ground it fast: the flywheel's inputs are decided at desks like theirs, one shipped output at a time.",
+      "coreMinutes": 0,
+      "coreNote": "Core: under a minute. Read the vision sentence, gesture at the three focus cards, move on.",
+      "say": "Before the plan, the why behind the why. Chancellor Diermeier's vision is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The how is uncommon speed, agility, and scale, and here is what that means at your desk: a university moving that fast while holding FERPA-protected records cannot run on 'we'll be careful.' Speed without written lines is how incidents happen, and incidents spend the reputation the whole vision runs on. Our motto is the dare, Crescere aude, dare to grow. The Four Lines you write today are what let your team take that dare safely.",
       "transition": "Six steps, one page. Here's the arc."
     },
     {

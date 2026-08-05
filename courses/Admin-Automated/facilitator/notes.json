@@ -1,13 +1,13 @@
 {
   "meta": {
     "program": "Admin, Automated · Vanderbilt Learning Series",
-    "totalMinutes": 90,
+    "totalMinutes": 93,
     "audience": "All Vanderbilt staff who live in email, calendars, and recurring reports: coordinators, administrators, analysts, program staff, and anyone whose week has a repetitive layer. 8 to 30 works well; every exercise runs on individual work, so it scales up easily. AI Basics is the assumed foundation: learners know what a prompt is, and the traffic-light data rule is restated here, never introduced.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; any seating works, though pairs need to be able to turn toward each other. A whiteboard or flip chart for the candidate list in section 02 and the keep-shrink-retire calls in section 06. Virtual: breakouts of 2 for the pair drills. Set the norm in the first minute: your tasks and templates, never other people's names, and nothing typed is saved or sent.",
     "postSession": "Seven days out, send the pulse: 'Did the 20-minute build session happen? What did you template, route, or retire? Where did the recovered time actually go?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'what does the task cost now, and is the banked hour still yours?' The count of build sessions actually held is the program's headline Level 3 metric.",
     "paths": {
       "full": {
-        "minutes": 90,
+        "minutes": 93,
         "description": "Everything as designed: all four trainers, the private inventory, the full Automation Lab with a rerun, both quick checks, the keep-shrink-retire sort, and the capstone. Book a 90-minute slot; the sum includes realistic transitions inside each block."
       },
       "core": {
@@ -166,6 +166,24 @@
       "coreMinutes": 1,
       "coreNote": "Core: objectives 1 and 5 out loud; the rest on screen.",
       "say": "Five things by the end. You'll be able to find the repetitive layer in your own week, because it hides. You'll build reusable templates with AI from your own past messages and reports. You'll set up email triage where AI drafts and you stay accountable for every send. You'll put calendar rules in place that defend the time you recover. And you'll make the bravest call in the course: what recurring work should simply stop. It all lands in one artifact: an automation card for a task you actually do, with a date on it.",
+      "transition": "One page before the plan: why the university needs those hours back as much as you do."
+    },
+    {
+      "id": "s-mission",
+      "title": "The Chancellor's charge",
+      "minutes": 3,
+      "purpose": "Connect the course to the institutional vision: the university's speed is the sum of its staff hours, and automating the repetitive layer is how those hours come back.",
+      "facilitate": [
+        "Read the vision sentence off the slide, slowly; it carries the page.",
+        "Walk the three focus cards, landing on the 'At your desk' line in each.",
+        "Point at the flywheel card: recovered hours, banked where they show, are the flywheel's rawest input.",
+        "Keep it under three minutes; this page frames the session, and the sections do the teaching."
+      ],
+      "validate": "The room can connect the vision to the course in one line: the university's speed is made of reclaimed staff hours like theirs.",
+      "watchFor": "Eye-rolls at strategy language. Ground it fast: the flywheel's inputs are decided at desks like theirs, one retired repeat at a time.",
+      "coreMinutes": 0,
+      "coreNote": "Core: under a minute. Read the vision sentence, gesture at the three focus cards, move on.",
+      "say": "Before the plan, the why. Chancellor Diermeier's vision is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The how is uncommon speed, agility, and scale, and here is the desk-level truth: an institution's speed is the sum of its staff hours, and the repeat tax is quietly spending yours. Automating the twentieth repeat, while you stay accountable for every send, is how a university this ambitious gets its operational capacity back. Our motto is the dare, Crescere aude, dare to grow, and the hour you reclaim this week is the room you grow in.",
       "transition": "Six ideas, in a deliberate order."
     },
     {

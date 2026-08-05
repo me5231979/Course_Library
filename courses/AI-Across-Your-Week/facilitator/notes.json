@@ -1,13 +1,13 @@
 {
   "meta": {
     "program": "AI Across Your Week · Vanderbilt Learning Series",
-    "totalMinutes": 90,
+    "totalMinutes": 93,
     "audience": "Vanderbilt staff who have taken at least one or two CHART courses and want the pieces to add up: coordinators, analysts, managers, anyone whose week runs on recurring blocks. 8 to 24 works best (the inventory and matching drills run in pairs); scales larger with room votes. The traffic-light data rule from the AI courses is assumed and restated here.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; movable seating for pairs. Ask learners to have last week's calendar reachable on their device; the inventory drill works best against the real thing. Virtual: breakouts of 2 for the inventory and matching swaps. Set the norm in the first minute: blocks and workflows, never people's names, and nothing typed is saved or sent.",
     "postSession": "Seven days out, send the pulse: 'Did the 30-minute calendar pass happen? How many assists are placed on next week's blocks? Where is the bank block, and what is it named?' At 30 days, send the re-poll: the same fist-to-five confidence question from the close, plus 'how many distinct AI uses did you run last week, and what did the banked time buy?' The count of calendar passes actually run, and the growth in distinct-use counts, are the program's headline Level 3 metrics.",
     "paths": {
       "full": {
-        "minutes": 90,
+        "minutes": 93,
         "description": "Everything as designed: all four trainers, the private inventory, the pair swaps in 02, 03, and 04, the full Week Lab with a rerun, the bank line drill, and the capstone. Book a 90-minute slot; the sum includes realistic transitions inside each block."
       },
       "core": {
@@ -171,6 +171,24 @@
       "coreMinutes": 1,
       "coreNote": "Core: objectives 1 and 5 out loud; the rest on screen.",
       "say": "Five things by the end: you'll know why breadth of use, more distinct tasks, predicts real gains better than mastering any single trick. You'll inventory your real week into blocks with honest hours on them. You'll match each block to the CHART method that fits its verb. You'll stack two methods on one task without losing the checks. And it all lands in one artifact: a Week Map for the week you actually live, with a date on the calendar pass that places the assists.",
+      "transition": "One page before the plan: why the university needs your week, specifically, to get wider."
+    },
+    {
+      "id": "s-mission",
+      "title": "The Chancellor's charge",
+      "minutes": 3,
+      "purpose": "Connect the vision to the capstone: breadth of AI use across ordinary staff weeks is where the university's uncommon speed actually comes from.",
+      "facilitate": [
+        "Read the vision sentence off the slide, slowly; it carries the page.",
+        "Walk the three focus cards, landing on the 'At your desk' line in each.",
+        "Point at the flywheel card: every banked hour on a Week Map is capacity the flywheel gets to spend.",
+        "Keep it under three minutes; this page frames the session, and the sections do the teaching."
+      ],
+      "validate": "The room can say the bridge in one line: the university's speed is built out of individual weeks like theirs.",
+      "watchFor": "Eye-rolls at strategy language. Ground it fast: the flywheel's inputs are decided in ordinary calendars, one recovered hour at a time.",
+      "coreMinutes": 0,
+      "coreNote": "Core: under a minute. Read the vision sentence, gesture at the three focus cards, move on.",
+      "say": "Before the plan, the institutional why. Chancellor Diermeier's vision is one sentence with no hedge in it: Vanderbilt will define the great university of the 21st century, and be it. The how is uncommon speed, agility, and scale, and none of those live in a strategy document. They live in weeks, yours included. Gallup's breadth finding is the bridge: seven or more tasks is where the real gains appear, and real gains across thousands of staff weeks is what speed at scale actually is. Our motto is the dare, Crescere aude, dare to grow, and this week, the one on your calendar right now, is where the growing happens.",
       "transition": "One week, six moves, in a deliberate order."
     },
     {
