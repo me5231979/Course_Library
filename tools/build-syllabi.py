@@ -15,10 +15,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 COURSES = [
     {
-        "slug": "ai-basics",
+        "slug": "start-smarter",
         "coreSkills": ['Embodies an entrepreneurial spirit and leverages data and technology'],
         "skills": ['Artificial Intelligence', 'Digital Fluency/Information Literacy', 'Data Security'],
-        "title": "AI Basics",
+        "title": "Start Smarter",
         "subtitle": "A first introduction for people who have never used AI",
         "audience": "Absolute beginners: staff who have never opened an AI tool, or tried once and gave up. No prerequisites of any kind",
         "length": "Classroom: 60 minutes (30-minute core path). Self-paced web edition: about 25 minutes",
