@@ -188,21 +188,20 @@ a { color: inherit; }
 .viewchip { display: inline-flex; align-items: center; gap: .4rem; }
 .viewchip svg { width: 13px; height: 13px; }
 
-/* list layout: same cards, condensed to scannable rows */
+/* list layout: same cards, condensed to uniform scannable rows */
 .courses--list { display: block !important; }
-.courses--list article.course { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center;
-  gap: .25rem 1.5rem; padding: 1rem 1.4rem; margin-bottom: .75rem; }
-.courses--list .course__skills, .courses--list .course__desc, .courses--list .course__meta,
-.courses--list .course__obj, .courses--list .course__extras { display: none; }
+.courses--list article.course { display: flex; flex-wrap: wrap; align-items: center;
+  gap: .35rem 1.25rem; padding: 1rem 1.4rem; margin-bottom: .75rem; }
+.courses--list article.course[hidden] { display: none !important; }
+.courses--list .course__tag { flex-basis: 100%; margin: 0; }
 .courses--list article.course h3 { margin: 0; font-size: 1.2rem; }
-.courses--list .course__tag { margin: 0; order: -1; }
 .courses--list .course__syllabus { margin: 0; font-size: .8rem; }
-.courses--list .course__cta { grid-column: 2; grid-row: 1 / span 3; margin: 0; display: flex; flex-wrap: wrap;
-  gap: .5rem; justify-content: flex-end; }
+.courses--list .course__cta { margin: 0 0 0 auto; display: flex; flex-wrap: wrap; gap: .5rem; }
 .courses--list .course__cta .btn { padding: .5rem .9rem; font-size: .78rem; }
+.courses--list .course__skills, .courses--list .course__desc, .courses--list .course__meta,
+.courses--list .course__obj, .courses--list .course__extras, .courses--list .course__length { display: none; }
 @media (max-width: 760px) {
-  .courses--list article.course { grid-template-columns: 1fr; }
-  .courses--list .course__cta { grid-column: 1; grid-row: auto; justify-content: flex-start; margin-top: .5rem; }
+  .courses--list .course__cta { margin-left: 0; }
 }
 .filterchip[aria-pressed="true"] { background: var(--vu-black); color: #fff; border-color: var(--vu-black); }
 .course[hidden] { display: none; }
