@@ -7,7 +7,9 @@ Run after editing the COURSES data below:
 
     python3 tools/build-syllabi.py
 """
-import html, os
+import html, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from gap_syllabi_configs import GAP_COURSES
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -627,6 +629,8 @@ COURSES = [
         "frameworks": "Grounded in Gallup's 2026 workplace AI research (manager championing and workflow integration as top drivers of frequent use) and Accenture's AI leadership research (~18 percent leading well; curiosity, courage, connection). The data guardrail is the traffic light taught in AI Basics and AI 201, verbatim."
     },
 ]
+
+COURSES += GAP_COURSES
 
 CSS = """
   @font-face { font-family: 'Libre Caslon Display'; font-style: normal; font-weight: 400;
