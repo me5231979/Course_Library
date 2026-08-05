@@ -454,7 +454,43 @@ COURSES = [
         "learner": "https://me5231979.github.io/Presentation-Public-Speaking/",
         "facilitator": "https://me5231979.github.io/Presentation-Public-Speaking/facilitator/",
         "frameworks": "Grounded in Nancy Duarte's Presentation Principles (Big Idea™, Presentation Sparkline™; TEDxEast), Barbara Minto's Pyramid Principle and SCQA (McKinsey), Chris Anderson's 'How to Give a Killer Presentation' (HBR/TED), Carmine Gallo's 'What It Takes to Give a Great Presentation' (HBR), the AMA's Seven Principles of Effective Public Speaking and Effective Executive Speaking curriculum, SHRM's six pre-speaking questions, Coqual/Hewlett's Executive Presence research, Deloitte's CFO Signals survey, and the Chapman Survey of American Fears."
-    }
+    },
+    {
+        "slug": "workflow-process-redesign",
+        "coreSkills": ['Embodies an entrepreneurial spirit and leverages data and technology', 'Leads and inspires teams'],
+        "skills": ['Process Mapping', 'AI Literacy', 'Change Management'],
+        "title": "Workflow & Process Redesign",
+        "subtitle": "Redesign the work, then add the AI",
+        "audience": "Part of the Manager Voyage program. Managers, team leads, and project owners: anyone who owns a repeating team workflow and is deciding where AI fits in it",
+        "length": "Classroom: 90 minutes (60-minute core path). Self-paced web edition: about 45 minutes",
+        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. Private by design: exercises use workflows and roles (never names) and nothing typed is saved or transmitted",
+        "group": "8 to 24 works best (the mapping and assignment drills run in pairs); scales larger with room votes",
+        "description": "Nearly nine in ten organizations now use AI, and only around six percent get meaningful bottom-line value from it. McKinsey's State of AI research found the strongest thing separating the two, out of everything measured, is fundamentally redesigned workflows, and that work happens at the manager's level. This session teaches the method end to end. It opens with the evidence played as a guessing game, then teaches managers to see their team's work as a step map (gather, transform, judge, commit) and to map one real workflow privately. The core is the draft-verify-decide pattern: for every step, one assignment, AI drafts the volume, a named human verifies against real sources, a human decides wherever accountability lives, bounded by the shared data traffic light. A full section on verification design covers automation bias, rubber stamps, and checks with teeth. Learners then rebuild a realistic weekly-report workflow in the graded Redesign Lab and watch their design succeed or fail at week three, before the final section on running a pilot the team will trust: doers design the checks, the metric stays visible, and the saved hours get an honest purpose. Every learner leaves with a redesign card: one workflow, one draft step, one dated team mapping session.",
+        "objectives": [
+            "Explain why workflow redesign separates AI high performers from the crowd seeing no bottom-line impact",
+            "Map one of your team's workflows into steps and separate the mechanical work from the judgment work",
+            "Apply the draft-verify-decide pattern to assign every step: AI drafts, a human verifies, a human decides",
+            "Design verification with teeth: a named owner, real sources, and a reject path that gets used",
+            "Build a redesign card for one real workflow and commit to a piloted first step with a visible metric"
+        ],
+        "topics": [
+            ("The case for redesign", "McKinsey's State of AI numbers played as a guessing game: 88 percent adoption, about 6 percent high performers, redesign as the strongest EBIT factor, 2.8x"),
+            ("See the work as a process", "Step maps and the four step types (gather, transform, judge, commit), with a private mapper for one real team workflow"),
+            ("Draft, verify, decide", "The per-step assignment pattern, made once at design time, bounded by the green/yellow/red data traffic light"),
+            ("Design the verify", "Automation bias, rubber stamps, wrong-sized checks, and the verifier's rubric: named owner, real sources, logged reject path"),
+            ("The Redesign Lab", "A graded rebuild of the weekly client report: four steps, four assignments, and a four-week simulated outcome"),
+            ("Bring the team along", "The pilot standard: doers design the checks, a visible metric, a real rollback, and an honest answer about the saved hours")
+        ],
+        "activities": "A guess-the-number research game, a step-type trainer, a private workflow mapper, an assignment trainer, a rate-the-check trainer, a judge-the-announcement trainer, the graded Redesign Lab with rerun, inline knowledge checks, a scored recap, and the My Redesign Card capstone.",
+        "outcomes": "Learners leave with a dated redesign card: one real workflow, the first step AI will draft, a named failure mode to avoid, and a 30-minute team mapping session within seven days, plus a pilot metric (hours saved and errors caught). Learning is measured in session (trainer scores, the graded lab, and a recap mapped to the objectives), at close (a confidence check and a spoken workflow-and-day commitment round), and after (a 7-day pulse on mapping sessions held and a 30-day re-poll on workflow cost and catches).",
+        "takehomes": [
+            ("Printable cheat sheet", "https://me5231979.github.io/Workflow/cheatsheet.html"),
+            ("Redesign card worksheet", "https://me5231979.github.io/Workflow/worksheet.html")
+        ],
+        "learner": "https://me5231979.github.io/Workflow/",
+        "facilitator": "https://me5231979.github.io/Workflow/facilitator/",
+        "frameworks": "Grounded in McKinsey's State of AI global survey (workflow redesign as the strongest measured link to EBIT impact from gen AI), Metaintro's framing of process mapping as the manager's new core job, automation-bias research on human oversight of automated systems, and classic process-mapping practice. The data rules align with the traffic light taught in AI Basics and AI 201."
+    },
 ]
 
 CSS = """
