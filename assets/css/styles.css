@@ -192,3 +192,11 @@ a { color: inherit; }
   padding: .22rem .55rem; border-radius: 999px; border: 1px solid rgba(148,110,36,.45);
   color: var(--vu-oak); }
 .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+
+/* visible course length badge */
+.course__length { display: inline-flex; align-items: center; gap: .4rem;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .07em; font-size: .72rem; color: var(--vu-black);
+  background: rgba(207,174,112,.28); border: 1px solid rgba(148,110,36,.35);
+  border-radius: 4px; padding: .3rem .6rem; margin: .5rem 0 .25rem; }
+.course__length svg { color: var(--vu-oak); flex-shrink: 0; }
