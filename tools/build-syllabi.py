@@ -630,6 +630,42 @@ COURSES = [
         "facilitator": "https://me5231979.github.io/Course_Library/leading-ai-adoption/facilitator/",
         "frameworks": "Grounded in Gallup's 2026 workplace AI research (manager championing and workflow integration as top drivers of frequent use) and Accenture's AI leadership research (~18 percent leading well; curiosity, courage, connection). The data guardrail is the traffic light taught in Start Smarter and AI 201, verbatim."
     },
+    {
+        "slug": "hcm-essentials",
+        "coreSkills": ['Continuously strives for excellence', 'Makes effective and ethical decisions for the University'],
+        "skills": ['Oracle HCM', 'Payroll Accuracy', 'HR Compliance'],
+        "title": "HCM Essentials",
+        "subtitle": "The playbook for the role behind every paycheck",
+        "audience": "Business Unit HCMs, new and experienced, plus the managers and administrators who share their transactions. Built for the HCM Operational Excellence initiative; no prerequisites",
+        "length": "Classroom: 90 minutes (60-minute core path). Self-paced web edition: about 45 minutes",
+        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code, or fully self-paced at the /web/ edition",
+        "group": "8 to 30 works well; the trainers scale with pair work and room votes",
+        "description": "Every hire, timecard, transfer, termination, and leave in a business unit reaches Oracle through the HCM, and until now the role has run without a standard: no checklist, no shared job description, training scattered across emails and webinars. This session is the playbook. It opens with the stakes from the initiative charter (24 documented overpayment cases totaling about $84,000 in five months, most traced to delayed or incorrect actions), installs the core four responsibilities with their timing rules and the same-day habit, builds the ear for the three foundations hiding inside ordinary requests (FLSA status, job architecture, and multi-state compliance, with recognize-and-route to PCB as the standard), establishes Oracle as the single source of truth (HCM Academy learning paths, job aids, guided journeys, guardrails), and delivers the accountability model straight: reminders, escalations, dashboards, and the 85 percent completion bar, paired with the checklist, community, surveys, and champion network built to support the role.",
+        "objectives": [
+            "Describe where the HCM role sits between the business unit, PCB, and Oracle, and what it costs when actions slip",
+            "Execute the core four on time: timecard approvals, transactions, terminations, and leave actions",
+            "Explain the foundations behind the clicks: FLSA status, job architecture, and multi-state compliance",
+            "Locate answers in Oracle first: HCM Academy learning paths, job aids, and guided journeys, before email or a ticket",
+            "Commit to one working habit that prevents errors upstream instead of correcting them downstream"
+        ],
+        "topics": [
+            ("The role and the stakes", "What an HCM owns, the $84,000 overpayment story from the charter, and the upstream-quality frame: training, guardrail, guided workflow, or notification"),
+            ("The core four", "Timecards, transactions, terminations, and leave, drilled in the Call the Play trainer, with same day, into Oracle as the central habit"),
+            ("The foundations", "FLSA status, job architecture, and multi-state compliance (NY, CA, FL), practiced in Spot the Concept and the flag-it reply drill"),
+            ("Oracle first", "The HCM Academy, job aids and guided journeys at the point of work, guardrails and alerts, and the routing habit: Oracle for how, community for judgment, ticket for broken"),
+            ("Accountability and community", "Reminders, escalations, dashboards, and the 85 percent bar, paired with the HCM checklist, community, surveys, and champion network")
+        ],
+        "activities": "Four scenario trainers (Guess the Number, Call the Play, Spot the Concept, Where Do You Go First), inline knowledge checks, a payroll-cutoff calendar drill, pair practice on the flag-it reply, a guardrail brainstorm captured for the project team, a six-question scored recap, and the HCM Commitment Card capstone (one task, one habit, one date).",
+        "outcomes": "Learners leave with the core four and their timing rules installed, the recognize-and-route reflex for FLSA, classification, and state-line questions, the Oracle-first habit, real calendar reminders for their unit's deadlines, and a dated commitment card. Learning is measured in session (trainer scores and the recap), at close (fist-to-five and a spoken habit-and-date commitment), and after (a 7-day pulse and a post-payroll-cycle re-poll; completed first reps and submitted survey lines are the headline metric).",
+        "takehomes": [
+            ("The HCM checklist (printable)", "https://me5231979.github.io/HCM_Education/checklist.html"),
+            ("Commitment card worksheet", "https://me5231979.github.io/HCM_Education/worksheet.html"),
+            ("Self-paced web edition", "https://me5231979.github.io/HCM_Education/web/")
+        ],
+        "learner": "https://me5231979.github.io/HCM_Education/",
+        "facilitator": "https://me5231979.github.io/HCM_Education/facilitator/",
+        "frameworks": "Built from the HCM Operational Excellence Initiative Integrated Project Charter & Scope (Project 037, HRIS) on the series' standard learning architecture: Bloom's-verb objectives, ATD-structured facilitator runbook (Say / Do / Ask / Debrief / Transition), and Kirkpatrick L1-L3 instrumentation. FLSA content points to the U.S. Department of Labor as the authoritative source; the course teaches recognize-and-route, never legal advice."
+    }
 ]
 
 COURSES += GAP_COURSES
