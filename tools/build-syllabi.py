@@ -323,7 +323,7 @@ def build(c):
 <div class="sheet">
   <header>
     <div>
-      <p class="eyebrow">Vanderbilt · Learning Series · Course description</p>
+      <p class="eyebrow">Vanderbilt · Staff Learning Collection · Course description</p>
       <h1>{h1}</h1>
       <p class="subtitle">{esc(c['subtitle'])}</p>
     </div>

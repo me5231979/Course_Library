@@ -1,4 +1,4 @@
-# Course Library — Vanderbilt Learning Series
+# The Vanderbilt Staff Learning Collection
 
 The Learning on Demand catalog. Live at
 https://me5231979.github.io/Course_Library/ (GitHub Pages, `gh-pages`

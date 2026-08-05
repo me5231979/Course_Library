@@ -1,4 +1,4 @@
-# Course Library — Vanderbilt Learning Series
+# The Vanderbilt Staff Learning Collection
 
 The catalog for the **Learning on Demand** program: live, interactive
 classroom courses (websites, not slide decks) with matching facilitator
