@@ -67,9 +67,17 @@
         <button class="filterchip" data-topic="ai" aria-pressed="false">AI &amp; Data</button>
         <button class="filterchip" data-topic="communication" aria-pressed="false">Communication</button>
         <button class="filterchip" data-topic="leadership" aria-pressed="false">Leadership &amp; Coaching</button>
+        <span class="viewgroup" role="group" aria-label="Catalog layout">
+          <button class="filterchip viewchip" data-view="cards" aria-pressed="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            Card view</button>
+          <button class="filterchip viewchip" data-view="list" aria-pressed="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg>
+            List view</button>
+        </span>
       </div>
 
-      <div class="courses">
+      <div class="courses" id="catalog">
         <article class="course" data-reveal data-topics="ai">
           <p class="course__tag">Start here &middot; for absolute beginners &middot; Part of the CHART Program</p>
           <h3>AI Basics</h3>
@@ -465,6 +473,20 @@
       });
     });
   }
+
+  // card / list layout toggle, remembered in this browser
+  var catalog = document.getElementById('catalog');
+  var viewChips = Array.prototype.slice.call(document.querySelectorAll('.viewchip'));
+  function setView(v) {
+    if (!catalog) return;
+    catalog.classList.toggle('courses--list', v === 'list');
+    viewChips.forEach(function (c) { c.setAttribute('aria-pressed', String(c.getAttribute('data-view') === v)); });
+    try { localStorage.setItem('library-view', v); } catch (e) {}
+  }
+  viewChips.forEach(function (c) {
+    c.addEventListener('click', function () { setView(c.getAttribute('data-view')); });
+  });
+  try { if (localStorage.getItem('library-view') === 'list') setView('list'); } catch (e) {}
 
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var els = Array.prototype.slice.call(document.querySelectorAll('[data-reveal]'));

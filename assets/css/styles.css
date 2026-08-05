@@ -184,6 +184,26 @@ a { color: inherit; }
   border: 1px solid rgba(28,28,28,.3); background: transparent; color: var(--vu-black);
   cursor: pointer; transition: all .2s var(--ease); }
 .filterchip:hover { border-color: var(--vu-black); }
+.viewgroup { display: inline-flex; gap: .6rem; margin-left: auto; }
+.viewchip { display: inline-flex; align-items: center; gap: .4rem; }
+.viewchip svg { width: 13px; height: 13px; }
+
+/* list layout: same cards, condensed to scannable rows */
+.courses--list { display: block !important; }
+.courses--list article.course { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center;
+  gap: .25rem 1.5rem; padding: 1rem 1.4rem; margin-bottom: .75rem; }
+.courses--list .course__skills, .courses--list .course__desc, .courses--list .course__meta,
+.courses--list .course__obj, .courses--list .course__extras { display: none; }
+.courses--list article.course h3 { margin: 0; font-size: 1.2rem; }
+.courses--list .course__tag { margin: 0; order: -1; }
+.courses--list .course__syllabus { margin: 0; font-size: .8rem; }
+.courses--list .course__cta { grid-column: 2; grid-row: 1 / span 3; margin: 0; display: flex; flex-wrap: wrap;
+  gap: .5rem; justify-content: flex-end; }
+.courses--list .course__cta .btn { padding: .5rem .9rem; font-size: .78rem; }
+@media (max-width: 760px) {
+  .courses--list article.course { grid-template-columns: 1fr; }
+  .courses--list .course__cta { grid-column: 1; grid-row: auto; justify-content: flex-start; margin-top: .5rem; }
+}
 .filterchip[aria-pressed="true"] { background: var(--vu-black); color: #fff; border-color: var(--vu-black); }
 .course[hidden] { display: none; }
 .course__skills { display: flex; flex-wrap: wrap; gap: .4rem; margin: .65rem 0 .35rem; }
