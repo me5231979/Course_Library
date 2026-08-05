@@ -321,6 +321,15 @@
 
 <script>
 (function () {
+  // every non-anchor link opens in a new tab
+  Array.prototype.slice.call(document.querySelectorAll('a[href]')).forEach(function (a) {
+    var href = a.getAttribute('href');
+    if (href && href.charAt(0) !== '#') {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener');
+    }
+  });
+
   // topic filter
   var bar = document.getElementById('filterbar');
   if (bar) {
