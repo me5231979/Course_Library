@@ -491,6 +491,102 @@ COURSES = [
         "facilitator": "https://me5231979.github.io/Workflow/facilitator/",
         "frameworks": "Grounded in McKinsey's State of AI global survey (workflow redesign as the strongest measured link to EBIT impact from gen AI), Metaintro's framing of process mapping as the manager's new core job, automation-bias research on human oversight of automated systems, and classic process-mapping practice. The data rules align with the traffic light taught in AI Basics and AI 201."
     },
+    {
+        "slug": "ai-coaching-feedback",
+        "coreSkills": ['Grows self and others', 'Embodies an entrepreneurial spirit and leverages data and technology'],
+        "skills": ['Coaching Techniques', 'Performance Feedback', 'AI Literacy'],
+        "title": "AI for Coaching & Feedback",
+        "subtitle": "Prep like a coach, show up human",
+        "audience": "Part of the Manager Voyage program and the CHART Program. People managers and team leads who run 1:1s, give feedback, and want AI's help preparing without losing the human conversation",
+        "length": "Classroom: 40 minutes (30-minute core path). Self-paced web edition: about 15 minutes",
+        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. Private by design: exercises use roles (never names) and nothing typed is saved or transmitted",
+        "group": "8 to 24 works best; the drills run in pairs",
+        "description": "SHRM's workplace research finds managers' work is already about 50 percent AI-assisted (versus 34 percent for individual contributors), and coaching platforms like Culture Amp's AI Coach, Lattice, and 15Five now embed AI into the flow of people work. This short session installs the discipline that separates good use from bad in one line: AI preps the conversation, and you have it. Learners drill the prep-outsource boundary on five real manager moves, run the graded Feedback Prep Lab (what you feed it, what you ask for, what you do with the draft, and what happens in the room) built on Situation-Behavior-Impact, and learn to mine aggregate signals, engagement survey themes and their own 1:1 notes, for coaching opportunities without crossing into surveillance. The data rules run throughout: de-identify first, approved VU tools only, behavior not character, aggregate not individual. Every learner leaves with a prep card for a real upcoming conversation.",
+        "objectives": [
+            "Explain the prep-not-outsource line: what AI can prepare, and why the conversation itself never delegates",
+            "Draft behavior-based feedback with AI from your own de-identified observations, structured as Situation, Behavior, Impact",
+            "Use AI on aggregate signals to surface coaching opportunities without crossing into surveillance",
+            "Build a prep card for one real upcoming conversation, with the privacy rules attached"
+        ],
+        "topics": [
+            ("Prep, not outsource", "The line between AI that sharpens conversations and AI that replaces you in them, drilled on five manager moves, with the traffic-light data rules"),
+            ("The feedback draft", "SBI structure and the graded Feedback Prep Lab: input, ask, rewrite pass, and the human conversation"),
+            ("Signals, not surveillance", "Aggregate survey themes and your own 1:1 notes as coaching radar, bounded by the two-question test: aggregate or individual, and would you tell the team?")
+        ],
+        "activities": "A prep-or-outsource trainer, the graded Feedback Prep Lab, a signal-or-surveillance trainer, inline knowledge checks, a scored recap, and the 1:1 Prep Card capstone.",
+        "outcomes": "Learners leave with a dated prep card: one real conversation (role, not name), one prep move (rehearsal, SBI draft, notes mine, or themes move), one named failure mode to avoid, and the privacy rules attached. Learning is measured in session (trainer scores and the graded lab), at close (fist-to-five and a spoken role-and-day commitment), and after (a 7-day pulse on prepped conversations actually held).",
+        "takehomes": [
+            ("Printable cheat sheet", "https://me5231979.github.io/Course_Library/ai-coaching-feedback/cheatsheet.html"),
+            ("Prep card worksheet", "https://me5231979.github.io/Course_Library/ai-coaching-feedback/worksheet.html")
+        ],
+        "learner": "https://me5231979.github.io/Course_Library/ai-coaching-feedback/",
+        "facilitator": "https://me5231979.github.io/Course_Library/ai-coaching-feedback/facilitator/",
+        "frameworks": "Grounded in SHRM's Navigating AI in the Workplace research, the Center for Creative Leadership's Situation-Behavior-Impact feedback model, and the embedded-coaching-AI market context (Culture Amp AI Coach, Lattice, 15Five). Data rules align with the traffic light taught in AI Basics and AI 201."
+    },
+    {
+        "slug": "ai-talent-decisions",
+        "coreSkills": ['Makes effective and ethical decisions for the University', 'Grows self and others'],
+        "skills": ['Structured Interviewing', 'Succession Planning', 'Skills Mapping'],
+        "title": "AI for Talent Decisions",
+        "subtitle": "Sharper talent inputs, human talent calls",
+        "audience": "Part of the Manager Voyage program and the CHART Program. Leaders and managers who hire, run talent reviews, plan succession, or own team capability. Anything candidate-facing runs with HR; the course says so repeatedly",
+        "length": "Classroom: 40 minutes (30-minute core path). Self-paced web edition: about 15 minutes",
+        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. Exercises use roles and rubrics, never names; nothing typed is saved or transmitted",
+        "group": "8 to 24 works best; the drills run in pairs",
+        "description": "Leaders now use AI across the talent pipeline: screening, structured interview design, skills inference, succession planning, internal matching. These are the highest-stakes decisions a manager makes, about people, with bias risk and identifying data everywhere, and automated employment decisions are increasingly regulated territory. This session teaches the one discipline that keeps talent AI useful and defensible: AI drafts the instruments (structured interview kits from the job description, 9-box rubrics with behavioral anchors, de-identified skills maps, succession profiles) and every verdict about a person stays human. Learners sort five real talent tasks against the line, build a defensible 9-box in the graded Rubric Lab (source, criteria, anchors, scoring), learn the camera test that catches bias magnets like culture fit and polish, and run the skills-map recipe with grow-borrow-hire gap closing. The strictest data rules in the series apply: resumes, reviews, and names never enter unapproved tools.",
+        "objectives": [
+            "Identify which talent tasks AI can draft (instruments, questions, maps) and which stay human calls, always",
+            "Build a behaviorally anchored rubric for interviews or a 9-box, with AI stress-testing your criteria",
+            "Draft structured interview questions from a real job description, with anchored scoring",
+            "Map your team's skills against goals, de-identified, and draft a gap-closing development plan"
+        ],
+        "topics": [
+            ("Instruments, not verdicts", "The line that keeps talent AI defensible, drilled on five tasks, with the red-light data rules and the HR partnership requirement"),
+            ("The Rubric Lab", "A graded 9-box build: source, observable criteria, behavioral anchors, and independent human scoring; the same build makes the interview kit"),
+            ("Skills, gaps, and growth", "De-identified skills maps, inference as draft, grow-borrow-hire gap closing, and succession profiles without names")
+        ],
+        "activities": "A draft-call-or-keep-it-out trainer, the graded Rubric Lab, a useful-and-safe skills trainer, inline knowledge checks, a scored recap, and the Talent Toolkit Card capstone.",
+        "outcomes": "Learners leave with a dated toolkit card: one talent decision, one instrument to build (interview kit, 9-box rubric, skills map, or succession profile), one named failure mode to avoid, and a 45-minute build session with the stranger-could-score standard. Learning is measured in session (trainer scores and the graded lab), at close (fist-to-five and a spoken instrument-and-day commitment), and after (a 7-day pulse on instruments actually built).",
+        "takehomes": [
+            ("Printable cheat sheet", "https://me5231979.github.io/Course_Library/ai-talent-decisions/cheatsheet.html"),
+            ("Toolkit card worksheet", "https://me5231979.github.io/Course_Library/ai-talent-decisions/worksheet.html")
+        ],
+        "learner": "https://me5231979.github.io/Course_Library/ai-talent-decisions/",
+        "facilitator": "https://me5231979.github.io/Course_Library/ai-talent-decisions/facilitator/",
+        "frameworks": "Grounded in industry coverage of AI across the talent pipeline (People Managing People; Rework), the validity research behind structured interviews and behaviorally anchored rating scales, and the emerging bias-audit regulation for automated employment decision tools. Data rules align with the traffic light taught in AI Basics and AI 201."
+    },
+    {
+        "slug": "leading-ai-adoption",
+        "coreSkills": ['Leads and inspires teams', 'Embodies an entrepreneurial spirit and leverages data and technology'],
+        "skills": ['Change Management', 'AI Literacy', 'Team Development'],
+        "title": "Leading AI Adoption",
+        "subtitle": "Your team adopts what you model",
+        "audience": "Part of the Manager Voyage program and the CHART Program. Managers and team leads who want their teams actually using AI well, safely and openly. Pairs naturally with Workflow & Process Redesign",
+        "length": "Classroom: 40 minutes (30-minute core path). Self-paced web edition: about 15 minutes",
+        "format": "Instructor-led, in person or virtual; learners join on their own devices via QR code. The work audit stays entirely on the learner's screen; nothing typed is saved or transmitted",
+        "group": "8 to 24 works best; drills run in pairs",
+        "description": "Gallup's workplace research keeps finding the same two predictors of a team actually using AI: the manager visibly championing it, and the tools being integrated into real workflows. Tools, budgets, and mandates barely move the needle, and Accenture finds only about 18 percent of leaders are doing this well, separated by curiosity, courage, and connection. This session teaches the visible moves: the narrated use (what you used AI for, what the check caught, what you'd do differently), the monthly show-your-prompts round, and the three written guardrails that make it safe for a team to try: what data goes in (the traffic light), when a human signs off, and who owns the result. The signature block is the AI-enabled work audit: five honest, scored questions about the learner's real team (repeated outputs, usage state, visible modeling, guardrails, and whether AI enters coaching conversations), producing a score out of 12 and the three highest-leverage moves ranked by weakest dimension. Every learner leaves with a dated first visible move, measured by rerunning the audit in a month.",
+        "objectives": [
+            "Explain why manager modeling and workflow integration predict team AI use better than tools or mandates",
+            "Model AI use visibly: narrate real uses, show the checks, share the misses",
+            "Set the three team guardrails: what data goes in, when human sign-off is required, who owns the result",
+            "Run the AI-enabled work audit on your team and leave with a dated first move"
+        ],
+        "topics": [
+            ("Model it, visibly", "Gallup's two predictors, Accenture's three C's, and the narrated-use move, drilled on five leader behaviors"),
+            ("The three guardrails", "Data, sign-off, ownership: one page written with the team, with amnesty for existing shortcuts; incidents diagnosed to their missing rail"),
+            ("The AI-enabled work audit", "Five scored questions on the team's real AI state, with the three highest-leverage moves ranked by weakest dimension and a quarterly cadence")
+        ],
+        "activities": "A model-mandate-or-undermine trainer, a which-rail-is-missing trainer, the scored AI-enabled work audit, inline knowledge checks, a scored recap, and the Adoption Plan capstone.",
+        "outcomes": "Learners leave with a scored audit of their own team and a dated adoption plan: the work they'll model on, one visible first move (narrated use, show-your-prompts round, guardrails session, or the 1:1 question), one named failure mode to avoid, and the audit rerun as the metric. Learning is measured in session (trainer scores and the completed audit), at close (fist-to-five and a spoken move-and-day commitment), and after (a 7-day pulse on first moves made and a 30-day audit rerun).",
+        "takehomes": [
+            ("Printable cheat sheet", "https://me5231979.github.io/Course_Library/leading-ai-adoption/cheatsheet.html"),
+            ("Audit + plan worksheet", "https://me5231979.github.io/Course_Library/leading-ai-adoption/worksheet.html")
+        ],
+        "learner": "https://me5231979.github.io/Course_Library/leading-ai-adoption/",
+        "facilitator": "https://me5231979.github.io/Course_Library/leading-ai-adoption/facilitator/",
+        "frameworks": "Grounded in Gallup's 2026 workplace AI research (manager championing and workflow integration as top drivers of frequent use) and Accenture's AI leadership research (~18 percent leading well; curiosity, courage, connection). The data guardrail is the traffic light taught in AI Basics and AI 201, verbatim."
+    },
 ]
 
 CSS = """
