@@ -1,14 +1,14 @@
 {
   "meta": {
     "program": "AI for Talent Decisions · Vanderbilt Learning Series",
-    "totalMinutes": 40,
+    "totalMinutes": 43,
     "audience": "Part of the CHART Program and the Manager Voyage. Leaders and managers who hire, run talent reviews, plan succession, or own team capability: anyone whose decisions shape careers. 8 to 24 works best; drills run in pairs. Partner with HR before applying anything candidate-facing; this session says so repeatedly and means it.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; seating that pairs easily. Virtual: breakouts of 2. The norm, stated in minute one: roles and rubrics, never names, and nothing typed leaves the screen.",
     "postSession": "Seven days out, send the pulse: 'Did the build session happen? Which instrument, and could a stranger score with it? Did everything stay in approved tools?' The count of instruments actually built is the program's headline Level 3 metric.",
     "paths": {
       "full": {
-        "minutes": 40,
-        "description": "Everything as designed: both trainers, the Rubric Lab with a rerun for anyone below strong, all pair drills, and the capstone. Book a 40-minute slot; the sum includes transitions."
+        "minutes": 43,
+        "description": "Everything as designed: both trainers, the Rubric Lab with a rerun for anyone below strong, all pair drills, and the capstone. Book a 43-minute slot; the sum includes transitions."
       },
       "core": {
         "minutes": 30,
@@ -126,7 +126,24 @@
       "coreMinutes": 1,
       "coreNote": "Core: objectives 1 and 2 out loud.",
       "say": "Four things by the end: you'll know which talent tasks AI drafts and which stay human calls, always. You'll be able to build a rubric with real anchors, for interviews or the 9-box. You'll know how to turn a job description into a structured interview kit. And you'll be able to map your team's skills and draft the gap-closing plan, all de-identified, all in approved tools.",
-      "transition": "Three ideas, in order."
+      "transition": "One minute on where this sits in the university's plan, then the three ideas."
+    },
+    {
+      "id": "s-mission",
+      "title": "The Chancellor's charge",
+      "minutes": 3,
+      "purpose": "Anchor instruments-not-verdicts in the Chancellor's vision so talent craft reads as institutional work, not admin.",
+      "facilitate": [
+        "Read the vision sentence off the slide and let it land.",
+        "Walk the three focus areas, one team translation each.",
+        "Point at the flywheel: it turns on talent, and instruments decide whether talent gets recognized and grown."
+      ],
+      "validate": "Nods at the team-translation lines; no discussion needed here.",
+      "watchFor": "The urge to teach strategy; this page is a frame, and the three ideas are waiting.",
+      "coreMinutes": "<1",
+      "coreNote": "Core: under a minute; read the vision sentence, gesture at the three focus areas, and move on.",
+      "say": "One minute of altitude before the craft. The Chancellor's vision has no hedge in it: Vanderbilt will define the great university of the 21st century, and be it, operating at uncommon speed, agility, and scale. Every part of that vision runs through talent: who we hire, who we grow, who we trust with the bold bet. That makes today's discipline institutional work: AI drafts the instruments, the kits, rubrics, and maps, and every verdict about a person stays human, signed, and defensible. Dare to grow includes daring to make talent calls you can explain out loud.",
+      "transition": "Now the three ideas, in order."
     },
     {
       "id": "s-agenda",

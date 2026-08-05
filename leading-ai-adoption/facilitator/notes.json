@@ -1,14 +1,14 @@
 {
   "meta": {
     "program": "Leading AI Adoption · Vanderbilt Learning Series",
-    "totalMinutes": 40,
+    "totalMinutes": 43,
     "audience": "Part of the CHART Program and the Manager Voyage. Managers and team leads who want their teams actually using AI well, safely and openly. 8 to 24 works best; drills run in pairs. Works as the connective course after AI Basics and alongside Workflow & Process Redesign.",
     "roomSetup": "Projector plus presenter device; learners on their own devices via the Welcome-slide QR; seating that pairs easily. Virtual: breakouts of 2. The norm, stated in minute one: teams and roles, never names, and nothing typed leaves the screen. Bring your own real AI-use story; this session's credibility runs on the facilitator modeling the modeling.",
     "postSession": "Seven days out, send the pulse: 'Did the first visible move happen? What did the team's reaction tell you? What's your audit's lowest dimension now?' At 30 days: 'Rerun the audit; which dimension moved?' The count of first visible moves actually made is the program's headline Level 3 metric.",
     "paths": {
       "full": {
-        "minutes": 40,
-        "description": "Everything as designed: both trainers, the full work audit with the tier hands and pair debrief, all pair activities, and the capstone. Book a 40-minute slot; the sum includes transitions."
+        "minutes": 43,
+        "description": "Everything as designed: both trainers, the full work audit with the tier hands and pair debrief, all pair activities, and the capstone. Book a 43-minute slot; the sum includes transitions."
       },
       "core": {
         "minutes": 30,
@@ -130,7 +130,24 @@
       "coreMinutes": 1,
       "coreNote": "Core: objectives 2 and 4 out loud.",
       "say": "Four things by the end: you'll know why modeling and workflow integration beat tools and mandates. You'll know what visible modeling actually looks like, down to the three sentences. You'll be able to write the three guardrails that make trying safe. And you'll run the AI-enabled work audit on your own team and leave with a dated first move.",
-      "transition": "Three ideas, in order."
+      "transition": "One minute on where this sits in the university's plan, then the three ideas."
+    },
+    {
+      "id": "s-mission",
+      "title": "The Chancellor's charge",
+      "minutes": 3,
+      "purpose": "Anchor manager modeling in the Chancellor's vision so adoption reads as institutional work, not a tool rollout.",
+      "facilitate": [
+        "Read the vision sentence off the slide and let it land.",
+        "Walk the three focus areas, one team translation each.",
+        "Point at the flywheel: execution with ambition is adoption, and the manager is the lever."
+      ],
+      "validate": "Nods at the team-translation lines; no discussion needed here.",
+      "watchFor": "The urge to teach strategy; this page is a frame, and the three ideas are waiting.",
+      "coreMinutes": "<1",
+      "coreNote": "Core: under a minute; read the vision sentence, gesture at the three focus areas, and move on.",
+      "say": "Before the audit, one minute on why this is bigger than your team. The Chancellor's vision has no hedge in it: Vanderbilt will define the great university of the 21st century, and be it, operating at uncommon speed, agility, and scale. No institution reaches uncommon speed by memo; it gets there one adopted workflow at a time, led by managers the team can watch. Crescere aude, dare to grow: your team will dare exactly as much as they see you dare first.",
+      "transition": "Now the three ideas, in order."
     },
     {
       "id": "s-agenda",
