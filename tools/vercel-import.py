@@ -10,7 +10,7 @@ cannot; its network policy blocks that host).
 Add --dry-run to see what it would do. Re-running is safe: projects that
 already exist are skipped, not duplicated.
 
-Each site is ONE project serving all three editions from one deployment:
+Each course is ONE repo and ONE project serving all three editions:
     /              classroom edition
     /web/          self-paced edition
     /facilitator/  facilitator edition (+ /facilitator/guide.html)
@@ -27,9 +27,10 @@ import urllib.request
 
 API = "https://api.vercel.com"
 
-# project name -> GitHub repo (owner/name)
+# Vercel project name -> GitHub repo. One course, one repo, one project.
+# Every course serves the same three paths, so nothing here needs per-repo config.
 SITES = [
-    # repo -> Vercel project. One project serves every edition in that repo.
+    # --- the eight that always had their own repo
     ("ai-classroom",                 "me5231979/AI_Classroom"),
     ("difficult-conversations",      "me5231979/Difficult_Conversations"),
     ("coaching-for-performance",     "me5231979/Coaching-for-Performance"),
@@ -38,10 +39,29 @@ SITES = [
     ("building-brave-teams",         "me5231979/TeamUp"),
     ("workflow-process-redesign",    "me5231979/Workflow"),
     ("hcm-essentials",               "me5231979/HCM_Education"),
-    # the 7 CHART courses, moved out of estesstite into their own repo.
-    # Paths moved up one level: /learn/drafts-class/ is now /drafts-class/
-    ("chart-courses",                "me5231979/courses"),
-    # Course_Library is the catalog AND hosts 13 courses under /courses/ and /ai-*/
+    # --- lifted out of Course_Library
+    ("across-your-week",             "me5231979/across-your-week"),
+    ("admin-automated",              "me5231979/admin-automated"),
+    ("change-that-sticks",           "me5231979/change-that-sticks"),
+    ("delegating-rethought",         "me5231979/delegating-rethought"),
+    ("feedback-ready",               "me5231979/feedback-ready"),
+    ("guardrails-responsible-use",   "me5231979/guardrails-responsible-use"),
+    ("hiring-human",                 "me5231979/hiring-human"),
+    ("leading-the-shift",            "me5231979/leading-the-shift"),
+    ("making-it-normal",             "me5231979/making-it-normal"),
+    ("numbers-faster",               "me5231979/numbers-faster"),
+    ("people-data-safely",           "me5231979/people-data-safely"),
+    ("talent-calls-sharper",         "me5231979/talent-calls-sharper"),
+    ("trust-then-verify",            "me5231979/trust-then-verify"),
+    # --- the CHART courses, lifted out of the shared courses repo
+    ("first-drafts-faster",          "me5231979/first-drafts-faster"),
+    ("answers-faster",               "me5231979/answers-faster"),
+    ("ideas-faster",                 "me5231979/ideas-faster"),
+    ("minutes-faster",               "me5231979/minutes-faster"),
+    ("slides-faster",                "me5231979/slides-faster"),
+    ("decisions-sharper",            "me5231979/decisions-sharper"),
+    ("working-smarter",              "me5231979/working-smarter"),
+    # --- the catalog itself
     ("course-library",               "me5231979/Course_Library"),
     # AI 201: still live, no longer carded on the library page
     ("ai-advanced",                  "me5231979/AI-Advanced"),
