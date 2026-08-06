@@ -38,8 +38,9 @@ SITES = [
     ("building-brave-teams",         "me5231979/TeamUp"),
     ("workflow-process-redesign",    "me5231979/Workflow"),
     ("hcm-essentials",               "me5231979/HCM_Education"),
-    # estesstite hosts 7 CHART courses under /learn/
-    ("chart-program",                "me5231979/estesstite"),
+    # the 7 CHART courses, moved out of estesstite into their own repo.
+    # Paths moved up one level: /learn/drafts-class/ is now /drafts-class/
+    ("chart-courses",                "me5231979/courses"),
     # Course_Library is the catalog AND hosts 13 courses under /courses/ and /ai-*/
     ("course-library",               "me5231979/Course_Library"),
     # AI 201: still live, no longer carded on the library page
