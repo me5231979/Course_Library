@@ -29,14 +29,21 @@ API = "https://api.vercel.com"
 
 # project name -> GitHub repo (owner/name)
 SITES = [
+    # repo -> Vercel project. One project serves every edition in that repo.
     ("ai-classroom",                 "me5231979/AI_Classroom"),
-    ("ai-advanced",                  "me5231979/AI-Advanced"),
     ("difficult-conversations",      "me5231979/Difficult_Conversations"),
     ("coaching-for-performance",     "me5231979/Coaching-for-Performance"),
     ("emotional-intelligence",       "me5231979/Emotional-Intelligence"),
     ("presentation-public-speaking", "me5231979/Presentation-Public-Speaking"),
     ("building-brave-teams",         "me5231979/TeamUp"),
+    ("workflow-process-redesign",    "me5231979/Workflow"),
+    ("hcm-essentials",               "me5231979/HCM_Education"),
+    # estesstite hosts 7 CHART courses under /learn/
+    ("chart-program",                "me5231979/estesstite"),
+    # Course_Library is the catalog AND hosts 13 courses under /courses/ and /ai-*/
     ("course-library",               "me5231979/Course_Library"),
+    # AI 201: still live, no longer carded on the library page
+    ("ai-advanced",                  "me5231979/AI-Advanced"),
 ]
 
 
