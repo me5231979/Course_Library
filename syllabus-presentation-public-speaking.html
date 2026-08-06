@@ -105,15 +105,24 @@
   <p class="frameworks">Grounded in Nancy Duarte's Presentation Principles (Big Idea™, Presentation Sparkline™; TEDxEast), Barbara Minto's Pyramid Principle and SCQA (McKinsey), Chris Anderson's 'How to Give a Killer Presentation' (HBR/TED), Carmine Gallo's 'What It Takes to Give a Great Presentation' (HBR), the AMA's Seven Principles of Effective Public Speaking and Effective Executive Speaking curriculum, SHRM's six pre-speaking questions, Coqual/Hewlett's Executive Presence research, Deloitte's CFO Signals survey, and the Chapman Survey of American Fears.</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/Presentation-Public-Speaking/">me5231979.github.io/Presentation-Public-Speaking/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/Presentation-Public-Speaking/facilitator/">me5231979.github.io/Presentation-Public-Speaking/facilitator/</a><br>
-    <b>Take-homes:</b> <a href="https://me5231979.github.io/Presentation-Public-Speaking/cheatsheet.html">Printable cheat sheet</a> · <a href="https://me5231979.github.io/Presentation-Public-Speaking/worksheet.html">Rebuild worksheet</a>
+    <b>Take the course:</b> <a href="courses/presentation-public-speaking/">me5231979.github.io/Presentation-Public-Speaking/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="courses/presentation-public-speaking/facilitator/">me5231979.github.io/Presentation-Public-Speaking/facilitator/</a><br>
+    <b>Take-homes:</b> <a href="courses/presentation-public-speaking/cheatsheet.html">Printable cheat sheet</a> · <a href="courses/presentation-public-speaking/worksheet.html">Rebuild worksheet</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>

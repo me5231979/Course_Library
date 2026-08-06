@@ -105,16 +105,25 @@
   <p class="frameworks">Built on Bloom's-verb objectives and instrumented with Kirkpatrick levels 1 to 3: a fist-to-five confidence check at close, a scored recap and per-section validation checks in session, and a capstone commitment card followed by a 7-day pulse and a 30-day re-poll. The facilitator edition follows an ATD runbook structure (Say, Do, Ask, Debrief, Transition) with Full 90 and Core 60 timed paths. Data rules follow Vanderbilt's approved-tool guidance and the shared traffic light: green for public or generic, yellow for internal work in approved VU tools only (ChatGPT EDU, Amplify, Copilot), red for private information about people, never.</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/Course_Library/courses/Admin-Automated/">me5231979.github.io/Course_Library/courses/Admin-Automated/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/Course_Library/courses/Admin-Automated/facilitator/">me5231979.github.io/Course_Library/courses/Admin-Automated/facilitator/</a><br>
-    <b>Self-paced edition:</b> <a href="https://me5231979.github.io/Course_Library/courses/Admin-Automated/web/">me5231979.github.io/Course_Library/courses/Admin-Automated/web/</a><br>
-    <b>Take-homes:</b> <a href="https://me5231979.github.io/Course_Library/courses/Admin-Automated/cheatsheet.html">Printable cheat sheet</a> · <a href="https://me5231979.github.io/Course_Library/courses/Admin-Automated/worksheet.html">Repeat Audit card</a> · <a href="https://me5231979.github.io/Course_Library/courses/Admin-Automated/web/">Self-paced web edition</a>
+    <b>Take the course:</b> <a href="courses/Admin-Automated/">me5231979.github.io/Course_Library/courses/Admin-Automated/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="courses/Admin-Automated/facilitator/">me5231979.github.io/Course_Library/courses/Admin-Automated/facilitator/</a><br>
+    <b>Self-paced edition:</b> <a href="courses/Admin-Automated/web/">me5231979.github.io/Course_Library/courses/Admin-Automated/web/</a><br>
+    <b>Take-homes:</b> <a href="courses/Admin-Automated/cheatsheet.html">Printable cheat sheet</a> · <a href="courses/Admin-Automated/worksheet.html">Repeat Audit card</a> · <a href="courses/Admin-Automated/web/">Self-paced web edition</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>

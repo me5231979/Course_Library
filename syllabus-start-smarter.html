@@ -105,15 +105,24 @@
   <p class="frameworks">Designed on adult-learning principles for novice audiences (plain language, immediate application, low-stakes first success), with Kirkpatrick-instrumented follow-up. Data-safety rules align with Vanderbilt's approved-tool guidance and carry into the rest of the collection.</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/AI_Classroom/">me5231979.github.io/AI_Classroom/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/AI_Classroom/facilitator/">me5231979.github.io/AI_Classroom/facilitator/</a><br>
-    <b>Take-homes:</b> <a href="https://me5231979.github.io/AI_Classroom/cheatsheet.html">Printable cheat sheet</a> · <a href="https://me5231979.github.io/AI_Classroom/worksheet.html">First-try card</a> · <a href="https://me5231979.github.io/AI_Classroom/web/">Self-paced web edition</a>
+    <b>Take the course:</b> <a href="courses/start-smarter/">me5231979.github.io/AI_Classroom/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="courses/start-smarter/facilitator/">me5231979.github.io/AI_Classroom/facilitator/</a><br>
+    <b>Take-homes:</b> <a href="courses/start-smarter/cheatsheet.html">Printable cheat sheet</a> · <a href="courses/start-smarter/worksheet.html">First-try card</a> · <a href="courses/start-smarter/web/">Self-paced web edition</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>

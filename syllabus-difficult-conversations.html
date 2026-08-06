@@ -105,15 +105,24 @@
   <p class="frameworks">Blends Stone, Patton &amp; Heen (Harvard Negotiation Project), CCL's SBI, Crucial Conversations' STATE, Brené Brown's BRAVING, Kim Scott's Radical Candor, SHRM's manager guidance, ATD's CLEAR, and McKinsey's courageous-conversations research.</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/Difficult_Conversations/">me5231979.github.io/Difficult_Conversations/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/Difficult_Conversations/facilitator/">me5231979.github.io/Difficult_Conversations/facilitator/</a><br>
-    <b>Take-homes:</b> <a href="https://me5231979.github.io/Difficult_Conversations/cheatsheet.html">Printable cheat sheet</a> · <a href="https://me5231979.github.io/Difficult_Conversations/worksheet.html">Capstone plan worksheet</a>
+    <b>Take the course:</b> <a href="courses/difficult-conversations/">me5231979.github.io/Difficult_Conversations/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="courses/difficult-conversations/facilitator/">me5231979.github.io/Difficult_Conversations/facilitator/</a><br>
+    <b>Take-homes:</b> <a href="courses/difficult-conversations/cheatsheet.html">Printable cheat sheet</a> · <a href="courses/difficult-conversations/worksheet.html">Capstone plan worksheet</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>

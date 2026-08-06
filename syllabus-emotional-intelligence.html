@@ -105,15 +105,24 @@
   <p class="frameworks">Grounded in Goleman's 'What Makes a Leader?' (HBR) and four-domain model, the Mayer-Salovey-Caruso ability model, Tasha Eurich's self-awareness research, Lieberman et al.'s affect-labeling studies (UCLA, Psychological Science 2007), Luft &amp; Ingham's Johari Window, Rosenberg's Nonviolent Communication, and Amy Edmondson's psychological safety research with Google's Project Aristotle.</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/Emotional-Intelligence/">me5231979.github.io/Emotional-Intelligence/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/Emotional-Intelligence/facilitator/">me5231979.github.io/Emotional-Intelligence/facilitator/</a><br>
-    <b>Take-homes:</b> <a href="https://me5231979.github.io/Emotional-Intelligence/cheatsheet.html">Printable cheat sheet</a> · <a href="https://me5231979.github.io/Emotional-Intelligence/worksheet.html">Commitment card worksheet</a>
+    <b>Take the course:</b> <a href="courses/emotional-intelligence/">me5231979.github.io/Emotional-Intelligence/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="courses/emotional-intelligence/facilitator/">me5231979.github.io/Emotional-Intelligence/facilitator/</a><br>
+    <b>Take-homes:</b> <a href="courses/emotional-intelligence/cheatsheet.html">Printable cheat sheet</a> · <a href="courses/emotional-intelligence/worksheet.html">Commitment card worksheet</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>

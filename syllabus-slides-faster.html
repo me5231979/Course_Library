@@ -105,15 +105,24 @@
   <p class="frameworks">CRIT (Context, Role, Interview, Task) is credited to Geoff Woods, The AI-Driven Leader. Evidence cited in the course includes Gallup's Organizational AI Adoption panel survey, Noy &amp; Zhang (Science, 2023), Dell'Acqua et al. (HBS Working Paper, 2023), and Microsoft's Copilot in PowerPoint and Designer documentation. Tool routing follows Vanderbilt's guidance: ChatGPT EDU for everyday non-sensitive work; internal numbers, personnel matters, and unreleased plans go through Amplify or Copilot on a Vanderbilt account.</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/estesstite/learn/slides-class/">me5231979.github.io/estesstite/learn/slides-class/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/estesstite/learn/slides-class/facilitator/">me5231979.github.io/estesstite/learn/slides-class/facilitator/</a><br>
-    <b>Self-paced edition:</b> <a href="https://me5231979.github.io/estesstite/learn/slides/">me5231979.github.io/estesstite/learn/slides/</a>
+    <b>Take the course:</b> <a href="learn/slides-class/">me5231979.github.io/estesstite/learn/slides-class/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="learn/slides-class/facilitator/">me5231979.github.io/estesstite/learn/slides-class/facilitator/</a><br>
+    <b>Self-paced edition:</b> <a href="learn/slides/">me5231979.github.io/estesstite/learn/slides/</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>

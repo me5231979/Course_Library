@@ -105,15 +105,24 @@
   <p class="frameworks">CRIT (Context, Role, Interview, Task) is credited to Geoff Woods, The AI-Driven Leader. Evidence cited in the course includes Microsoft WorkLab's Work Trend Index, SHRM's Navigating AI in the Workplace, Noy &amp; Zhang (Science, 2023), and Microsoft and Zoom product documentation for the capture steps. Tool routing follows Vanderbilt's guidance: meeting transcripts and internal reports go in Amplify or Copilot through a Vanderbilt account, never personal tools.</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/estesstite/learn/minutes-class/">me5231979.github.io/estesstite/learn/minutes-class/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/estesstite/learn/minutes-class/facilitator/">me5231979.github.io/estesstite/learn/minutes-class/facilitator/</a><br>
-    <b>Self-paced edition:</b> <a href="https://me5231979.github.io/estesstite/learn/minutes/">me5231979.github.io/estesstite/learn/minutes/</a>
+    <b>Take the course:</b> <a href="learn/minutes-class/">me5231979.github.io/estesstite/learn/minutes-class/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="learn/minutes-class/facilitator/">me5231979.github.io/estesstite/learn/minutes-class/facilitator/</a><br>
+    <b>Self-paced edition:</b> <a href="learn/minutes/">me5231979.github.io/estesstite/learn/minutes/</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>

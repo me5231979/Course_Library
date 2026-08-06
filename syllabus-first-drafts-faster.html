@@ -105,15 +105,24 @@
   <p class="frameworks">CRIT (Context, Role, Interview, Task) from Geoff Woods' The AI-Driven Leader; the brief, draft, edit method; Vanderbilt tool routing by data sensitivity (ChatGPT EDU, Amplify, Copilot)</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/estesstite/learn/drafts-class/">me5231979.github.io/estesstite/learn/drafts-class/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/estesstite/learn/drafts-class/facilitator/">me5231979.github.io/estesstite/learn/drafts-class/facilitator/</a><br>
-    <b>Self-paced edition:</b> <a href="https://me5231979.github.io/estesstite/learn/drafts/">me5231979.github.io/estesstite/learn/drafts/</a>
+    <b>Take the course:</b> <a href="learn/drafts-class/">me5231979.github.io/estesstite/learn/drafts-class/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="learn/drafts-class/facilitator/">me5231979.github.io/estesstite/learn/drafts-class/facilitator/</a><br>
+    <b>Self-paced edition:</b> <a href="learn/drafts/">me5231979.github.io/estesstite/learn/drafts/</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>

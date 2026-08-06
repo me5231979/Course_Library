@@ -105,15 +105,24 @@
   <p class="frameworks">CRIT (Context, Role, Interview, Task) is credited to Geoff Woods, The AI-Driven Leader. Prompt patterns draw on Vanderbilt's Dr. Jules White (the Persona pattern). Task-exposure research from Eloundou et al., 'GPTs are GPTs,' and the Anthropic Economic Index. Tool routing follows Vanderbilt's data classification.</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/estesstite/learn/classroom/">me5231979.github.io/estesstite/learn/classroom/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/estesstite/learn/classroom/facilitator/">me5231979.github.io/estesstite/learn/classroom/facilitator/</a><br>
-    <b>Self-paced edition:</b> <a href="https://me5231979.github.io/estesstite/learn/">me5231979.github.io/estesstite/learn/</a>
+    <b>Take the course:</b> <a href="learn/classroom/">me5231979.github.io/estesstite/learn/classroom/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="learn/classroom/facilitator/">me5231979.github.io/estesstite/learn/classroom/facilitator/</a><br>
+    <b>Self-paced edition:</b> <a href="learn/">me5231979.github.io/estesstite/learn/</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>

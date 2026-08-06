@@ -105,15 +105,24 @@
   <p class="frameworks">CRIT (Context, Role, Interview, Task) is credited to Geoff Woods, The AI-Driven Leader. Evidence cited in the course includes Deloitte's State of AI in the Enterprise, Stanford GSB Insights' 'You're in Charge' (2024), Dell'Acqua et al. (HBS Working Paper, 2023), and Gary Klein's 'Performing a Project Premortem' (Harvard Business Review, 2007). Data rules are strict: no names in people decisions, and personnel matters go to HR.</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/estesstite/learn/decisions-class/">me5231979.github.io/estesstite/learn/decisions-class/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/estesstite/learn/decisions-class/facilitator/">me5231979.github.io/estesstite/learn/decisions-class/facilitator/</a><br>
-    <b>Self-paced edition:</b> <a href="https://me5231979.github.io/estesstite/learn/decisions/">me5231979.github.io/estesstite/learn/decisions/</a>
+    <b>Take the course:</b> <a href="learn/decisions-class/">me5231979.github.io/estesstite/learn/decisions-class/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="learn/decisions-class/facilitator/">me5231979.github.io/estesstite/learn/decisions-class/facilitator/</a><br>
+    <b>Self-paced edition:</b> <a href="learn/decisions/">me5231979.github.io/estesstite/learn/decisions/</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>

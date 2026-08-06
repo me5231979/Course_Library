@@ -105,15 +105,24 @@
   <p class="frameworks">Grounded in McKinsey's State of AI global survey (workflow redesign as the strongest measured link to EBIT impact from gen AI), Metaintro's framing of process mapping as the manager's new core job, automation-bias research on human oversight of automated systems, and classic process-mapping practice. The data rules align with the traffic light taught in Start Smarter and AI 201.</p>
 
   <div class="links">
-    <b>Take the course:</b> <a href="https://me5231979.github.io/Workflow/">me5231979.github.io/Workflow/</a><br>
-    <b>Deliver it (facilitator edition):</b> <a href="https://me5231979.github.io/Workflow/facilitator/">me5231979.github.io/Workflow/facilitator/</a><br>
-    <b>Take-homes:</b> <a href="https://me5231979.github.io/Workflow/cheatsheet.html">Printable cheat sheet</a> · <a href="https://me5231979.github.io/Workflow/worksheet.html">Redesign card worksheet</a>
+    <b>Take the course:</b> <a href="courses/workflow-process-redesign/">me5231979.github.io/Workflow/</a><br>
+    <b>Deliver it (facilitator edition):</b> <a href="courses/workflow-process-redesign/facilitator/">me5231979.github.io/Workflow/facilitator/</a><br>
+    <b>Take-homes:</b> <a href="courses/workflow-process-redesign/cheatsheet.html">Printable cheat sheet</a> · <a href="courses/workflow-process-redesign/worksheet.html">Redesign card worksheet</a>
   </div>
 
   <footer>
-    <span>Vanderbilt Learning Series · <a href="https://me5231979.github.io/Course_Library/">Course Library</a></span>
+    <span>Vanderbilt Learning Series · <a href="./">Course Library</a></span>
     <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a></span>
   </footer>
 </div>
+<script>
+  /* Printed syllabi show the course address; resolve it from wherever this site is served
+     so the printout is correct on any domain. */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (/^(me5231979\.github\.io|https?:\/\/)/.test(a.textContent.trim())) {
+      a.textContent = a.href.replace(/^https?:\/\//, '');
+    }
+  });
+</script>
 </body>
 </html>
