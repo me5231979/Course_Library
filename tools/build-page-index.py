@@ -80,7 +80,11 @@ def build():
                 if rel in used:
                     continue
                 d = os.path.dirname(rel) or '.'
-                if not (d == base or d.startswith(base + '/')):
+                if base == 'learn':
+                    # learn/ holds sibling courses; only the flagship's own page
+                    if d != 'learn':
+                        continue
+                elif not (d == base or d.startswith(base + '/')):
                     continue
                 tail = rel[len(base):].lstrip('/')
                 lab = SUFFIX.get(tail, tail)
