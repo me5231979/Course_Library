@@ -747,6 +747,16 @@ def build(c):
 <title>{esc(c['title'])} · Course Description | Vanderbilt</title>
 <meta name="robots" content="noindex">
 <style>{CSS}</style>
+<!-- Vercel Web Analytics (vercel-analytics): served only by Vercel, so it is skipped on GitHub Pages -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  if (!/(^|\.)github\.io$/.test(location.hostname)) {
+    var vaScript = document.createElement('script');
+    vaScript.defer = true;
+    vaScript.src = '/_vercel/insights/script.js';
+    document.head.appendChild(vaScript);
+  }
+</script>
 </head>
 <body>
 <button class="printbtn" onclick="window.print()">Print / Save as PDF</button>
