@@ -522,9 +522,9 @@
     var maPick = { focus: null, stage: null };
     var maLine = $('#maLine'), maBtn = $('#maBuild'), maStatus = $('#maStatus'), maOut = $('#maOut');
     var MA_FOCUS = {
-      core: 'Exceptional core operations \u2014 speed, agility, and scale that secure talent, resources, and reputation.',
-      bold: 'Bold strategic initiatives \u2014 bets that extend the reach and impact of education and research.',
-      industry: 'Industry leadership \u2014 modeling the essential research university and stimulating industry change.'
+      core: 'Exceptional Core Operations \u2014 speed, agility, and scale that secure talent, resources, and reputation.',
+      bold: 'Bold Strategic Initiatives \u2014 bets that extend the reach and impact of education and research.',
+      industry: 'Values Leadership \u2014 modeling the essential research university and stimulating industry change.'
     };
     var MA_STAGE = {
       inclusion: 'Inclusion \u2014 the newest voices join it early, by name.',
@@ -848,19 +848,6 @@
     } else if (e.key === 'Home') { e.preventDefault(); goTo(0); }
     else if (e.key === 'End') { e.preventDefault(); goTo(slides.length - 1); }
   });
-
-  // wheel advances the deck when the current screen has nothing left to scroll
-  var wheelLock = 0;
-  window.addEventListener('wheel', function (e) {
-    var s = slides[current];
-    if (!s) return;
-    var now = Date.now();
-    if (now - wheelLock < 900) return;
-    var atBottom = s.scrollTop + s.clientHeight >= s.scrollHeight - 4;
-    var atTop = s.scrollTop <= 4;
-    if (e.deltaY > 24 && atBottom) { wheelLock = now; goTo(current + 1); }
-    else if (e.deltaY < -24 && atTop && current > 0) { wheelLock = now; goTo(current - 1); }
-  }, { passive: true });
 
   // every non-anchor link opens in a new tab
   $$('a[href]').forEach(function (a) {
