@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Repoint the cross-course links that outlived the split.
 
-When the CHART courses each moved into their own repo, three links stopped
+When the AI-enabled Education Series courses each moved into their own repo, three links stopped
 being relative and became cross-domain:
 
   * six courses link to the Working Smarter course
