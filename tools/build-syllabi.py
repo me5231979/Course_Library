@@ -532,7 +532,7 @@ COURSES = [
         ],
         "learner": "https://me5231979.github.io/Workflow/",
         "facilitator": "https://me5231979.github.io/Workflow/facilitator/",
-        "frameworks": "Grounded in McKinsey's State of AI global survey (workflow redesign as the strongest measured link to EBIT impact from gen AI), Metaintro's framing of process mapping as the manager's new core job, automation-bias research on human oversight of automated systems, and classic process-mapping practice. The data rules align with the traffic light taught in Start Smarter and AI 201."
+        "frameworks": "Grounded in McKinsey's State of AI global survey (workflow redesign as the strongest measured link to EBIT impact from gen AI), automation-bias research on human oversight of automated systems, and classic process-mapping practice. The data rules align with the traffic light taught in Start Smarter and AI 201."
     },
     {
         "slug": "ai-coaching-feedback",
