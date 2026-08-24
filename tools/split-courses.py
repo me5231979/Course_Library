@@ -4,7 +4,7 @@
 Two shapes go in, one comes out:
 
   13 courses nested in Course_Library are already self-contained -> straight copy.
-   7 CHART courses share one assets folder and a -class suffix -> restructured
+   7 AI-enabled Education Series courses share one assets folder and a -class suffix -> restructured
      to the house layout (/, /web/, /facilitator/) with their own assets.
 
 Every result has the same shape, so one Vercel project per repo serves all
@@ -19,7 +19,7 @@ import sys
 from html.parser import HTMLParser
 
 LIB = "/workspace/course_library"
-CHART = "/workspace/courses"
+AI-enabled Education Series = "/workspace/courses"
 OUT = "/workspace"
 
 # Cross-course links that become cross-domain once each course stands alone.
@@ -138,17 +138,17 @@ def build_split(slug):
         shutil.move(stash, os.path.join(dst, ".git"))
 
     # its own copy of what was the shared assets folder
-    shutil.copytree(os.path.join(CHART, "assets"), os.path.join(dst, "assets"))
+    shutil.copytree(os.path.join(AI-enabled Education Series, "assets"), os.path.join(dst, "assets"))
 
-    shutil.copy2(os.path.join(CHART, cls, "index.html"), os.path.join(dst, "index.html"))
-    sp_src = os.path.join(CHART, sp, "index.html") if sp else os.path.join(CHART, "index.html")
+    shutil.copy2(os.path.join(AI-enabled Education Series, cls, "index.html"), os.path.join(dst, "index.html"))
+    sp_src = os.path.join(AI-enabled Education Series, sp, "index.html") if sp else os.path.join(AI-enabled Education Series, "index.html")
     shutil.copy2(sp_src, os.path.join(dst, "web", "index.html"))
-    shutil.copy2(os.path.join(CHART, cls, "facilitator", "index.html"),
+    shutil.copy2(os.path.join(AI-enabled Education Series, cls, "facilitator", "index.html"),
                  os.path.join(dst, "facilitator", "index.html"))
 
     if slug == "working-smarter":
         # the manager job aid travels with the anchor course
-        shutil.copytree(os.path.join(CHART, "managers"), os.path.join(dst, "managers"))
+        shutil.copytree(os.path.join(AI-enabled Education Series, "managers"), os.path.join(dst, "managers"))
         rewrite(os.path.join(dst, "index.html"), [
             ('href="../"', 'href="web/"'),            # was the self-paced edition
             ('"../assets/', '"assets/'),
@@ -250,7 +250,7 @@ def readme(slug, kind):
                  f"run `tools/relink.py` in\nCourse_Library to repoint it.\n")
     if slug == "working-smarter":
         extra = ("\n## Also here\n\n`/managers/` is the manager job aid and its printable "
-                 "`job-aid.html`.\nThe six sibling CHART courses link back to this course.\n")
+                 "`job-aid.html`.\nThe six sibling AI-enabled Education Series courses link back to this course.\n")
     return f"""# {t}
 
 Part of the Vanderbilt Learning Series. One repo, one Vercel project, three

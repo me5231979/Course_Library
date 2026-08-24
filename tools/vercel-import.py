@@ -53,7 +53,7 @@ SITES = [
     ("people-data-safely",           "me5231979/people-data-safely"),
     ("talent-calls-sharper",         "me5231979/talent-calls-sharper"),
     ("trust-then-verify",            "me5231979/trust-then-verify"),
-    # --- the CHART courses, lifted out of the shared courses repo
+    # --- the AI-enabled Education Series courses, lifted out of the shared courses repo
     ("first-drafts-faster",          "me5231979/first-drafts-faster"),
     ("answers-faster",               "me5231979/answers-faster"),
     ("ideas-faster",                 "me5231979/ideas-faster"),
