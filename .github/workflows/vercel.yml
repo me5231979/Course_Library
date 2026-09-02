@@ -1,0 +1,40 @@
+name: Deploy site to Vercel
+
+# The Vercel project serves these pre-generated static files with no build
+# step, so a deploy is just a nudge: every push to main pings the project's
+# deploy hook and Vercel pulls the new commit itself.
+#
+# Setup, once: Vercel > Project > Settings > Git > Deploy Hooks, create a hook
+# on the main branch, then save the URL it gives you as the repository secret
+# VERCEL_DEPLOY_HOOK_URL (GitHub > Settings > Secrets and variables > Actions).
+# Until that secret exists this workflow no-ops instead of failing.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: vercel-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger the Vercel deploy hook
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "VERCEL_DEPLOY_HOOK_URL is not set; skipping the deploy."
+            echo "Add the secret to enable automatic Vercel deploys."
+            exit 0
+          fi
+          code=$(curl -sS -X POST -o response.txt -w '%{http_code}' "$HOOK")
+          echo "Vercel answered $code"
+          cat response.txt
+          case "$code" in
+            2*) echo "Deploy queued." ;;
+            *)  echo "::error::Deploy hook failed with HTTP $code"; exit 1 ;;
+          esac

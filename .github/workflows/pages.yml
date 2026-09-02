@@ -1,0 +1,31 @@
+name: Publish site to gh-pages
+
+# Pages serves this site from the gh-pages branch. This workflow keeps that
+# branch in sync: every push to main republishes the site (same pattern as
+# the estesstite repo's deploy workflow).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-sync
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish main to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan pages-tmp
+          git add -A
+          git commit -m "Publish site from ${GITHUB_SHA::7}"
+          git push origin pages-tmp:gh-pages --force
